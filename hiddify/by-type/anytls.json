@@ -5,16 +5,16 @@
    "tag": "Выбор сервера",
    "outbounds": [
     "Автовыбор · YouTube",
-    "4Nika-751f7ce940 § 6400",
-    "4Mohsen-fa6a9fc360 § 6401",
-    "4Nika-59f613c70f § 6402",
-    "4Nika-44418f9d8a § 6403",
-    "4FreeIran-aa59220add § 6404",
-    "4Jadi-e73dd5f598 § 6405",
-    "4Sarina-62364bc0b8 § 6406",
-    "4Sarina-6aaf4278b5 § 6407",
-    "4Jadi-39cec30d9a § 6408",
-    "4FreeIran-74c396044a § 6409"
+    "4Nika-751f7ce940 § 6350",
+    "4Mohsen-fa6a9fc360 § 6351",
+    "4Nika-59f613c70f § 6352",
+    "4Nika-44418f9d8a § 6353",
+    "4FreeIran-aa59220add § 6354",
+    "4Jadi-e73dd5f598 § 6355",
+    "4Sarina-62364bc0b8 § 6356",
+    "4Sarina-6aaf4278b5 § 6357",
+    "4Jadi-39cec30d9a § 6358",
+    "4FreeIran-74c396044a § 6359"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -23,16 +23,16 @@
    "type": "urltest",
    "tag": "Автовыбор · YouTube",
    "outbounds": [
-    "4Nika-751f7ce940 § 6400",
-    "4Mohsen-fa6a9fc360 § 6401",
-    "4Nika-59f613c70f § 6402",
-    "4Nika-44418f9d8a § 6403",
-    "4FreeIran-aa59220add § 6404",
-    "4Jadi-e73dd5f598 § 6405",
-    "4Sarina-62364bc0b8 § 6406",
-    "4Sarina-6aaf4278b5 § 6407",
-    "4Jadi-39cec30d9a § 6408",
-    "4FreeIran-74c396044a § 6409"
+    "4Nika-751f7ce940 § 6350",
+    "4Mohsen-fa6a9fc360 § 6351",
+    "4Nika-59f613c70f § 6352",
+    "4Nika-44418f9d8a § 6353",
+    "4FreeIran-aa59220add § 6354",
+    "4Jadi-e73dd5f598 § 6355",
+    "4Sarina-62364bc0b8 § 6356",
+    "4Sarina-6aaf4278b5 § 6357",
+    "4Jadi-39cec30d9a § 6358",
+    "4FreeIran-74c396044a § 6359"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -41,7 +41,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Nika-751f7ce940 § 6400",
+   "tag": "4Nika-751f7ce940 § 6350",
    "server": "svip.skycon808.com",
    "server_port": 60005,
    "password": "13f0acfa-38c1-4e82-a758-583aa31740df",
@@ -53,7 +53,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Mohsen-fa6a9fc360 § 6401",
+   "tag": "4Mohsen-fa6a9fc360 § 6351",
    "server": "us13.vipjiedian.sbs",
    "server_port": 21333,
    "password": "2d7bda32-a8b5-4416-a1ea-4559ff98f86e",
@@ -65,7 +65,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Nika-59f613c70f § 6402",
+   "tag": "4Nika-59f613c70f § 6352",
    "server": "iijjp.mggl.wang",
    "server_port": 35791,
    "password": "9e98496a-0036-4cc6-8302-3929c29ba772",
@@ -84,7 +84,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Nika-44418f9d8a § 6403",
+   "tag": "4Nika-44418f9d8a § 6353",
    "server": "6ivh.pnuqcnp.cn",
    "server_port": 443,
    "password": "9sK2mP8xQ7vL3nZ6",
@@ -96,7 +96,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4FreeIran-aa59220add § 6404",
+   "tag": "4FreeIran-aa59220add § 6354",
    "server": "ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn",
    "server_port": 443,
    "password": "9sK2mP8xQ7vL3nZ6",
@@ -108,7 +108,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Jadi-e73dd5f598 § 6405",
+   "tag": "4Jadi-e73dd5f598 § 6355",
    "server": "awefd2313fefarg23fr24.pnuqcnp.cn",
    "server_port": 443,
    "password": "9sK2mP8xQ7vL3nZ6",
@@ -120,7 +120,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Sarina-62364bc0b8 § 6406",
+   "tag": "4Sarina-62364bc0b8 § 6356",
    "server": "api.meituan88.com",
    "server_port": 7008,
    "password": "dCwrni",
@@ -132,7 +132,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Sarina-6aaf4278b5 § 6407",
+   "tag": "4Sarina-6aaf4278b5 § 6357",
    "server": "45.221.98.14",
    "server_port": 59901,
    "password": "dongtaiwang.com",
@@ -146,7 +146,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4Jadi-39cec30d9a § 6408",
+   "tag": "4Jadi-39cec30d9a § 6358",
    "server": "178.105.126.242",
    "server_port": 443,
    "password": "e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401",
@@ -157,7 +157,7 @@
   },
   {
    "type": "anytls",
-   "tag": "4FreeIran-74c396044a § 6409",
+   "tag": "4FreeIran-74c396044a § 6359",
    "server": "178.105.126.242",
    "server_port": 443,
    "password": "e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401",
