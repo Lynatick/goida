@@ -10,23 +10,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 QC, Canada § 1",
-   "server": "51.222.141.125",
-   "server_port": 445,
-   "method": "aes-256-gcm",
-   "password": "zDNVedRFPQexG9v"
+   "tag": "🇨🇦 Canada § 1",
+   "server": "ca225.vpnbook.com",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "e5c65ph"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 Canada § 2",
-   "server": "51.79.64.198",
-   "server_port": 8119,
-   "method": "aes-256-gcm",
-   "password": "cdBIDV42DCwnfIN"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇨🇦 QC, Canada § 3",
+   "tag": "🇨🇦 QC, Canada § 2",
    "server": "51.222.200.165",
    "server_port": 5000,
    "method": "aes-256-gcm",
@@ -34,11 +26,19 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 Canada § 4",
-   "server": "51.79.85.185",
-   "server_port": 8118,
+   "tag": "🇨🇦 Vancouver, BC, Canada § 3",
+   "server": "149.22.95.183",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇨🇦 QC, Canada § 4",
+   "server": "51.222.155.32",
+   "server_port": 5003,
    "method": "aes-256-gcm",
-   "password": "cdBIDV42DCwnfIN"
+   "password": "g5MeD6Ft3CWlJId"
   },
   {
    "type": "shadowsocks",
@@ -58,39 +58,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 Canada § 7",
-   "server": "ca225.vpnbook.com",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "e5c65ph"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇨🇦 Canada § 8",
-   "server": "51.79.49.116",
-   "server_port": 8882,
+   "tag": "🇨🇦 QC, Canada § 7",
+   "server": "51.222.141.125",
+   "server_port": 445,
    "method": "aes-256-gcm",
-   "password": "kDWvXYZoTBcGkC4"
+   "password": "zDNVedRFPQexG9v"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 QC, Canada § 9",
-   "server": "51.222.155.32",
-   "server_port": 5003,
-   "method": "aes-256-gcm",
-   "password": "g5MeD6Ft3CWlJId"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇨🇦 Vancouver, BC, Canada § 10",
-   "server": "149.22.95.183",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇨🇭 Zurich, ZH, Switzerland § 11",
+   "tag": "🇨🇭 Zurich, ZH, Switzerland § 8",
    "server": "132.243.175.144",
    "server_port": 8388,
    "method": "chacha20-ietf-poly1305",
@@ -98,55 +74,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 12",
-   "server": "57.129.113.16",
+   "tag": "🇨🇱 Santiago, RM, Chile § 9",
+   "server": "64.176.2.21",
    "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "NcAXc0UZI6yQJE1p8QmOv8"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 13",
-   "server": "185.226.172.8",
-   "server_port": 8008,
    "method": "aes-256-gcm",
-   "password": "XKFKl2rULjIp74"
+   "password": "xBStBEVqvGwHPocc"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 Germany § 14",
-   "server": "213.202.208.199",
-   "server_port": 7001,
-   "method": "aes-256-gcm",
-   "password": "RexnBgU7EV5ADxG"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇩🇪 Karlsruhe, BW, Germany § 15",
-   "server": "2.58.81.221",
-   "server_port": 80,
-   "method": "aes-256-gcm",
-   "password": "kKEd0rBrd56Furjz"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 16",
-   "server": "51.195.126.38",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "2YdE4lFOid5a"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇩🇪 Germany § 17",
-   "server": "213.202.208.199",
-   "server_port": 5000,
-   "method": "aes-256-gcm",
-   "password": "Y6R9pAtvxxzmGC"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇩🇪 Karlsruhe, BW, Germany § 18",
+   "tag": "🇩🇪 Karlsruhe, BW, Germany § 10",
    "server": "2.58.81.221",
    "server_port": 443,
    "method": "aes-256-gcm",
@@ -154,7 +90,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 19",
+   "tag": "🇩🇪 Karlsruhe, BW, Germany § 11",
+   "server": "2.58.81.221",
+   "server_port": 80,
+   "method": "aes-256-gcm",
+   "password": "kKEd0rBrd56Furjz"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 12",
    "server": "8.209.74.72",
    "server_port": 20001,
    "method": "chacha20-ietf-poly1305",
@@ -162,7 +106,39 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 20",
+   "tag": "🇩🇪 Germany § 13",
+   "server": "213.202.208.199",
+   "server_port": 5000,
+   "method": "aes-256-gcm",
+   "password": "Y6R9pAtvxxzmGC"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 14",
+   "server": "57.129.113.16",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "NcAXc0UZI6yQJE1p8QmOv8"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 Germany § 15",
+   "server": "213.202.208.199",
+   "server_port": 7001,
+   "method": "aes-256-gcm",
+   "password": "RexnBgU7EV5ADxG"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 16",
+   "server": "185.226.172.8",
+   "server_port": 8008,
+   "method": "aes-256-gcm",
+   "password": "XKFKl2rULjIp74"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 17",
    "server": "209.46.102.22",
    "server_port": 8388,
    "method": "chacha20-ietf-poly1305",
@@ -170,11 +146,35 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 21",
+   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 18",
+   "server": "51.195.126.38",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "2YdE4lFOid5a"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 Frankfurt am Main, HE, Germany § 19",
    "server": "31.76.11.83",
    "server_port": 42700,
    "method": "chacha20-ietf-poly1305",
    "password": "adzpq0ltVHdCxO2lsW5N9C8H5B9hXnD7YyXZfP5aulw="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇫🇮 Helsinki, 18, Finland § 20",
+   "server": "185.103.110.68",
+   "server_port": 18283,
+   "method": "aes-128-gcm",
+   "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇫🇮 Helsinki, 18, Finland § 21",
+   "server": "185.239.141.248",
+   "server_port": 8388,
+   "method": "aes-256-gcm",
+   "password": "j_Z9yWqItCz_9yhD5YVY4w"
   },
   {
    "type": "shadowsocks",
@@ -186,19 +186,19 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇫🇮 Helsinki, 18, Finland § 23",
-   "server": "45.149.114.171",
-   "server_port": 777,
-   "method": "chacha20-ietf-poly1305",
-   "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
+   "tag": "🇫🇷 Paris, IDF, France § 23",
+   "server": "163.172.105.146",
+   "server_port": 16182,
+   "method": "aes-128-gcm",
+   "password": "89c5a923591362960f6832eaa48df5fa"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇫🇮 Helsinki, 18, Finland § 24",
-   "server": "185.103.110.68",
-   "server_port": 18283,
-   "method": "aes-128-gcm",
-   "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
+   "tag": "🇫🇷 France § 24",
+   "server": "51.255.13.232",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "BqnqToih0PbU"
   },
   {
    "type": "shadowsocks",
@@ -219,30 +219,14 @@
   {
    "type": "shadowsocks",
    "tag": "🇫🇷 France § 27",
-   "server": "51.255.13.232",
-   "server_port": 8388,
+   "server": "54.36.174.140",
+   "server_port": 443,
    "method": "chacha20-ietf-poly1305",
-   "password": "BqnqToih0PbU"
+   "password": "e5c65ph"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇬🇧 Manchester, ENG, United Kingdom § 28",
-   "server": "141.98.101.181",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇬🇧 Portsmouth, ENG, United Kingdom § 29",
-   "server": "149.102.132.184",
-   "server_port": 443,
-   "method": "aes-256-gcm",
-   "password": "g5h5jleTRSyO3Rk4"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇬🇧 Portsmouth, ENG, United Kingdom § 30",
+   "tag": "🇬🇧 Portsmouth, ENG, United Kingdom § 28",
    "server": "149.102.132.184",
    "server_port": 80,
    "method": "aes-256-gcm",
@@ -250,11 +234,27 @@
   },
   {
    "type": "shadowsocks",
+   "tag": "🇬🇧 Manchester, ENG, United Kingdom § 29",
+   "server": "141.98.101.181",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇬🇧 United Kingdom § 30",
+   "server": "51.77.225.200",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "zRZNBszYyWo5"
+  },
+  {
+   "type": "shadowsocks",
    "tag": "🇬🇧 Portsmouth, ENG, United Kingdom § 31",
-   "server": "149.102.149.207",
+   "server": "149.102.132.184",
    "server_port": 443,
    "method": "aes-256-gcm",
-   "password": "LXchLsIwtCeUAUgu"
+   "password": "g5h5jleTRSyO3Rk4"
   },
   {
    "type": "shadowsocks",
@@ -266,31 +266,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇬🇧 United Kingdom § 33",
-   "server": "51.77.225.200",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "zRZNBszYyWo5"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇬🇧 Portsmouth, ENG, United Kingdom § 34",
-   "server": "149.102.149.207",
-   "server_port": 80,
-   "method": "aes-256-gcm",
-   "password": "LXchLsIwtCeUAUgu"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇮🇩 South Jakarta, JK, Indonesia § 35",
-   "server": "103.160.63.199",
-   "server_port": 31348,
-   "method": "chacha20-ietf-poly1305",
-   "password": "8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇮🇳 Mumbai, MH, India § 36",
+   "tag": "🇮🇳 Mumbai, MH, India § 33",
    "server": "172.105.39.124",
    "server_port": 7002,
    "method": "aes-256-gcm",
@@ -298,19 +274,43 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇮🇹 Italy § 37",
-   "server": "57.131.48.45",
+   "tag": "🇮🇳 Noida, UP, India § 34",
+   "server": "139.84.166.47",
    "server_port": 8388,
    "method": "aes-256-gcm",
-   "password": "itzvpn@321"
+   "password": "GEdoeeqLZtkJRgSa"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇮🇹 Milan, 25, Italy § 38",
+   "tag": "🇮🇹 Milan, 25, Italy § 35",
    "server": "185.164.175.81",
    "server_port": 19999,
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇯🇵 Tokyo, 13, Japan § 36",
+   "server": "84.247.155.196",
+   "server_port": 443,
+   "method": "aes-256-gcm",
+   "password": "3eOFeNssde7PYYMv"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇯🇵 Tokyo, 13, Japan § 37",
+   "server": "84.247.155.196",
+   "server_port": 80,
+   "method": "aes-256-gcm",
+   "password": "3eOFeNssde7PYYMv"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇯🇵 Tokyo, 13, Japan § 38",
+   "server": "149.22.87.204",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
   },
   {
    "type": "shadowsocks",
@@ -330,39 +330,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇯🇵 Tokyo, 13, Japan § 41",
-   "server": "149.22.87.204",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 42",
-   "server": "141.164.45.187",
-   "server_port": 5001,
-   "method": "aes-256-gcm",
-   "password": "Y6R9pAtvxxzmGC"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 43",
-   "server": "141.164.45.187",
-   "server_port": 8091,
-   "method": "aes-256-gcm",
-   "password": "PCnnH6SQSnfoS27"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 44",
-   "server": "141.164.45.187",
-   "server_port": 2376,
-   "method": "aes-256-gcm",
-   "password": "faBAoD54k87UJG7"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 45",
+   "tag": "🇰🇷 Seoul, 11, South Korea § 41",
    "server": "141.164.45.187",
    "server_port": 9101,
    "method": "aes-256-gcm",
@@ -370,71 +338,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 46",
-   "server": "141.164.45.187",
-   "server_port": 7002,
-   "method": "aes-256-gcm",
-   "password": "RexnBgU7EV5ADxG"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 47",
-   "server": "141.164.45.187",
-   "server_port": 8008,
-   "method": "aes-256-gcm",
-   "password": "XKFKl2rULjIp74"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 48",
-   "server": "141.164.45.187",
-   "server_port": 7001,
-   "method": "aes-256-gcm",
-   "password": "RexnBgU7EV5ADxG"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 South Korea § 49",
-   "server": "211.174.113.172",
+   "tag": "🇰🇷 South Korea § 42",
+   "server": "ce1fc2d8.krkt.hkssip.com",
    "server_port": 49642,
    "method": "aes-256-gcm",
    "password": "ac9c0a7b"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 50",
-   "server": "141.164.45.187",
-   "server_port": 5498,
-   "method": "aes-256-gcm",
-   "password": "lGqs95QkFHo2NV"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 51",
-   "server": "141.164.45.187",
-   "server_port": 8000,
-   "method": "aes-256-gcm",
-   "password": "KixLvKzwjekG00rm"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 52",
-   "server": "141.164.45.187",
-   "server_port": 8888,
-   "method": "aes-256-gcm",
-   "password": "Y6R9pAtvxxzmGC"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇰🇷 Seoul, 11, South Korea § 53",
-   "server": "141.164.45.187",
-   "server_port": 8119,
-   "method": "aes-256-gcm",
-   "password": "cdBIDV42DCwnfIN"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 54",
+   "tag": "🇳🇱 The Netherlands § 43",
    "server": "82.38.31.13",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -442,95 +354,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 55",
-   "server": "82.38.31.212",
+   "tag": "🇳🇱 The Netherlands § 44",
+   "server": "82.38.31.220",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
    "password": "k1dBOmOB4oqi7Ump37a1bQ"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 56",
-   "server": "193.29.139.212",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "QCXDxuDlTTMD7jtgHUjIoj"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 57",
-   "server": "82.38.31.204",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 58",
-   "server": "82.38.31.46",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 59",
-   "server": "82.38.31.176",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 60",
-   "server": "82.38.31.170",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 61",
-   "server": "82.38.31.54",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 62",
-   "server": "82.38.31.217",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 63",
-   "server": "82.38.31.156",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 64",
-   "server": "82.38.31.219",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 65",
-   "server": "82.38.31.178",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 66",
+   "tag": "🇳🇱 The Netherlands § 45",
    "server": "82.38.31.215",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -538,15 +370,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 67",
-   "server": "82.38.31.181",
+   "tag": "🇳🇱 The Netherlands § 46",
+   "server": "193.29.139.212",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+   "password": "QCXDxuDlTTMD7jtgHUjIoj"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 68",
+   "tag": "🇳🇱 The Netherlands § 47",
    "server": "82.38.31.48",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -554,7 +386,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 69",
+   "tag": "🇳🇱 The Netherlands § 48",
    "server": "82.38.31.218",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -562,31 +394,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 70",
-   "server": "193.29.139.197",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 Amsterdam, NH, The Netherlands § 71",
-   "server": "185.212.171.202",
-   "server_port": 18670,
-   "method": "aes-128-gcm",
-   "password": "59ded1591b0b45f0b1e9361334c0f7d9"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 72",
-   "server": "82.38.31.171",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 73",
+   "tag": "🇳🇱 The Netherlands § 49",
    "server": "82.38.31.192",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -594,7 +402,111 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 74",
+   "tag": "🇳🇱 The Netherlands § 50",
+   "server": "82.38.31.212",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 51",
+   "server": "82.38.31.54",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 52",
+   "server": "82.38.31.156",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 53",
+   "server": "82.38.31.178",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 54",
+   "server": "82.38.31.46",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 55",
+   "server": "82.38.31.170",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 56",
+   "server": "193.29.139.197",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 57",
+   "server": "82.38.31.171",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 58",
+   "server": "82.38.31.176",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 59",
+   "server": "82.38.31.219",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 60",
+   "server": "82.38.31.204",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 61",
+   "server": "82.38.31.217",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 62",
+   "server": "82.38.31.181",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 63",
    "server": "193.29.139.132",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -602,7 +514,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 75",
+   "tag": "🇳🇱 The Netherlands § 64",
    "server": "82.38.31.157",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -610,7 +522,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 76",
+   "tag": "🇳🇱 The Netherlands § 65",
    "server": "193.29.139.179",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -618,7 +530,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 77",
+   "tag": "🇳🇱 The Netherlands § 66",
    "server": "82.38.31.171",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -626,7 +538,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 78",
+   "tag": "🇳🇱 The Netherlands § 67",
    "server": "82.38.31.66",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -634,7 +546,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 79",
+   "tag": "🇳🇱 The Netherlands § 68",
    "server": "82.38.31.62",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -642,7 +554,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 80",
+   "tag": "🇳🇱 The Netherlands § 69",
    "server": "82.38.31.159",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -650,7 +562,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 81",
+   "tag": "🇳🇱 The Netherlands § 70",
    "server": "82.38.31.7",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -658,7 +570,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 82",
+   "tag": "🇳🇱 The Netherlands § 71",
    "server": "82.38.31.10",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -666,7 +578,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 83",
+   "tag": "🇳🇱 The Netherlands § 72",
    "server": "82.38.31.194",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -674,7 +586,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 84",
+   "tag": "🇳🇱 The Netherlands § 73",
    "server": "82.38.31.28",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -682,7 +594,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 85",
+   "tag": "🇳🇱 The Netherlands § 74",
    "server": "82.38.31.26",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -690,7 +602,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 86",
+   "tag": "🇳🇱 The Netherlands § 75",
    "server": "82.38.31.182",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -698,7 +610,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 87",
+   "tag": "🇳🇱 The Netherlands § 76",
+   "server": "82.38.31.2",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 77",
    "server": "82.38.31.195",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -706,7 +626,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 88",
+   "tag": "🇳🇱 The Netherlands § 78",
    "server": "82.38.31.191",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -714,95 +634,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 89",
-   "server": "82.38.31.82",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 90",
-   "server": "82.38.31.34",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 91",
-   "server": "82.38.31.203",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 92",
-   "server": "82.38.31.149",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 93",
-   "server": "82.38.31.9",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 94",
-   "server": "82.38.31.213",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 95",
-   "server": "193.29.139.235",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 96",
-   "server": "82.38.31.42",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 Amsterdam, NH, The Netherlands § 97",
-   "server": "158.173.20.208",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 98",
-   "server": "82.38.31.187",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 99",
-   "server": "82.38.31.175",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 100",
+   "tag": "🇳🇱 The Netherlands § 79",
    "server": "82.38.31.174",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -810,7 +642,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 101",
+   "tag": "🇳🇱 The Netherlands § 80",
    "server": "82.38.31.17",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -818,7 +650,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 102",
+   "tag": "🇳🇱 The Netherlands § 81",
    "server": "82.38.31.206",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -826,7 +658,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 103",
+   "tag": "🇳🇱 The Netherlands § 82",
    "server": "82.38.31.190",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -834,7 +666,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 104",
+   "tag": "🇳🇱 The Netherlands § 83",
    "server": "193.29.139.234",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -842,7 +674,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 105",
+   "tag": "🇳🇱 The Netherlands § 84",
    "server": "82.38.31.162",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -850,7 +682,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 106",
+   "tag": "🇳🇱 The Netherlands § 85",
    "server": "82.38.31.185",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -858,7 +690,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 107",
+   "tag": "🇳🇱 The Netherlands § 86",
    "server": "82.38.31.189",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -866,7 +698,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 108",
+   "tag": "🇳🇱 The Netherlands § 87",
    "server": "82.38.31.179",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -874,7 +706,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 109",
+   "tag": "🇳🇱 The Netherlands § 88",
    "server": "82.38.31.155",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -882,7 +714,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 110",
+   "tag": "🇳🇱 The Netherlands § 89",
    "server": "193.29.139.198",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -890,7 +722,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 111",
+   "tag": "🇳🇱 The Netherlands § 90",
    "server": "193.29.139.147",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -898,7 +730,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 112",
+   "tag": "🇳🇱 The Netherlands § 91",
    "server": "82.38.31.201",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -906,7 +738,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 113",
+   "tag": "🇳🇱 The Netherlands § 92",
    "server": "193.29.139.235",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -914,7 +746,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 114",
+   "tag": "🇳🇱 The Netherlands § 93",
    "server": "82.38.31.180",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -922,7 +754,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 115",
+   "tag": "🇳🇱 The Netherlands § 94",
    "server": "193.29.139.223",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -930,7 +762,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 116",
+   "tag": "🇳🇱 The Netherlands § 95",
    "server": "82.38.31.47",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -938,7 +770,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 117",
+   "tag": "🇳🇱 The Netherlands § 96",
    "server": "82.38.31.202",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -946,7 +778,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 118",
+   "tag": "🇳🇱 The Netherlands § 97",
    "server": "82.38.31.49",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -954,7 +786,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 119",
+   "tag": "🇳🇱 The Netherlands § 98",
    "server": "82.38.31.200",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -962,7 +794,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 120",
+   "tag": "🇳🇱 The Netherlands § 99",
    "server": "193.29.139.188",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -970,7 +802,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 121",
+   "tag": "🇳🇱 The Netherlands § 100",
    "server": "82.38.31.193",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -978,7 +810,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 122",
+   "tag": "🇳🇱 The Netherlands § 101",
    "server": "82.38.31.186",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -986,7 +818,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 123",
+   "tag": "🇳🇱 The Netherlands § 102",
    "server": "82.38.31.149",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -994,7 +826,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 124",
+   "tag": "🇳🇱 The Netherlands § 103",
    "server": "82.38.31.3",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1002,7 +834,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 125",
+   "tag": "🇳🇱 The Netherlands § 104",
    "server": "82.38.31.35",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1010,7 +842,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 126",
+   "tag": "🇳🇱 The Netherlands § 105",
    "server": "82.38.31.205",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1018,7 +850,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 127",
+   "tag": "🇳🇱 The Netherlands § 106",
    "server": "193.29.139.204",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1026,7 +858,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 128",
+   "tag": "🇳🇱 The Netherlands § 107",
    "server": "82.38.31.198",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1034,7 +866,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 129",
+   "tag": "🇳🇱 The Netherlands § 108",
    "server": "193.29.139.202",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1042,7 +874,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 130",
+   "tag": "🇳🇱 The Netherlands § 109",
    "server": "82.38.31.184",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1050,7 +882,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 131",
+   "tag": "🇳🇱 The Netherlands § 110",
    "server": "82.38.31.211",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1058,7 +890,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 132",
+   "tag": "🇳🇱 The Netherlands § 111",
    "server": "193.29.139.151",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1066,7 +898,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 133",
+   "tag": "🇳🇱 The Netherlands § 112",
    "server": "82.38.31.207",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1074,7 +906,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 134",
+   "tag": "🇳🇱 The Netherlands § 113",
    "server": "82.38.31.39",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1082,7 +914,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 135",
+   "tag": "🇳🇱 The Netherlands § 114",
    "server": "82.38.31.216",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1090,7 +922,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 136",
+   "tag": "🇳🇱 The Netherlands § 115",
    "server": "82.38.31.11",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1098,7 +930,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 137",
+   "tag": "🇳🇱 The Netherlands § 116",
    "server": "82.38.31.175",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -1106,7 +938,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 138",
+   "tag": "🇳🇱 The Netherlands § 117",
    "server": "82.38.31.61",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1114,7 +946,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 139",
+   "tag": "🇳🇱 The Netherlands § 118",
    "server": "193.29.139.225",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1122,7 +954,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 140",
+   "tag": "🇳🇱 The Netherlands § 119",
    "server": "82.38.31.36",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1130,7 +962,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 141",
+   "tag": "🇳🇱 The Netherlands § 120",
    "server": "82.38.31.69",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1138,7 +970,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 142",
+   "tag": "🇳🇱 The Netherlands § 121",
    "server": "82.38.31.199",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1146,7 +978,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 143",
+   "tag": "🇳🇱 The Netherlands § 122",
    "server": "82.38.31.208",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1154,7 +986,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 144",
+   "tag": "🇳🇱 The Netherlands § 123",
    "server": "82.38.31.214",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1162,7 +994,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 145",
+   "tag": "🇳🇱 The Netherlands § 124",
    "server": "193.29.139.168",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1170,7 +1002,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 146",
+   "tag": "🇳🇱 The Netherlands § 125",
    "server": "82.38.31.16",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1178,7 +1010,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 147",
+   "tag": "🇳🇱 The Netherlands § 126",
    "server": "82.38.31.174",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1186,7 +1018,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 148",
+   "tag": "🇳🇱 The Netherlands § 127",
    "server": "82.38.31.18",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1194,7 +1026,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 149",
+   "tag": "🇳🇱 The Netherlands § 128",
    "server": "82.38.31.210",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1202,7 +1034,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 The Netherlands § 150",
+   "tag": "🇳🇱 The Netherlands § 129",
    "server": "82.38.31.183",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1210,7 +1042,95 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇴 Oslo, 03, Norway § 151",
+   "tag": "🇳🇱 The Netherlands § 130",
+   "server": "82.38.31.82",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 131",
+   "server": "82.38.31.34",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 132",
+   "server": "82.38.31.203",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 133",
+   "server": "82.38.31.149",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 134",
+   "server": "82.38.31.9",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 135",
+   "server": "82.38.31.213",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 136",
+   "server": "193.29.139.235",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 137",
+   "server": "82.38.31.42",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 Amsterdam, NH, The Netherlands § 138",
+   "server": "158.173.20.208",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 139",
+   "server": "82.38.31.187",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 The Netherlands § 140",
+   "server": "82.38.31.175",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇴 Oslo, 03, Norway § 141",
    "server": "185.213.23.63",
    "server_port": 990,
    "method": "chacha20-ietf-poly1305",
@@ -1218,7 +1138,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇷🇴 Voluntari, IF, Romania § 152",
+   "tag": "🇷🇴 Voluntari, IF, Romania § 142",
    "server": "154.46.31.106",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -1226,15 +1146,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇷🇴 Voluntari, IF, Romania § 153",
-   "server": "bogging-eyeteeth-fly.freesocks.work",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "QFWzCw2uX9B9i6qAYeFBIE"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇷🇴 Bucharest, B, Romania § 154",
+   "tag": "🇷🇴 Bucharest, B, Romania § 143",
    "server": "194.68.44.42",
    "server_port": 64546,
    "method": "chacha20-ietf-poly1305",
@@ -1242,7 +1154,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇷🇺 Russia § 155",
+   "tag": "🇷🇺 Russia § 144",
    "server": "130.49.189.158",
    "server_port": 43558,
    "method": "chacha20-ietf-poly1305",
@@ -1250,7 +1162,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇸🇬 Singapore, Singapore § 156",
+   "tag": "🇸🇪 Spånga, AB, Sweden § 145",
+   "server": "70.34.212.124",
+   "server_port": 8388,
+   "method": "aes-256-gcm",
+   "password": "AxIYWtskJWIIaefW"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇸🇬 Singapore, Singapore § 146",
    "server": "45.128.12.20",
    "server_port": 14249,
    "method": "chacha20-ietf-poly1305",
@@ -1258,271 +1178,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇸🇬 Singapore, Singapore § 157",
-   "server": "54.179.192.171",
-   "server_port": 8443,
+   "tag": "🇹🇷 Türkiye § 147",
+   "server": "94.184.42.18",
+   "server_port": 8880,
    "method": "chacha20-ietf-poly1305",
-   "password": "7e68e32f-8015-4f37-9082-70e8b0b58043"
+   "password": "AWVyUgWWLc4G47GNo_bx2w"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇸🇬 Singapore, Singapore § 158",
-   "server": "139.180.220.175",
-   "server_port": 8388,
-   "method": "aes-256-gcm",
-   "password": "qpSevKaUXYQKvSjp"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Los Angeles, CA, United States § 159",
-   "server": "216.105.168.18",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "bQZl7HDxSabr1FurTYQHFU"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Los Angeles, CA, United States § 160",
-   "server": "64.42.182.133",
-   "server_port": 16669,
-   "method": "aes-128-gcm",
-   "password": "091fb9a133ef695fa0a0994bdc2b1da3"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Piscataway, NJ, United States § 161",
-   "server": "140.82.63.79",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "ZoZtfPOyVvmKARUN"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 162",
-   "server": "15.204.247.175",
-   "server_port": 8008,
-   "method": "aes-256-gcm",
-   "password": "XKFKl2rULjIp74"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 United States § 163",
-   "server": "64.74.163.67",
-   "server_port": 18764,
-   "method": "aes-128-gcm",
-   "password": "4efe1af272e7292139b889f6a63ee071"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 164",
-   "server": "15.204.247.206",
-   "server_port": 4444,
-   "method": "aes-256-gcm",
-   "password": "pKEW8JPByTVTLtM"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Piscataway, NJ, United States § 165",
-   "server": "45.76.9.57",
-   "server_port": 8392,
-   "method": "aes-128-gcm",
-   "password": "7f02b717406f2c5d4a7e287aa1d87a3dba9feacb5776c33f"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 166",
-   "server": "15.204.247.124",
-   "server_port": 2375,
-   "method": "aes-256-gcm",
-   "password": "faBAoD54k87UJG7"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Dallas, TX, United States § 167",
-   "server": "156.146.38.169",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 168",
-   "server": "15.204.247.244",
-   "server_port": 4444,
-   "method": "aes-256-gcm",
-   "password": "pKEW8JPByTVTLtM"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Hillsboro, OR, United States § 169",
-   "server": "5.78.51.123",
-   "server_port": 1080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "8tmnvX5zYuWGVIDP2jglZw"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 170",
-   "server": "15.204.246.107",
-   "server_port": 8888,
-   "method": "aes-256-gcm",
-   "password": "Y6R9pAtvxxzmGC"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 New York, NY, United States § 171",
-   "server": "37.19.198.244",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Los Angeles, CA, United States § 172",
-   "server": "173.234.25.93",
-   "server_port": 15243,
-   "method": "aes-128-gcm",
-   "password": "62dd75ba944947d4ca983cf1679b3797"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 United States § 173",
-   "server": "64.74.163.69",
-   "server_port": 18766,
-   "method": "aes-128-gcm",
-   "password": "4efe1af272e7292139b889f6a63ee071"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Staten Island, NY, United States § 174",
-   "server": "198.98.53.130",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "eDfN7SODQceIOmIAbtJJtK"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Dallas, TX, United States § 175",
-   "server": "156.146.38.167",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Phoenix, AZ, United States § 176",
-   "server": "173.244.56.6",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Los Angeles, CA, United States § 177",
-   "server": "173.234.25.90",
-   "server_port": 15240,
-   "method": "aes-128-gcm",
-   "password": "62dd75ba944947d4ca983cf1679b3797"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 New York, NY, United States § 178",
-   "server": "37.19.198.160",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Boardman, OR, United States § 179",
-   "server": "ss.041.node-for-bigairport.win",
-   "server_port": 20006,
-   "method": "chacha20-ietf-poly1305",
-   "password": "792e0bdb-01db-450c-94c4-925151eb396e"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Phoenix, AZ, United States § 180",
-   "server": "173.244.56.9",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 New York, NY, United States § 181",
-   "server": "37.19.198.236",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 182",
-   "server": "15.204.246.132",
-   "server_port": 7307,
-   "method": "aes-256-gcm",
-   "password": "FoOiGlkAA9yPEGP"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Reston, VA, United States § 183",
-   "server": "15.204.233.41",
-   "server_port": 8882,
-   "method": "aes-256-gcm",
-   "password": "kDWvXYZoTBcGkC4"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Piscataway, NJ, United States § 184",
-   "server": "45.76.9.57",
-   "server_port": 8393,
-   "method": "aes-256-gcm",
-   "password": "618a13eda4b4d208a4bcdc85fcb8996df812d59dd48419f75ae3f5f5b46a94fb"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Dallas, TX, United States § 185",
-   "server": "156.146.38.170",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Dallas, TX, United States § 186",
-   "server": "156.146.38.168",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 New York, NY, United States § 187",
-   "server": "37.19.198.243",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 New York, NY, United States § 188",
-   "server": "66.23.206.124",
-   "server_port": 16619,
-   "method": "aes-128-gcm",
-   "password": "2607008ac896b3443be9419d73d544d9"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Piscataway, NJ, United States § 189",
-   "server": "45.76.9.57",
-   "server_port": 8389,
-   "method": "chacha20-ietf-poly1305",
-   "password": "6054f059036c3ff1e907aeb51377b2ac54e61ceb666226fd"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇺🇸 Chicago, IL, United States § 190",
+   "tag": "🇺🇸 Chicago, IL, United States § 148",
    "server": "66.23.205.83",
    "server_port": 17529,
    "method": "aes-128-gcm",
@@ -1530,15 +1194,183 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇿🇦 Johannesburg, GP, South Africa § 191",
-   "server": "102.37.156.224",
+   "tag": "🇺🇸 Dallas, TX, United States § 149",
+   "server": "156.146.38.168",
    "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "aduB9HGxQHjA2SBMRjkHX6"
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇿🇦 Johannesburg, GP, South Africa § 192",
+   "tag": "🇺🇸 Santa Clara, CA, United States § 150",
+   "server": "107.172.219.230",
+   "server_port": 2096,
+   "method": "chacha20-ietf-poly1305",
+   "password": "456c497e-02bc-4b46-883f-06747cabdfbd"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Piscataway, NJ, United States § 151",
+   "server": "140.82.63.79",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "ZoZtfPOyVvmKARUN"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 152",
+   "server": "15.204.247.175",
+   "server_port": 8008,
+   "method": "aes-256-gcm",
+   "password": "XKFKl2rULjIp74"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Dallas, TX, United States § 153",
+   "server": "156.146.38.167",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 154",
+   "server": "15.204.233.41",
+   "server_port": 8882,
+   "method": "aes-256-gcm",
+   "password": "kDWvXYZoTBcGkC4"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 New York, NY, United States § 155",
+   "server": "37.19.198.244",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Phoenix, AZ, United States § 156",
+   "server": "173.244.56.9",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 157",
+   "server": "15.204.247.124",
+   "server_port": 2375,
+   "method": "aes-256-gcm",
+   "password": "faBAoD54k87UJG7"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 158",
+   "server": "15.204.247.206",
+   "server_port": 4444,
+   "method": "aes-256-gcm",
+   "password": "pKEW8JPByTVTLtM"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 159",
+   "server": "15.204.247.244",
+   "server_port": 4444,
+   "method": "aes-256-gcm",
+   "password": "pKEW8JPByTVTLtM"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Los Angeles, CA, United States § 160",
+   "server": "216.105.168.18",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "hCCWOcIsK5wrFz4OX70rWf"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 New York, NY, United States § 161",
+   "server": "37.19.198.243",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 162",
+   "server": "15.204.246.107",
+   "server_port": 8888,
+   "method": "aes-256-gcm",
+   "password": "Y6R9pAtvxxzmGC"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Los Angeles, CA, United States § 163",
+   "server": "216.105.168.18",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "bQZl7HDxSabr1FurTYQHFU"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Dallas, TX, United States § 164",
+   "server": "156.146.38.169",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 New York, NY, United States § 165",
+   "server": "37.19.198.236",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 New York, NY, United States § 166",
+   "server": "37.19.198.160",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Reston, VA, United States § 167",
+   "server": "15.204.246.132",
+   "server_port": 7307,
+   "method": "aes-256-gcm",
+   "password": "FoOiGlkAA9yPEGP"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Dallas, TX, United States § 168",
+   "server": "156.146.38.170",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Staten Island, NY, United States § 169",
+   "server": "198.98.53.130",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "eDfN7SODQceIOmIAbtJJtK"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 Phoenix, AZ, United States § 170",
+   "server": "173.244.56.6",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇿🇦 Johannesburg, GP, South Africa § 171",
    "server": "102.133.165.160",
    "server_port": 16233,
    "method": "chacha20-ietf-poly1305",
