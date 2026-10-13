@@ -5,9 +5,9 @@
    "tag": "Выбор сервера",
    "outbounds": [
     "Автовыбор · YouTube",
-    "4FreeIran-28a973f6ed § 12450",
-    "4Jadi-ea8253b1ef § 12451",
-    "4Jadi-3d6d5cddf3 § 12452"
+    "4FreeIran-28a973f6ed § 12670",
+    "4Jadi-ea8253b1ef § 12671",
+    "4Jadi-3d6d5cddf3 § 12672"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -16,9 +16,9 @@
    "type": "urltest",
    "tag": "Автовыбор · YouTube",
    "outbounds": [
-    "4FreeIran-28a973f6ed § 12450",
-    "4Jadi-ea8253b1ef § 12451",
-    "4Jadi-3d6d5cddf3 § 12452"
+    "4FreeIran-28a973f6ed § 12670",
+    "4Jadi-ea8253b1ef § 12671",
+    "4Jadi-3d6d5cddf3 § 12672"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -27,7 +27,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4FreeIran-28a973f6ed § 12450",
+   "tag": "4FreeIran-28a973f6ed § 12670",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -44,7 +44,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-ea8253b1ef § 12451",
+   "tag": "4Jadi-ea8253b1ef § 12671",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -61,7 +61,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-3d6d5cddf3 § 12452",
+   "tag": "4Jadi-3d6d5cddf3 § 12672",
    "server": "drhystuichdfy.samanidempire.org",
    "server_port": 41053,
    "uuid": "80747420-96c4-4a2f-83e6-eea4e46beb09",
