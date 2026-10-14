@@ -14,6 +14,7 @@
     h1 { font-size: clamp(28px, 5vw, 42px); margin: 14px 0; letter-spacing: -.03em; }
     p { color: #b4bfd1; line-height: 1.6; }
     h2 { font-size: 20px; margin: 0 0 10px; }
+    .last-updated { margin: 0 0 12px; font-size: 13px; }
     .description { font-size: 14px; margin: 0 0 18px; }
     .table-scroll { margin-top: 28px; overflow-x: auto; border: 1px solid #2d394c; border-radius: 12px; }
     .subscriptions-table { width: 100%; min-width: 1150px; border-collapse: collapse; background: #192130; font-size: 14px; }
@@ -54,7 +55,10 @@
 <body>
   <main>
     <div class="brand">goida · 23 источника</div>
-    <h1>Конфигурации VPN</h1>
+    <h1>Конфигурации</h1>
+    <!-- subscription-updated:start -->
+    <p class="last-updated">Последнее обновление: <time datetime="2026-10-14T14:28:55+03:00">14.10.2026 14:28:55 МСК</time></p>
+    <!-- subscription-updated:end -->
     <p>Скопируйте нужную ссылку, затем в Hiddify выберите <strong>Новый профиль → Добавить из буфера обмена</strong>.</p>
     <p id="status" role="status" aria-live="polite"></p>
     <p class="description">В Hiddify в группе «Выбор сервера» используйте «Автовыбор · YouTube»: проверка соединения каждые 3 минуты. Исходные URI подходят для клиентов с поддержкой URI и Base64.</p>

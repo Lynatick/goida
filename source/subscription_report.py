@@ -1,6 +1,9 @@
 """Publish subscription counts and conversion exclusions on the home page."""
 
+from datetime import datetime
 import json
+import re
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 from hiddify_subscription import NON_PROXY_TYPES
@@ -99,6 +102,22 @@ def render_subscription_rows(rows, protocol_counts=None, protocol_uri_counts=Non
     return "\n".join(cells)
 
 
+def render_last_updated(html):
+    updated = datetime.now(ZoneInfo("Europe/Moscow"))
+    timestamp = updated.isoformat(timespec="seconds")
+    label = updated.strftime("%d.%m.%Y %H:%M:%S")
+    block = (
+        '<!-- subscription-updated:start -->\n'
+        f'    <p class="last-updated">Последнее обновление: '
+        f'<time datetime="{timestamp}">{label} МСК</time></p>\n'
+        '    <!-- subscription-updated:end -->'
+    )
+    return re.sub(
+        r"<!-- subscription-updated:start -->.*?<!-- subscription-updated:end -->",
+        block, html, count=1, flags=re.DOTALL
+    )
+
+
 def save_subscription_report(root, sources, combined_config, combined_excluded, protocol_counts=None, protocol_uri_counts=None):
     root = Path(root)
     rows = {"all": {"configs": proxy_count(combined_config), "excluded": combined_excluded}}
@@ -115,6 +134,7 @@ def save_subscription_report(root, sources, combined_config, combined_excluded, 
         if start in html and end in html:
             before, rest = html.split(start, 1)
             _, after = rest.split(end, 1)
-            homepage.write_text(before + start + "\n" + render_subscription_rows(rows, protocol_counts, protocol_uri_counts) + "\n          " + end + after, encoding="utf-8")
+            html = before + start + "\n" + render_subscription_rows(rows, protocol_counts, protocol_uri_counts) + "\n          " + end + after
+            homepage.write_text(render_last_updated(html), encoding="utf-8")
             outputs.append("index.html")
     return outputs

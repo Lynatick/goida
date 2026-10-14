@@ -1,10 +1,13 @@
 import base64
 from contextlib import redirect_stdout
+from datetime import datetime
 import io
 import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
+from zoneinfo import ZoneInfo
 
 from combined_subscription import build_combined_subscriptions
 from subscription_report import subscription_counts
@@ -38,8 +41,9 @@ class SubscriptionReportTest(unittest.TestCase):
             mirror.joinpath("1.txt").write_text(node + "\nunsupported://one\nbroken line")
             mirror.joinpath("2.txt").write_text(node + "\nunsupported://one")
             homepage = root / "index.html"
-            homepage.write_text("before<!-- subscription-report:start -->old<!-- subscription-report:end -->after")
-            with redirect_stdout(io.StringIO()):
+            homepage.write_text("before<!-- subscription-updated:start -->old time<!-- subscription-updated:end --><!-- subscription-report:start -->old<!-- subscription-report:end -->after")
+            with redirect_stdout(io.StringIO()), patch("subscription_report.datetime") as clock:
+                clock.now.return_value = datetime(2026, 10, 14, 14, 28, 0, tzinfo=ZoneInfo("Europe/Moscow"))
                 paths = build_combined_subscriptions(root)
             report = json.loads(root.joinpath("subscription-stats.json").read_text())
             self.assertEqual(report["all"], {"configs": 1, "excluded": 2})
@@ -49,6 +53,9 @@ class SubscriptionReportTest(unittest.TestCase):
             html = homepage.read_text()
             self.assertTrue(html.startswith("before"))
             self.assertTrue(html.endswith("after"))
+            self.assertIn('<time datetime="2026-10-14T14:28:00+03:00">14.10.2026 14:28:00 МСК</time>', html)
+            self.assertNotIn("old time", html)
+            clock.now.assert_called_once_with(ZoneInfo("Europe/Moscow"))
             self.assertIn('<th scope="row">Все</th>', html)
             self.assertIn('<td class="numeric">1</td><td class="numeric">2</td>', html)
             self.assertIn('data-copy="hiddify-all-json"', html)
