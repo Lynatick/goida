@@ -1,0 +1,149 @@
+name: Ежедневное обновление профилей
+
+on:
+  schedule:
+    # 09:00 UTC = 12:00 Europe/Moscow, ежедневно начиная с 14.10.2026.
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      update_profiles:
+        description: Обновить профили (отключите для проверки workflow без скачивания и отправки)
+        type: boolean
+        required: true
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-profile-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Обновить подписки и отправить изменения
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Europe/Moscow
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Получить актуальную main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - name: Установить Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: source/requirements.txt
+
+      - name: Установить зависимости
+        run: python -m pip install -r source/requirements.txt
+
+      - name: Проверить генератор
+        env:
+          PYTHONPATH: source
+        run: python -m unittest discover -s source/tests
+
+      - name: Скачать источники и сформировать подписки
+        if: github.event_name == 'schedule' || inputs.update_profiles
+        shell: bash
+        run: python source/main.py --local-only | tee profile-update.log
+
+      - name: Проверить JSON и автоматический выбор YouTube
+        env:
+          PYTHONPATH: source
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from hiddify_subscription import YOUTUBE_TEST_URL
+          from subscription_converter import validate_json_config
+
+          for path in Path('raw').rglob('*'):
+              if path.is_file() and path.suffix in ('.txt', '.json'):
+                  validate_json_config(json.loads(path.read_text(encoding='utf-8-sig')))
+          profiles = list(Path('hiddify').rglob('*.json'))
+          if not profiles:
+              raise ValueError('Нет профилей Hiddify')
+          for path in profiles:
+              config = json.loads(path.read_text(encoding='utf-8-sig'))
+              validate_json_config(config)
+              tests = [node for node in config['outbounds'] if node['type'] == 'urltest']
+              if len(tests) != 1 or tests[0]['url'] != YOUTUBE_TEST_URL:
+                  raise ValueError(f'{path}: ожидается единственный тест YouTube')
+              selector = config['outbounds'][0]
+              if selector['type'] != 'selector' or selector['default'] != tests[0]['tag']:
+                  raise ValueError(f'{path}: автоматический выбор не задан по умолчанию')
+          for name in ('subscription-stats.json', 'protocol-stats.json'):
+              json.loads(Path(name).read_text(encoding='utf-8'))
+          print(f'Проверены JSON и {len(profiles)} профилей Hiddify')
+          PY
+
+      - name: Отправить изменённые файлы одним коммитом
+        id: commit
+        if: github.event_name == 'schedule' || inputs.update_profiles
+        shell: bash
+        run: |
+          git add githubmirror raw hiddify index.html protocol-stats.json subscription-stats.json
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            echo 'Подписки не изменились, коммит не требуется.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Обновление подписок: $(date '+%d.%m.%Y %H:%M МСК')"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+
+      - name: Обновить таблицу на GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+
+          response = requests.post(
+              f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/pages/builds",
+              headers={
+                  'Authorization': f"Bearer {os.environ['GITHUB_TOKEN']}",
+                  'Accept': 'application/vnd.github+json',
+                  'X-GitHub-Api-Version': '2022-11-28',
+              },
+              timeout=30,
+          )
+          response.raise_for_status()
+          print('Пересборка GitHub Pages запрошена.')
+          PY
+
+      - name: Итог запуска
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              summary.write(f"Результат: **{os.environ['JOB_STATUS']}**. Расписание: ежедневно в **12:00 МСК**.\n\n")
+              log = Path('profile-update.log')
+              if log.exists():
+                  lines = log.read_text(encoding='utf-8').splitlines()
+                  for line in lines:
+                      if line.startswith(('Обработка завершена:', 'Общая подписка:', 'Подписки по типам:')):
+                          summary.write(line + '\n\n')
+              else:
+                  summary.write('Проверка workflow без обновления источников.\n\n')
+              stats = json.loads(Path('subscription-stats.json').read_text())['all']
+              summary.write(f"Серверов в общей подписке: **{stats['configs']}**, исключено записей: **{stats['excluded']}**.\n")
+          PY
