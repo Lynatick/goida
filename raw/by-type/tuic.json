@@ -2,7 +2,7 @@
  "outbounds": [
   {
    "type": "tuic",
-   "tag": "4FreeIran-28a973f6ed § 11879",
+   "tag": "4FreeIran-28a973f6ed § 11479",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -19,7 +19,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-ea8253b1ef § 11880",
+   "tag": "4Jadi-ea8253b1ef § 11480",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -36,7 +36,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-3d6d5cddf3 § 11881",
+   "tag": "4Jadi-3d6d5cddf3 § 11481",
    "server": "drhystuichdfy.samanidempire.org",
    "server_port": 41053,
    "uuid": "80747420-96c4-4a2f-83e6-eea4e46beb09",
@@ -46,6 +46,225 @@
    "tls": {
     "enabled": true,
     "server_name": "drhystuichdfy.samanidempire.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32064",
+   "server": "146.235.16.130",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "quic",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 32065",
+   "server": "146.235.16.130",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "bbr",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 32066",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "quic",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32067",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "bbr",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32068",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "quic",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 32069",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "quic",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 32070",
+   "server": "tw3.dexlos.com",
+   "server_port": 8080,
+   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
+   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw3.dexlos.com",
+    "insecure": true,
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32071",
+   "server": "tw3.dexlos.com",
+   "server_port": 8080,
+   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
+   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw3.dexlos.com",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32072",
+   "server": "tw3.dexlos.com",
+   "server_port": 8080,
+   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
+   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "congestion_control": "bbr",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw3.dexlos.com",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32073",
+   "server": "tw5.dexlos.com",
+   "server_port": 8080,
+   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
+   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw5.dexlos.com",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 32074",
+   "server": "tw6.dexlos.com",
+   "server_port": 8080,
+   "uuid": "d7286728-678e-443b-b76b-b699654c66dd",
+   "password": "D7286728-678E-443B-B76B-B699654C66DD",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw6.dexlos.com",
+    "insecure": true,
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 32075",
+   "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
+   "server_port": 443,
+   "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
+   "password": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
+    "insecure": true,
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@V2ray_Collector § 32076",
+   "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
+   "server_port": 443,
+   "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
+   "password": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
     "alpn": [
      "h3"
     ]
