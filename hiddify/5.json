@@ -14,10 +14,9 @@
     "MarkazeAhan | SERVER 7 § 6",
     "MarkazeAhan | SERVER 8 § 7",
     "MarkazeAhan | SERVER 9 § 8",
-    "MarkazeAhan | SERVER 10 § 9",
-    "MarkazeAhan | SERVER 11 § 10",
-    "MarkazeAhan | SERVER 12 § 11",
-    "MarkazeAhan | SERVER 13 § 12"
+    "MarkazeAhan | SERVER 11 § 9",
+    "MarkazeAhan | SERVER 12 § 10",
+    "MarkazeAhan | SERVER 13 § 11"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -35,10 +34,9 @@
     "MarkazeAhan | SERVER 7 § 6",
     "MarkazeAhan | SERVER 8 § 7",
     "MarkazeAhan | SERVER 9 § 8",
-    "MarkazeAhan | SERVER 10 § 9",
-    "MarkazeAhan | SERVER 11 § 10",
-    "MarkazeAhan | SERVER 12 § 11",
-    "MarkazeAhan | SERVER 13 § 12"
+    "MarkazeAhan | SERVER 11 § 9",
+    "MarkazeAhan | SERVER 12 § 10",
+    "MarkazeAhan | SERVER 13 § 11"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -46,158 +44,60 @@
    "interrupt_exist_connections": true
   },
   {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 1 § 0",
-   "server": "13.39.184.235",
-   "server_port": 22223,
-   "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 2 § 1",
-   "server": "13.39.184.235",
-   "server_port": 22222,
-   "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-   "packet_encoding": "xudp"
-  },
-  {
    "type": "vmess",
-   "tag": "MarkazeAhan | SERVER 3 § 2",
-   "server": "www.asamping.ir",
-   "server_port": 2095,
-   "uuid": "a55cdc40-5af5-4f02-9a46-41685120fe6f",
+   "tag": "MarkazeAhan | SERVER 1 § 0",
+   "server": "134.195.196.211",
+   "server_port": 18000,
+   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
    "security": "auto",
    "alter_id": 0,
    "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "www.asamping.ir"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 4 § 3",
-   "server": "35.181.176.187",
-   "server_port": 22222,
-   "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
    "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 5 § 4",
-   "server": "connect.wecantos.site",
-   "server_port": 10000,
-   "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 6 § 5",
-   "server": "nl2.h1cloud.net",
-   "server_port": 25452,
-   "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.ns.nl",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
-     "short_id": "fe51f413b9646e97"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 7 § 6",
-   "server": "35.181.176.187",
-   "server_port": 22224,
-   "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 8 § 7",
-   "server": "104.26.2.223",
-   "server_port": 8080,
-   "uuid": "9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641",
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev"
-    }
-   }
   },
   {
    "type": "shadowsocks",
-   "tag": "MarkazeAhan | SERVER 9 § 8",
-   "server": "102.133.227.3",
+   "tag": "MarkazeAhan | SERVER 2 § 1",
+   "server": "37.19.198.243",
    "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "93F6FFBh3CZiBUsG"
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
   },
   {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 10 § 9",
-   "server": "92.119.166.36",
-   "server_port": 1080,
-   "uuid": "80ee276b-1eb4-4570-8757-1d9cd978f6fa",
+   "type": "shadowsocks",
+   "tag": "MarkazeAhan | SERVER 3 § 2",
+   "server": "82.38.31.184",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "MarkazeAhan | SERVER 4 § 3",
+   "server": "82.38.31.212",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 5 § 4",
+   "server": "zfd-hkv1.kunlun01dns.com",
+   "server_port": 16114,
+   "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
    "packet_encoding": "xudp"
   },
   {
    "type": "trojan",
-   "tag": "MarkazeAhan | SERVER 11 § 10",
-   "server": "de7.dedushka.top",
+   "tag": "MarkazeAhan | SERVER 6 § 5",
+   "server": "188.226.181.61",
    "server_port": 443,
-   "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+   "password": "humanity",
    "tls": {
     "enabled": true,
-    "server_name": "de7.dedushka.top"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 12 § 11",
-   "server": "md1.aiage.work",
-   "server_port": 443,
-   "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "md1.aiage.work",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "0dtXhkhkh-_MBFoGwzdW4PdlJtVX9oswhJZHbUPGCmo",
-     "short_id": "e829f50f0a3f416b"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "MarkazeAhan | SERVER 13 § 12",
-   "server": "goold.zovip2.ir",
-   "server_port": 443,
-   "uuid": "b1247bbd-33c5-4e00-b1b2-58dc5d8b565a",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "goold.zovip2.ir",
+    "server_name": "www.pleadcourt.org",
     "alpn": [
      "http/1.1"
     ],
@@ -208,11 +108,115 @@
    },
    "transport": {
     "type": "ws",
-    "path": "/api/v3/pulse",
+    "path": "/assignment",
     "headers": {
-     "Host": "goold.zovip2.ir"
+     "Host": "www.pleadcourt.org"
     }
    }
+  },
+  {
+   "type": "trojan",
+   "tag": "MarkazeAhan | SERVER 7 § 6",
+   "server": "de2.dedushka.top",
+   "server_port": 443,
+   "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+   "tls": {
+    "enabled": true,
+    "server_name": "de2.dedushka.top",
+    "alpn": [
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "MarkazeAhan | SERVER 8 § 7",
+   "server": "188.241.241.122",
+   "server_port": 443,
+   "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+   "tls": {
+    "enabled": true,
+    "server_name": "de2.dedushka.top",
+    "alpn": [
+     "http/1.1"
+    ]
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "MarkazeAhan | SERVER 9 § 8",
+   "server": "188.114.97.6",
+   "server_port": 443,
+   "password": "mitivpn",
+   "tls": {
+    "enabled": true,
+    "server_name": "de.mitivpn.in.net",
+    "alpn": [
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+    "headers": {
+     "Host": "de.mitivpn.in.net"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 11 § 9",
+   "server": "104.17.147.222",
+   "server_port": 80,
+   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "vmess.lbw666.dpdns.org"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 12 § 10",
+   "server": "104.21.7.133",
+   "server_port": 80,
+   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "vmess.lbw666.dpdns.org"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 13 § 11",
+   "server": "oc.imfun.fun",
+   "server_port": 18112,
+   "uuid": "ad45f8f6-0f0a-4cc4-b907-c4582407dc94",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
   }
  ],
  "endpoints": [],
