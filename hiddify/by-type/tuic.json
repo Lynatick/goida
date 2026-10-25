@@ -5,22 +5,21 @@
    "tag": "Выбор сервера",
    "outbounds": [
     "Автовыбор · YouTube",
-    "4FreeIran-28a973f6ed § 11565",
-    "4Jadi-ea8253b1ef § 11566",
-    "4Jadi-3d6d5cddf3 § 11567",
-    "@V2ray_Collector § 32618",
-    "@OutlineReleasedKey § 32619",
-    "@OutlineReleasedKey § 32620",
-    "@V2ray_Collector § 32621",
-    "@V2ray_Collector § 32622",
-    "@OutlineReleasedKey § 32623",
-    "@OutlineReleasedKey § 32624",
-    "@V2ray_Collector § 32625",
-    "@V2ray_Collector § 32626",
-    "@V2ray_Collector § 32627",
-    "@OutlineReleasedKey § 32628",
-    "@OutlineReleasedKey § 32629",
-    "@V2ray_Collector § 32630"
+    "4FreeIran-28a973f6ed § 11524",
+    "4Jadi-ea8253b1ef § 11525",
+    "4Jadi-3d6d5cddf3 § 11526",
+    "@V2ray_Collector § 32716",
+    "@OutlineReleasedKey § 32717",
+    "@V2ray_Collector § 32718",
+    "@V2ray_Collector § 32719",
+    "@OutlineReleasedKey § 32720",
+    "@OutlineReleasedKey § 32721",
+    "@V2ray_Collector § 32722",
+    "@V2ray_Collector § 32723",
+    "@V2ray_Collector § 32724",
+    "@OutlineReleasedKey § 32725",
+    "@OutlineReleasedKey § 32726",
+    "@V2ray_Collector § 32727"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -29,22 +28,21 @@
    "type": "urltest",
    "tag": "Автовыбор · YouTube",
    "outbounds": [
-    "4FreeIran-28a973f6ed § 11565",
-    "4Jadi-ea8253b1ef § 11566",
-    "4Jadi-3d6d5cddf3 § 11567",
-    "@V2ray_Collector § 32618",
-    "@OutlineReleasedKey § 32619",
-    "@OutlineReleasedKey § 32620",
-    "@V2ray_Collector § 32621",
-    "@V2ray_Collector § 32622",
-    "@OutlineReleasedKey § 32623",
-    "@OutlineReleasedKey § 32624",
-    "@V2ray_Collector § 32625",
-    "@V2ray_Collector § 32626",
-    "@V2ray_Collector § 32627",
-    "@OutlineReleasedKey § 32628",
-    "@OutlineReleasedKey § 32629",
-    "@V2ray_Collector § 32630"
+    "4FreeIran-28a973f6ed § 11524",
+    "4Jadi-ea8253b1ef § 11525",
+    "4Jadi-3d6d5cddf3 § 11526",
+    "@V2ray_Collector § 32716",
+    "@OutlineReleasedKey § 32717",
+    "@V2ray_Collector § 32718",
+    "@V2ray_Collector § 32719",
+    "@OutlineReleasedKey § 32720",
+    "@OutlineReleasedKey § 32721",
+    "@V2ray_Collector § 32722",
+    "@V2ray_Collector § 32723",
+    "@V2ray_Collector § 32724",
+    "@OutlineReleasedKey § 32725",
+    "@OutlineReleasedKey § 32726",
+    "@V2ray_Collector § 32727"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -53,7 +51,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4FreeIran-28a973f6ed § 11565",
+   "tag": "4FreeIran-28a973f6ed § 11524",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -70,7 +68,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-ea8253b1ef § 11566",
+   "tag": "4Jadi-ea8253b1ef § 11525",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -87,7 +85,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-3d6d5cddf3 § 11567",
+   "tag": "4Jadi-3d6d5cddf3 § 11526",
    "server": "drhystuichdfy.samanidempire.org",
    "server_port": 41053,
    "uuid": "80747420-96c4-4a2f-83e6-eea4e46beb09",
@@ -104,7 +102,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32618",
+   "tag": "@V2ray_Collector § 32716",
    "server": "146.235.16.130",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -121,24 +119,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 32619",
-   "server": "146.235.16.130",
-   "server_port": 33738,
-   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-   "congestion_control": "bbr",
-   "udp_relay_mode": "bbr",
-   "tls": {
-    "enabled": true,
-    "server_name": "sg2-8sb.6121999.dpdns.org",
-    "alpn": [
-     "h3"
-    ]
-   }
-  },
-  {
-   "type": "tuic",
-   "tag": "@OutlineReleasedKey § 32620",
+   "tag": "@OutlineReleasedKey § 32717",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -155,7 +136,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32621",
+   "tag": "@V2ray_Collector § 32718",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -172,7 +153,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32622",
+   "tag": "@V2ray_Collector § 32719",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -189,7 +170,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 32623",
+   "tag": "@OutlineReleasedKey § 32720",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -206,7 +187,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 32624",
+   "tag": "@OutlineReleasedKey § 32721",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -224,7 +205,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32625",
+   "tag": "@V2ray_Collector § 32722",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -241,7 +222,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32626",
+   "tag": "@V2ray_Collector § 32723",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -257,7 +238,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32627",
+   "tag": "@V2ray_Collector § 32724",
    "server": "tw5.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -272,7 +253,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 32628",
+   "tag": "@OutlineReleasedKey § 32725",
    "server": "tw6.dexlos.com",
    "server_port": 8080,
    "uuid": "d7286728-678e-443b-b76b-b699654c66dd",
@@ -288,7 +269,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 32629",
+   "tag": "@OutlineReleasedKey § 32726",
    "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
    "server_port": 443,
    "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
@@ -306,7 +287,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 32630",
+   "tag": "@V2ray_Collector § 32727",
    "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
    "server_port": 443,
    "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
