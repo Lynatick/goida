@@ -2,7 +2,7 @@
  "outbounds": [
   {
    "type": "tuic",
-   "tag": "4Sarina-90b8f10641 § 8832",
+   "tag": "4Sarina-90b8f10641 § 8935",
    "server": "146.235.16.130",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -19,7 +19,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Sarina-9f15afdcea § 8833",
+   "tag": "4Sarina-9f15afdcea § 8936",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -36,7 +36,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Nika-754bb9d177 § 8834",
+   "tag": "4Nika-754bb9d177 § 8937",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -52,7 +52,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Mohsen-18f67ca965 § 8835",
+   "tag": "4Mohsen-18f67ca965 § 8938",
    "server": "103.170.72.41",
    "server_port": 8443,
    "uuid": "56d8a8fd-68b8-47f8-8c7f-98cc675902db",
@@ -70,7 +70,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Sarina-048f219816 § 8836",
+   "tag": "4Sarina-048f219816 § 8939",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -88,7 +88,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-3619a5c5c3 § 8837",
+   "tag": "4Jadi-3619a5c5c3 § 8940",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -104,7 +104,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4FreeIran-9aa7a7b26c § 8838",
+   "tag": "4FreeIran-9aa7a7b26c § 8941",
    "server": "tw5.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -119,7 +119,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Nika-184fe19f0c § 8839",
+   "tag": "4Nika-184fe19f0c § 8942",
    "server": "tw6.dexlos.com",
    "server_port": 8080,
    "uuid": "d7286728-678e-443b-b76b-b699654c66dd",
@@ -135,7 +135,24 @@
   },
   {
    "type": "tuic",
-   "tag": "4Nika-b7ff984deb § 8840",
+   "tag": "4Jadi-d65017ebe5 § 8943",
+   "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
+   "server_port": 443,
+   "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
+   "password": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com_tag=M002-260618",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "4Nika-b7ff984deb § 8944",
    "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
    "server_port": 443,
    "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
@@ -153,7 +170,7 @@
   },
   {
    "type": "tuic",
-   "tag": "4Jadi-78818a0f8a § 8841",
+   "tag": "4Jadi-78818a0f8a § 8945",
    "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
    "server_port": 443,
    "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
@@ -170,7 +187,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23414",
+   "tag": "@V2ray_Collector § 23504",
    "server": "146.235.16.130",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -187,7 +204,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23415",
+   "tag": "@V2ray_Collector § 23505",
    "server": "sg2-8sb.6121999.dpdns.org",
    "server_port": 33738,
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
@@ -204,7 +221,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 23416",
+   "tag": "@OutlineReleasedKey § 23506",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -222,7 +239,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23417",
+   "tag": "@V2ray_Collector § 23507",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -239,7 +256,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23418",
+   "tag": "@V2ray_Collector § 23508",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -255,7 +272,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23419",
+   "tag": "@V2ray_Collector § 23509",
    "server": "tw5.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -270,7 +287,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 23420",
+   "tag": "@OutlineReleasedKey § 23510",
    "server": "tw6.dexlos.com",
    "server_port": 8080,
    "uuid": "d7286728-678e-443b-b76b-b699654c66dd",
@@ -286,7 +303,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23421",
+   "tag": "@V2ray_Collector § 23511",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -303,7 +320,24 @@
   },
   {
    "type": "tuic",
-   "tag": "@OutlineReleasedKey § 23422",
+   "tag": "@V2ray_Collector § 23512",
+   "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
+   "server_port": 443,
+   "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
+   "password": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "@OutlineReleasedKey § 23513",
    "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
    "server_port": 443,
    "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
@@ -321,7 +355,7 @@
   },
   {
    "type": "tuic",
-   "tag": "@V2ray_Collector § 23423",
+   "tag": "@V2ray_Collector § 23514",
    "server": "46b61821-tki800-tlwmty-1gevg.pccw3.hyhuawei.com",
    "server_port": 443,
    "uuid": "f02ee2b4-d760-11ec-bd7c-f23c913c8d2b",
