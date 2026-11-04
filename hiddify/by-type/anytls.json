@@ -5,10 +5,9 @@
    "tag": "Выбор сервера",
    "outbounds": [
     "Автовыбор · YouTube",
-    "🇹🇼_TW_台湾_IPV4 § 6",
-    "🇹🇼_TW_台湾_IPV4 (2) § 18",
-    "🇹🇼_TW_台湾_IPV4 (3) § 19",
-    "🇭🇰_HK_香港_IPV4 § 21"
+    "🇹🇼_TW_台湾_IPV4 (2) § 8",
+    "🇹🇼_TW_台湾_IPV4 (3) § 9",
+    "🇭🇰_HK_香港_IPV4 § 11"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -17,10 +16,9 @@
    "type": "urltest",
    "tag": "Автовыбор · YouTube",
    "outbounds": [
-    "🇹🇼_TW_台湾_IPV4 § 6",
-    "🇹🇼_TW_台湾_IPV4 (2) § 18",
-    "🇹🇼_TW_台湾_IPV4 (3) § 19",
-    "🇭🇰_HK_香港_IPV4 § 21"
+    "🇹🇼_TW_台湾_IPV4 (2) § 8",
+    "🇹🇼_TW_台湾_IPV4 (3) § 9",
+    "🇭🇰_HK_香港_IPV4 § 11"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -29,18 +27,7 @@
   },
   {
    "type": "anytls",
-   "tag": "🇹🇼_TW_台湾_IPV4 § 6",
-   "server": "user02.godvpn.lol",
-   "server_port": 62405,
-   "password": "4bbfa33a-449a-4a50-8dfc-6d0de880f7bc",
-   "tls": {
-    "enabled": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "🇹🇼_TW_台湾_IPV4 (2) § 18",
+   "tag": "🇹🇼_TW_台湾_IPV4 (2) § 8",
    "server": "er8u54dh.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
@@ -52,7 +39,7 @@
   },
   {
    "type": "anytls",
-   "tag": "🇹🇼_TW_台湾_IPV4 (3) § 19",
+   "tag": "🇹🇼_TW_台湾_IPV4 (3) § 9",
    "server": "684616s4.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
@@ -64,7 +51,7 @@
   },
   {
    "type": "anytls",
-   "tag": "🇭🇰_HK_香港_IPV4 § 21",
+   "tag": "🇭🇰_HK_香港_IPV4 § 11",
    "server": "56481.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
