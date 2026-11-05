@@ -5,9 +5,7 @@
    "tag": "Выбор сервера",
    "outbounds": [
     "Автовыбор · YouTube",
-    "🇹🇼_TW_台湾_IPV4 (2) § 8",
-    "🇹🇼_TW_台湾_IPV4 (3) § 9",
-    "🇭🇰_HK_香港_IPV4 § 11"
+    "🇹🇼_TW_台湾_IPV4 § 3"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -16,9 +14,7 @@
    "type": "urltest",
    "tag": "Автовыбор · YouTube",
    "outbounds": [
-    "🇹🇼_TW_台湾_IPV4 (2) § 8",
-    "🇹🇼_TW_台湾_IPV4 (3) § 9",
-    "🇭🇰_HK_香港_IPV4 § 11"
+    "🇹🇼_TW_台湾_IPV4 § 3"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -27,37 +23,13 @@
   },
   {
    "type": "anytls",
-   "tag": "🇹🇼_TW_台湾_IPV4 (2) § 8",
+   "tag": "🇹🇼_TW_台湾_IPV4 § 3",
    "server": "er8u54dh.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
    "tls": {
     "enabled": true,
     "server_name": "px.ads.linkedin.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "🇹🇼_TW_台湾_IPV4 (3) § 9",
-   "server": "684616s4.df6h451rh.xin",
-   "server_port": 443,
-   "password": "0324fbc29561",
-   "tls": {
-    "enabled": true,
-    "server_name": "px.ads.linkedin.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "🇭🇰_HK_香港_IPV4 § 11",
-   "server": "56481.df6h451rh.xin",
-   "server_port": 443,
-   "password": "0324fbc29561",
-   "tls": {
-    "enabled": true,
-    "server_name": "images.ctfassets.net",
     "insecure": true
    }
   }
