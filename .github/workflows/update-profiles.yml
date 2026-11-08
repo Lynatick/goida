@@ -73,6 +73,8 @@ jobs:
           for path in profiles:
               config = json.loads(path.read_text(encoding='utf-8-sig'))
               validate_json_config(config)
+              if path.parts[:2] == ('hiddify', 'groups') and len(config['outbounds']) - 2 > 2000:
+                  raise ValueError(f'{path}: в группе больше 2000 конфигураций')
               tests = [node for node in config['outbounds'] if node['type'] == 'urltest']
               if len(tests) != 1 or tests[0]['url'] != YOUTUBE_TEST_URL:
                   raise ValueError(f'{path}: ожидается единственный тест YouTube')

@@ -7,6 +7,7 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 
 from hiddify_subscription import NON_PROXY_TYPES
+from protocol_subscriptions import GROUP_SIZE, GROUP_BASE_URL
 from subscription_converter import (
     ConversionError, convert_subscription, decode_base64, uri_outbound,
 )
@@ -102,6 +103,38 @@ def render_subscription_rows(rows, protocol_counts=None, protocol_uri_counts=Non
     return "\n".join(cells)
 
 
+def render_group_rows(protocol_counts):
+    cells = []
+    for kind, total in sorted(protocol_counts.items()):
+        group_total = (total + GROUP_SIZE - 1) // GROUP_SIZE
+        for number in range(1, group_total + 1):
+            count = min(GROUP_SIZE, total - (number - 1) * GROUP_SIZE)
+            count_label = f"{count:,}".replace(",", "\u202f")
+            path = f"hiddify/groups/{kind}/{number}.json"
+            url = f"{GROUP_BASE_URL}/{path}"
+            link_id = f"group-{kind}-{number}"
+            cells.append(f'          <tr><th scope="row">{kind}</th><td class="numeric">{number}</td>')
+            cells.append(
+                f'            <td><div class="subscription-link">'
+                f'<a id="{link_id}" class="filename" href="{url}" title="{url}">{number}.json</a>'
+                f'<button type="button" data-copy="{link_id}" '
+                f'aria-label="Копировать ссылку {kind}, группа {number}">Копировать</button>'
+                f'</div></td><td class="numeric">{count_label}</td>'
+            )
+            if number == 1:
+                list_url = f"{GROUP_BASE_URL}/hiddify/groups/{kind}/list.txt"
+                list_id = f"group-list-{kind}"
+                cells.append(
+                    f'            <td rowspan="{group_total}"><div class="subscription-link">'
+                    f'<a id="{list_id}" class="filename" href="{list_url}" '
+                    f'title="{list_url}">{kind}/list.txt</a>'
+                    f'<button type="button" data-copy="{list_id}" '
+                    f'aria-label="Копировать список ссылок {kind}">Копировать</button></div></td>'
+                )
+            cells.append('          </tr>')
+    return "\n".join(cells)
+
+
 def render_last_updated(html):
     updated = datetime.now(ZoneInfo("Europe/Moscow"))
     timestamp = updated.isoformat(timespec="seconds")
@@ -135,6 +168,12 @@ def save_subscription_report(root, sources, combined_config, combined_excluded, 
             before, rest = html.split(start, 1)
             _, after = rest.split(end, 1)
             html = before + start + "\n" + render_subscription_rows(rows, protocol_counts, protocol_uri_counts) + "\n          " + end + after
+            group_start = "<!-- subscription-groups:start -->"
+            group_end = "<!-- subscription-groups:end -->"
+            if protocol_counts is not None and group_start in html and group_end in html:
+                before, rest = html.split(group_start, 1)
+                _, after = rest.split(group_end, 1)
+                html = before + group_start + "\n" + render_group_rows(protocol_counts) + "\n          " + group_end + after
             homepage.write_text(render_last_updated(html), encoding="utf-8")
             outputs.append("index.html")
     return outputs

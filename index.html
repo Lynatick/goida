@@ -18,6 +18,8 @@
     .description { font-size: 14px; margin: 0 0 18px; }
     .table-scroll { margin-top: 28px; overflow-x: auto; border: 1px solid #2d394c; border-radius: 12px; }
     .subscriptions-table { width: 100%; min-width: 1150px; border-collapse: collapse; background: #192130; font-size: 14px; }
+    .grouped-table { min-width: 800px; }
+    .grouped-subscriptions { margin-top: 42px; }
     .subscriptions-table th, .subscriptions-table td { padding: 12px 16px; border-bottom: 1px solid #2d394c; text-align: left; }
     .subscriptions-table tr > * + * { border-left: 1px solid #40516b; }
     .subscriptions-table tr > :nth-child(2) { background: rgba(136, 185, 255, .045); }
@@ -57,7 +59,7 @@
     <div class="brand">goida · 23 источника</div>
     <h1>Конфигурации</h1>
     <!-- subscription-updated:start -->
-    <p class="last-updated">Последнее обновление: <time datetime="2026-11-08T18:46:17+03:00">08.11.2026 18:46:17 МСК</time></p>
+    <p class="last-updated">Последнее обновление: <time datetime="2026-11-08T19:39:08+03:00">08.11.2026 19:39:08 МСК</time></p>
     <!-- subscription-updated:end -->
     <p>Скопируйте нужную ссылку, затем в Hiddify выберите <strong>Новый профиль → Добавить из буфера обмена</strong>.</p>
     <p id="status" role="status" aria-live="polite"></p>
@@ -195,7 +197,7 @@
           <tr><th scope="row">21</th>
             <td><div class="subscription-link"><a id="hiddify-21-json" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/21.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/21.json" aria-label="Ссылка hiddify: 21">21.json</a><button type="button" data-copy="hiddify-21-json" aria-label="Копировать ссылку hiddify: 21">Копировать</button></div></td>
             <td><div class="subscription-link"><a id="githubmirror-21-txt" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/githubmirror/21.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/githubmirror/21.txt" aria-label="Ссылка githubmirror: 21">21.txt</a><button type="button" data-copy="githubmirror-21-txt" aria-label="Копировать ссылку githubmirror: 21">Копировать</button></div></td>
-            <td class="numeric">21 242</td><td class="numeric">14 198</td>
+            <td class="numeric">21 243</td><td class="numeric">14 197</td>
           </tr>
           <tr><th scope="row">22</th>
             <td><div class="subscription-link"><a id="hiddify-22-json" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/22.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/22.json" aria-label="Ссылка hiddify: 22">22.json</a><button type="button" data-copy="hiddify-22-json" aria-label="Копировать ссылку hiddify: 22">Копировать</button></div></td>
@@ -212,6 +214,126 @@
       </table>
     </div>
     <p id="report-note" class="report-note">Конфиги — поддерживаемые подключения после преобразования. Исключено — повреждённые или неподдерживаемые записи. «Все» — общая подписка без повторов; дубликаты не считаются исключёнными. Проверка доступности серверов и воспроизведения видео в отчёт не входит. «—» означает, что данные не удалось разобрать.</p>
+    <section class="grouped-subscriptions" aria-labelledby="grouped-title">
+      <h2 id="grouped-title">Подписки по типам для Proxy4You</h2>
+      <p class="description">Каждый JSON содержит не более 2000 конфигураций. Добавляйте ссылку на нужную группу как отдельную подписку. Текстовые списки содержат ссылки на все группы.</p>
+      <div class="subscription-link"><a id="group-list-all" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/all.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/all.txt">Все группы · список ссылок</a><button type="button" data-copy="group-list-all" aria-label="Копировать общий список ссылок">Копировать</button></div>
+      <div class="table-scroll" role="region" aria-label="Таблица подписок по группам" tabindex="0">
+        <table class="subscriptions-table grouped-table" aria-label="Подписки по типам и группам для Proxy4You">
+          <thead><tr><th scope="col">Тип</th><th scope="col" class="numeric">Группа</th><th scope="col">Подписка · JSON sing-box</th><th scope="col" class="numeric">Конфиги</th><th scope="col">Список типа</th></tr></thead>
+          <tbody>
+          <!-- subscription-groups:start -->
+          <tr><th scope="row">anytls</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-anytls-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/anytls/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/anytls/1.json">1.json</a><button type="button" data-copy="group-anytls-1" aria-label="Копировать ссылку anytls, группа 1">Копировать</button></div></td><td class="numeric">4</td>
+            <td rowspan="1"><div class="subscription-link"><a id="group-list-anytls" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/anytls/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/anytls/list.txt">anytls/list.txt</a><button type="button" data-copy="group-list-anytls" aria-label="Копировать список ссылок anytls">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">hysteria2</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-hysteria2-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/hysteria2/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/hysteria2/1.json">1.json</a><button type="button" data-copy="group-hysteria2-1" aria-label="Копировать ссылку hysteria2, группа 1">Копировать</button></div></td><td class="numeric">1 058</td>
+            <td rowspan="1"><div class="subscription-link"><a id="group-list-hysteria2" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/hysteria2/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/hysteria2/list.txt">hysteria2/list.txt</a><button type="button" data-copy="group-list-hysteria2" aria-label="Копировать список ссылок hysteria2">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">shadowsocks</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-shadowsocks-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/1.json">1.json</a><button type="button" data-copy="group-shadowsocks-1" aria-label="Копировать ссылку shadowsocks, группа 1">Копировать</button></div></td><td class="numeric">2 000</td>
+            <td rowspan="4"><div class="subscription-link"><a id="group-list-shadowsocks" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/list.txt">shadowsocks/list.txt</a><button type="button" data-copy="group-list-shadowsocks" aria-label="Копировать список ссылок shadowsocks">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">shadowsocks</th><td class="numeric">2</td>
+            <td><div class="subscription-link"><a id="group-shadowsocks-2" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/2.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/2.json">2.json</a><button type="button" data-copy="group-shadowsocks-2" aria-label="Копировать ссылку shadowsocks, группа 2">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">shadowsocks</th><td class="numeric">3</td>
+            <td><div class="subscription-link"><a id="group-shadowsocks-3" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/3.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/3.json">3.json</a><button type="button" data-copy="group-shadowsocks-3" aria-label="Копировать ссылку shadowsocks, группа 3">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">shadowsocks</th><td class="numeric">4</td>
+            <td><div class="subscription-link"><a id="group-shadowsocks-4" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/4.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/shadowsocks/4.json">4.json</a><button type="button" data-copy="group-shadowsocks-4" aria-label="Копировать ссылку shadowsocks, группа 4">Копировать</button></div></td><td class="numeric">1 758</td>
+          </tr>
+          <tr><th scope="row">trojan</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-trojan-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/1.json">1.json</a><button type="button" data-copy="group-trojan-1" aria-label="Копировать ссылку trojan, группа 1">Копировать</button></div></td><td class="numeric">2 000</td>
+            <td rowspan="4"><div class="subscription-link"><a id="group-list-trojan" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/list.txt">trojan/list.txt</a><button type="button" data-copy="group-list-trojan" aria-label="Копировать список ссылок trojan">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">trojan</th><td class="numeric">2</td>
+            <td><div class="subscription-link"><a id="group-trojan-2" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/2.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/2.json">2.json</a><button type="button" data-copy="group-trojan-2" aria-label="Копировать ссылку trojan, группа 2">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">trojan</th><td class="numeric">3</td>
+            <td><div class="subscription-link"><a id="group-trojan-3" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/3.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/3.json">3.json</a><button type="button" data-copy="group-trojan-3" aria-label="Копировать ссылку trojan, группа 3">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">trojan</th><td class="numeric">4</td>
+            <td><div class="subscription-link"><a id="group-trojan-4" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/4.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/trojan/4.json">4.json</a><button type="button" data-copy="group-trojan-4" aria-label="Копировать ссылку trojan, группа 4">Копировать</button></div></td><td class="numeric">1 735</td>
+          </tr>
+          <tr><th scope="row">tuic</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-tuic-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/tuic/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/tuic/1.json">1.json</a><button type="button" data-copy="group-tuic-1" aria-label="Копировать ссылку tuic, группа 1">Копировать</button></div></td><td class="numeric">24</td>
+            <td rowspan="1"><div class="subscription-link"><a id="group-list-tuic" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/tuic/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/tuic/list.txt">tuic/list.txt</a><button type="button" data-copy="group-list-tuic" aria-label="Копировать список ссылок tuic">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-vless-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/1.json">1.json</a><button type="button" data-copy="group-vless-1" aria-label="Копировать ссылку vless, группа 1">Копировать</button></div></td><td class="numeric">2 000</td>
+            <td rowspan="17"><div class="subscription-link"><a id="group-list-vless" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/list.txt">vless/list.txt</a><button type="button" data-copy="group-list-vless" aria-label="Копировать список ссылок vless">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">2</td>
+            <td><div class="subscription-link"><a id="group-vless-2" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/2.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/2.json">2.json</a><button type="button" data-copy="group-vless-2" aria-label="Копировать ссылку vless, группа 2">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">3</td>
+            <td><div class="subscription-link"><a id="group-vless-3" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/3.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/3.json">3.json</a><button type="button" data-copy="group-vless-3" aria-label="Копировать ссылку vless, группа 3">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">4</td>
+            <td><div class="subscription-link"><a id="group-vless-4" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/4.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/4.json">4.json</a><button type="button" data-copy="group-vless-4" aria-label="Копировать ссылку vless, группа 4">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">5</td>
+            <td><div class="subscription-link"><a id="group-vless-5" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/5.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/5.json">5.json</a><button type="button" data-copy="group-vless-5" aria-label="Копировать ссылку vless, группа 5">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">6</td>
+            <td><div class="subscription-link"><a id="group-vless-6" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/6.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/6.json">6.json</a><button type="button" data-copy="group-vless-6" aria-label="Копировать ссылку vless, группа 6">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">7</td>
+            <td><div class="subscription-link"><a id="group-vless-7" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/7.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/7.json">7.json</a><button type="button" data-copy="group-vless-7" aria-label="Копировать ссылку vless, группа 7">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">8</td>
+            <td><div class="subscription-link"><a id="group-vless-8" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/8.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/8.json">8.json</a><button type="button" data-copy="group-vless-8" aria-label="Копировать ссылку vless, группа 8">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">9</td>
+            <td><div class="subscription-link"><a id="group-vless-9" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/9.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/9.json">9.json</a><button type="button" data-copy="group-vless-9" aria-label="Копировать ссылку vless, группа 9">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">10</td>
+            <td><div class="subscription-link"><a id="group-vless-10" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/10.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/10.json">10.json</a><button type="button" data-copy="group-vless-10" aria-label="Копировать ссылку vless, группа 10">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">11</td>
+            <td><div class="subscription-link"><a id="group-vless-11" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/11.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/11.json">11.json</a><button type="button" data-copy="group-vless-11" aria-label="Копировать ссылку vless, группа 11">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">12</td>
+            <td><div class="subscription-link"><a id="group-vless-12" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/12.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/12.json">12.json</a><button type="button" data-copy="group-vless-12" aria-label="Копировать ссылку vless, группа 12">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">13</td>
+            <td><div class="subscription-link"><a id="group-vless-13" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/13.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/13.json">13.json</a><button type="button" data-copy="group-vless-13" aria-label="Копировать ссылку vless, группа 13">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">14</td>
+            <td><div class="subscription-link"><a id="group-vless-14" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/14.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/14.json">14.json</a><button type="button" data-copy="group-vless-14" aria-label="Копировать ссылку vless, группа 14">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">15</td>
+            <td><div class="subscription-link"><a id="group-vless-15" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/15.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/15.json">15.json</a><button type="button" data-copy="group-vless-15" aria-label="Копировать ссылку vless, группа 15">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">16</td>
+            <td><div class="subscription-link"><a id="group-vless-16" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/16.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/16.json">16.json</a><button type="button" data-copy="group-vless-16" aria-label="Копировать ссылку vless, группа 16">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vless</th><td class="numeric">17</td>
+            <td><div class="subscription-link"><a id="group-vless-17" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/17.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vless/17.json">17.json</a><button type="button" data-copy="group-vless-17" aria-label="Копировать ссылку vless, группа 17">Копировать</button></div></td><td class="numeric">552</td>
+          </tr>
+          <tr><th scope="row">vmess</th><td class="numeric">1</td>
+            <td><div class="subscription-link"><a id="group-vmess-1" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/1.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/1.json">1.json</a><button type="button" data-copy="group-vmess-1" aria-label="Копировать ссылку vmess, группа 1">Копировать</button></div></td><td class="numeric">2 000</td>
+            <td rowspan="5"><div class="subscription-link"><a id="group-list-vmess" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/list.txt" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/list.txt">vmess/list.txt</a><button type="button" data-copy="group-list-vmess" aria-label="Копировать список ссылок vmess">Копировать</button></div></td>
+          </tr>
+          <tr><th scope="row">vmess</th><td class="numeric">2</td>
+            <td><div class="subscription-link"><a id="group-vmess-2" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/2.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/2.json">2.json</a><button type="button" data-copy="group-vmess-2" aria-label="Копировать ссылку vmess, группа 2">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vmess</th><td class="numeric">3</td>
+            <td><div class="subscription-link"><a id="group-vmess-3" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/3.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/3.json">3.json</a><button type="button" data-copy="group-vmess-3" aria-label="Копировать ссылку vmess, группа 3">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vmess</th><td class="numeric">4</td>
+            <td><div class="subscription-link"><a id="group-vmess-4" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/4.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/4.json">4.json</a><button type="button" data-copy="group-vmess-4" aria-label="Копировать ссылку vmess, группа 4">Копировать</button></div></td><td class="numeric">2 000</td>
+          </tr>
+          <tr><th scope="row">vmess</th><td class="numeric">5</td>
+            <td><div class="subscription-link"><a id="group-vmess-5" class="filename" href="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/5.json" title="https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/groups/vmess/5.json">5.json</a><button type="button" data-copy="group-vmess-5" aria-label="Копировать ссылку vmess, группа 5">Копировать</button></div></td><td class="numeric">1 547</td>
+          </tr>
+          <!-- subscription-groups:end -->
+          </tbody>
+        </table>
+      </div>
+    </section>
   </main>
   <script>
     const status = document.getElementById('status');

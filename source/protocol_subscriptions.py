@@ -12,6 +12,8 @@ from subscription_converter import ConversionError, SS_METHODS, decode_base64, s
 
 
 SUPPORTED_TYPES = {"vmess", "vless", "trojan", "shadowsocks", "hysteria2", "tuic", "anytls"}
+GROUP_SIZE = 2000
+GROUP_BASE_URL = "https://raw.githubusercontent.com/Lynatick/goida/main"
 
 
 def validate_node(node):
@@ -51,6 +53,31 @@ def validate_node(node):
             raise ConversionError("Некорректные параметры Reality")
 
 
+def group_subscription_outputs(kind, nodes):
+    outputs = {}
+    links = []
+    for number, start in enumerate(range(0, len(nodes), GROUP_SIZE), start=1):
+        group = {"outbounds": nodes[start:start + GROUP_SIZE], "endpoints": []}
+        path = f"hiddify/groups/{kind}/{number}.json"
+        outputs[path] = build_hiddify_config(group)
+        links.append(f"{GROUP_BASE_URL}/{path}")
+    outputs[f"hiddify/groups/{kind}/list.txt"] = "\n".join(links) + "\n"
+    return outputs, links
+
+
+def remove_stale_group_files(root, outputs):
+    group_root = Path(root) / "hiddify/groups"
+    for path in group_root.rglob("*"):
+        if not path.is_file():
+            continue
+        if path.parent == group_root:
+            generated = path.name == "all.txt"
+        else:
+            generated = path.name == "list.txt" or (path.suffix == ".json" and path.stem.isdigit())
+        if generated and path.relative_to(root).as_posix() not in outputs:
+            path.unlink()
+
+
 def build_protocol_subscriptions(config, root="."):
     validate_json_config(config)
     # A single-protocol dataset cannot retain arbitrary full-profile routing.
@@ -71,12 +98,19 @@ def build_protocol_subscriptions(config, root="."):
         raise ConversionError("Нет корректных подключений для разделения по типам")
     outputs = {}
     counts = {}
+    group_counts = {}
+    all_group_links = []
     for kind, nodes in sorted(groups.items()):
         dataset = {"outbounds": nodes, "endpoints": []}
         profile = build_hiddify_config(dataset)
         outputs[f"raw/by-type/{kind}.json"] = dataset
         outputs[f"hiddify/by-type/{kind}.json"] = profile
         counts[kind] = len(nodes)
+        group_outputs, links = group_subscription_outputs(kind, nodes)
+        outputs.update(group_outputs)
+        group_counts[kind] = len(links)
+        all_group_links.extend(links)
+    outputs["hiddify/groups/all.txt"] = "\n".join(all_group_links) + "\n"
     uri_counts = {}
     original = Path(root) / "githubmirror/all.txt"
     if original.exists():
@@ -103,11 +137,15 @@ def build_protocol_subscriptions(config, root="."):
         for kind, links in sorted(uri_groups.items()):
             outputs[f"githubmirror/by-type/{kind}.txt"] = "\n".join(links) + "\n"
             uri_counts[kind] = len(links)
-    outputs["protocol-stats.json"] = {"types": counts, "uri_types": uri_counts, "excluded": sum(issues.values())}
+    outputs["protocol-stats.json"] = {
+        "types": counts, "uri_types": uri_counts, "groups": group_counts,
+        "group_size": GROUP_SIZE, "excluded": sum(issues.values())
+    }
     for name, value in outputs.items():
         destination = Path(root) / name
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    remove_stale_group_files(Path(root), outputs)
     print(f"Подписки по типам: {counts}; исключено некорректных записей {sum(issues.values())}", flush=True)
     for reason, count in issues.items():
         print(f"  {reason}: {count}", flush=True)

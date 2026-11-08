@@ -6,9 +6,9 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from protocol_subscriptions import build_protocol_subscriptions
+from protocol_subscriptions import GROUP_BASE_URL, GROUP_SIZE, build_protocol_subscriptions
 from subscription_converter import ConversionError, convert_subscription
-from subscription_report import render_subscription_rows
+from subscription_report import render_group_rows, render_subscription_rows
 
 
 class ProtocolSubscriptionTest(unittest.TestCase):
@@ -53,6 +53,45 @@ class ProtocolSubscriptionTest(unittest.TestCase):
         self.assertEqual(html.count('data-copy="protocol-vless"'), 1)
         self.assertIn('/hiddify/by-type/vless.json', html)
         self.assertIn('>vless.json</a>', html)
+
+    def test_grouped_profiles_and_link_lists_have_2000_nodes_at_most(self):
+        node = {
+            "type": "vless", "server": "vless.example", "server_port": 443,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+        }
+        nodes = [dict(node, tag=f"{index}. Node") for index in range(1, GROUP_SIZE + 2)]
+        trojan = {"type": "trojan", "tag": "Trojan", "server": "trojan.example", "server_port": 443, "password": "secret"}
+        with tempfile.TemporaryDirectory() as directory, redirect_stdout(io.StringIO()):
+            root = Path(directory)
+            paths, counts = build_protocol_subscriptions({"outbounds": nodes + [trojan]}, root)
+            self.assertEqual(counts, {"vless": 2001, "trojan": 1})
+            first = json.loads(root.joinpath("hiddify/groups/vless/1.json").read_text())
+            second = json.loads(root.joinpath("hiddify/groups/vless/2.json").read_text())
+            self.assertEqual(len(first["outbounds"]) - 2, GROUP_SIZE)
+            self.assertEqual(len(second["outbounds"]) - 2, 1)
+            self.assertEqual(first["outbounds"][1]["outbounds"], [node["tag"] for node in nodes[:GROUP_SIZE]])
+            links = root.joinpath("hiddify/groups/vless/list.txt").read_text().splitlines()
+            self.assertEqual(links, [f"{GROUP_BASE_URL}/hiddify/groups/vless/{number}.json" for number in (1, 2)])
+            self.assertEqual(root.joinpath("hiddify/groups/all.txt").read_text().splitlines(), [
+                f"{GROUP_BASE_URL}/hiddify/groups/trojan/1.json", *links
+            ])
+            self.assertIn("hiddify/groups/vless/2.json", paths)
+            stats = json.loads(root.joinpath("protocol-stats.json").read_text())
+            self.assertEqual(stats["groups"], {"trojan": 1, "vless": 2})
+            self.assertEqual(stats["group_size"], GROUP_SIZE)
+            build_protocol_subscriptions({"outbounds": nodes[:1]}, root)
+            self.assertFalse(root.joinpath("hiddify/groups/vless/2.json").exists())
+            self.assertFalse(root.joinpath("hiddify/groups/trojan/1.json").exists())
+            self.assertFalse(root.joinpath("hiddify/groups/trojan/list.txt").exists())
+
+    def test_group_table_links_and_counts(self):
+        html = render_group_rows({"vless": 2001})
+        self.assertIn('data-copy="group-vless-1"', html)
+        self.assertIn('data-copy="group-vless-2"', html)
+        self.assertIn('rowspan="2"', html)
+        self.assertIn('data-copy="group-list-vless"', html)
+        self.assertIn('>2.json</a>', html)
+        self.assertIn('>2\u202f000</td>', html)
 
 
     def test_original_uri_files_preserve_links_and_exclude_unmatched_or_invalid(self):

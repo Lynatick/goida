@@ -41,7 +41,11 @@ class SubscriptionReportTest(unittest.TestCase):
             mirror.joinpath("1.txt").write_text(node + "\nunsupported://one\nbroken line")
             mirror.joinpath("2.txt").write_text(node + "\nunsupported://one")
             homepage = root / "index.html"
-            homepage.write_text("before<!-- subscription-updated:start -->old time<!-- subscription-updated:end --><!-- subscription-report:start -->old<!-- subscription-report:end -->after")
+            homepage.write_text(
+                "before<!-- subscription-updated:start -->old time<!-- subscription-updated:end -->"
+                "<!-- subscription-report:start -->old<!-- subscription-report:end -->"
+                "<!-- subscription-groups:start -->old groups<!-- subscription-groups:end -->after"
+            )
             with redirect_stdout(io.StringIO()), patch("subscription_report.datetime") as clock:
                 clock.now.return_value = datetime(2026, 10, 14, 14, 28, 0, tzinfo=ZoneInfo("Europe/Moscow"))
                 paths = build_combined_subscriptions(root)
@@ -60,6 +64,9 @@ class SubscriptionReportTest(unittest.TestCase):
             self.assertIn('<td class="numeric">1</td><td class="numeric">2</td>', html)
             self.assertIn('data-copy="hiddify-all-json"', html)
             self.assertIn('data-copy="githubmirror-2-txt"', html)
+            self.assertIn('data-copy="group-trojan-1"', html)
+            self.assertIn('data-copy="group-list-trojan"', html)
+            self.assertNotIn("old groups", html)
             self.assertNotIn("secret", root.joinpath("subscription-stats.json").read_text())
 
 
