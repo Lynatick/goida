@@ -2,7 +2,7 @@
  "outbounds": [
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 0",
+   "tag": "1. M.HH V2RAY",
    "server": "78.159.250.214",
    "server_port": 443,
    "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
@@ -24,7 +24,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 1",
+   "tag": "2. M.HH V2RAY",
    "server": "104.26.2.173",
    "server_port": 443,
    "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
@@ -48,7 +48,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 2",
+   "tag": "3. M.HH V2RAY",
    "server": "162.159.38.119",
    "server_port": 443,
    "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
@@ -72,7 +72,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 3",
+   "tag": "4. M.HH V2RAY",
    "server": "45.196.201.129",
    "server_port": 443,
    "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
@@ -90,7 +90,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 4",
+   "tag": "5. M.HH V2RAY",
    "server": "159.195.22.155",
    "server_port": 443,
    "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
@@ -112,7 +112,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 5",
+   "tag": "6. M.HH V2RAY",
    "server": "159.69.192.171",
    "server_port": 1234,
    "uuid": "7ff55eb0-eff4-4d71-ad1c-e6fe1a6c68d9",
@@ -127,7 +127,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 6",
+   "tag": "7. M.HH V2RAY",
    "server": "108.162.195.58",
    "server_port": 443,
    "uuid": "29ca503d-e6b8-4509-b666-48133f450857",
@@ -147,7 +147,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "M.HH V2RAY § 7",
+   "tag": "8. M.HH V2RAY",
    "server": "4.210.66.171",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -155,7 +155,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "M.HH V2RAY § 8",
+   "tag": "9. M.HH V2RAY",
    "server": "188.41.249.20",
    "server_port": 1080,
    "method": "chacha20-ietf-poly1305",
@@ -163,7 +163,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 9",
+   "tag": "10. M.HH V2RAY",
    "server": "gr5.levikogjgfdd.ir",
    "server_port": 443,
    "uuid": "1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b",
@@ -181,7 +181,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 10",
+   "tag": "11. M.HH V2RAY",
    "server": "qq.utiltools.ru",
    "server_port": 443,
    "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
@@ -203,7 +203,7 @@
   },
   {
    "type": "vmess",
-   "tag": "@vmess_ir § 11",
+   "tag": "12. @vmess_ir",
    "server": "82.198.246.233",
    "server_port": 180,
    "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
@@ -214,7 +214,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 12",
+   "tag": "13. M.HH V2RAY",
    "server": "gr4.levikogjgfdd.ir",
    "server_port": 3031,
    "uuid": "1b73f053-2709-4698-bbec-cb20e8a5f288",
@@ -229,7 +229,7 @@
   },
   {
    "type": "vless",
-   "tag": "M.HH V2RAY § 13",
+   "tag": "14. M.HH V2RAY",
    "server": "netraidly.ru",
    "server_port": 40443,
    "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
