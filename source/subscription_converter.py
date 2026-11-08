@@ -301,7 +301,7 @@ def convert_subscription(content):
             continue
         try:
             outbound = uri_outbound(link)
-            outbound["tag"] = f"{outbound['tag']} § {len(outbounds)}"
+            outbound["tag"] = f"{len(outbounds) + 1}. {outbound['tag']}"
             outbounds.append(outbound)
         except ConversionError as error:
             issues[str(error)] += 1

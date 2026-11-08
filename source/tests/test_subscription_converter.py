@@ -72,7 +72,7 @@ class SubscriptionConversionTest(unittest.TestCase):
         config, issues = convert_subscription(vmess())
         self.assertEqual(config, {
             "outbounds": [{
-                "type": "vmess", "tag": "🇭🇰_HK_中国香港->🇫🇷_FR_法国 § 0",
+                "type": "vmess", "tag": "1. 🇭🇰_HK_中国香港->🇫🇷_FR_法国",
                 "server": "v35.hdacd.com", "server_port": 30835,
                 "uuid": USER_ID, "security": "auto", "alter_id": 2,
                 "authenticated_length": True, "packet_encoding": "xudp"
@@ -87,7 +87,10 @@ class SubscriptionConversionTest(unittest.TestCase):
         wrapped = "\n".join(encoded[i:i + 50] for i in range(0, len(encoded), 50))
         config, issues = convert_subscription(wrapped)
         self.assertEqual(len(config["outbounds"]), 2)
-        self.assertNotEqual(config["outbounds"][0]["tag"], config["outbounds"][1]["tag"])
+        self.assertEqual([item["tag"] for item in config["outbounds"]], [
+            "1. 🇭🇰_HK_中国香港->🇫🇷_FR_法国",
+            "2. 🇭🇰_HK_中国香港->🇫🇷_FR_法国",
+        ])
         self.assertFalse(issues)
 
     def test_vmess_websocket_preserves_tls_and_early_data(self):
