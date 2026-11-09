@@ -28,7 +28,7 @@ class CombinedSubscriptionTest(unittest.TestCase):
             self.assertEqual(paths, [
                 "githubmirror/all.txt", "raw/all.txt", "hiddify/all.json",
                 "raw/by-type/trojan.json", "hiddify/by-type/trojan.json",
-                "hiddify/groups/trojan/1.json", "hiddify/groups/trojan/list.txt",
+                "hiddify/groups/trojan1.json", "hiddify/groups/trojan-list.txt",
                 "hiddify/groups/all.txt", "githubmirror/by-type/trojan.txt", "protocol-stats.json",
                 "subscription-stats.json"
             ])

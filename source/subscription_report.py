@@ -110,24 +110,24 @@ def render_group_rows(protocol_counts):
         for number in range(1, group_total + 1):
             count = min(GROUP_SIZE, total - (number - 1) * GROUP_SIZE)
             count_label = f"{count:,}".replace(",", "\u202f")
-            path = f"hiddify/groups/{kind}/{number}.json"
+            path = f"hiddify/groups/{kind}{number}.json"
             url = f"{GROUP_BASE_URL}/{path}"
             link_id = f"group-{kind}-{number}"
             cells.append(f'          <tr><th scope="row">{kind}</th><td class="numeric">{number}</td>')
             cells.append(
                 f'            <td><div class="subscription-link">'
-                f'<a id="{link_id}" class="filename" href="{url}" title="{url}">{number}.json</a>'
+                f'<a id="{link_id}" class="filename" href="{url}" title="{url}">{kind}{number}.json</a>'
                 f'<button type="button" data-copy="{link_id}" '
                 f'aria-label="Копировать ссылку {kind}, группа {number}">Копировать</button>'
                 f'</div></td><td class="numeric">{count_label}</td>'
             )
             if number == 1:
-                list_url = f"{GROUP_BASE_URL}/hiddify/groups/{kind}/list.txt"
+                list_url = f"{GROUP_BASE_URL}/hiddify/groups/{kind}-list.txt"
                 list_id = f"group-list-{kind}"
                 cells.append(
                     f'            <td rowspan="{group_total}"><div class="subscription-link">'
                     f'<a id="{list_id}" class="filename" href="{list_url}" '
-                    f'title="{list_url}">{kind}/list.txt</a>'
+                    f'title="{list_url}">{kind}-list.txt</a>'
                     f'<button type="button" data-copy="{list_id}" '
                     f'aria-label="Копировать список ссылок {kind}">Копировать</button></div></td>'
                 )

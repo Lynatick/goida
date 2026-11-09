@@ -4,6 +4,7 @@ import argparse
 from collections import Counter
 from copy import deepcopy
 import json
+import re
 from pathlib import Path
 from uuid import UUID
 
@@ -58,24 +59,33 @@ def group_subscription_outputs(kind, nodes):
     links = []
     for number, start in enumerate(range(0, len(nodes), GROUP_SIZE), start=1):
         group = {"outbounds": nodes[start:start + GROUP_SIZE], "endpoints": []}
-        path = f"hiddify/groups/{kind}/{number}.json"
+        path = f"hiddify/groups/{kind}{number}.json"
         outputs[path] = build_hiddify_config(group)
         links.append(f"{GROUP_BASE_URL}/{path}")
-    outputs[f"hiddify/groups/{kind}/list.txt"] = "\n".join(links) + "\n"
+    outputs[f"hiddify/groups/{kind}-list.txt"] = "\n".join(links) + "\n"
     return outputs, links
 
 
 def remove_stale_group_files(root, outputs):
     group_root = Path(root) / "hiddify/groups"
+    flat_names = re.compile(rf"(?:{'|'.join(sorted(SUPPORTED_TYPES))})\d+\.json")
     for path in group_root.rglob("*"):
         if not path.is_file():
             continue
         if path.parent == group_root:
-            generated = path.name == "all.txt"
+            generated = path.name == "all.txt" or path.name in {
+                f"{kind}-list.txt" for kind in SUPPORTED_TYPES
+            } or bool(flat_names.fullmatch(path.name))
         else:
-            generated = path.name == "list.txt" or (path.suffix == ".json" and path.stem.isdigit())
+            generated = path.parent.name in SUPPORTED_TYPES and (
+                path.name == "list.txt" or (path.suffix == ".json" and path.stem.isdigit())
+            )
         if generated and path.relative_to(root).as_posix() not in outputs:
             path.unlink()
+    for kind in SUPPORTED_TYPES:
+        directory = group_root / kind
+        if directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
 
 
 def build_protocol_subscriptions(config, root="."):
