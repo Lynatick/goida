@@ -2,7 +2,7 @@
  "outbounds": [
   {
    "type": "anytls",
-   "tag": "10. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
+   "tag": "1. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
    "server": "sdf65h46wr.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
@@ -14,30 +14,7 @@
   },
   {
    "type": "anytls",
-   "tag": "12. 🇹🇼_TW_台湾_IPV4",
-   "server": "user02.godvpn.lol",
-   "server_port": 62405,
-   "password": "4bbfa33a-449a-4a50-8dfc-6d0de880f7bc",
-   "tls": {
-    "enabled": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "446. 🇹🇼台湾｜02｜HiNet",
-   "server": "tw.ccwink.cc",
-   "server_port": 6549,
-   "password": "2f4c3fc5-8fa2-4576-a583-8f98a6026887",
-   "tls": {
-    "enabled": true,
-    "server_name": "baidu.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "5504. 4Jadi-1c0488c3ff",
+   "tag": "741. 🇹🇼台湾｜02｜HiNet",
    "server": "tw.ccwink.cc",
    "server_port": 6549,
    "password": "2f4c3fc5-8fa2-4576-a583-8f98a6026887",
