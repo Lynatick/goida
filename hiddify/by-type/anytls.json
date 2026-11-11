@@ -5,7 +5,7 @@
    "tag": "Выбор сервера",
    "outbounds": [
     "Автовыбор · YouTube",
-    "16. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4"
+    "6. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -14,7 +14,7 @@
    "type": "urltest",
    "tag": "Автовыбор · YouTube",
    "outbounds": [
-    "16. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4"
+    "6. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -23,7 +23,7 @@
   },
   {
    "type": "anytls",
-   "tag": "16. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
+   "tag": "6. 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
    "server": "sdf65h46wr.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
