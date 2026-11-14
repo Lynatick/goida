@@ -2,99 +2,162 @@
  "outbounds": [
   {
    "type": "vless",
-   "tag": "1. 🇨🇦[openproxylist.com] vless-CA",
-   "server": "yx.l110.us.ci",
-   "server_port": 443,
-   "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "2. 🇺🇸[openproxylist.com] vmess-US",
-   "server": "US122201.ssgreen.org",
-   "server_port": 443,
-   "uuid": "930b4722-5d1d-4c74-a9a1-694d0e9a69af",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
+   "tag": "1. 🏳[openproxylist.com] vless-",
+   "server": "200.102.183.57",
+   "server_port": 80,
+   "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
    "packet_encoding": "xudp",
    "tls": {
-    "enabled": true
+    "enabled": true,
+    "server_name": "68r2nrw6avta71yq.cdn.cachefleet.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
    },
    "transport": {
-    "type": "ws",
-    "path": "/wes",
-    "headers": {
-     "Host": "US122201.ssgreen.org"
+    "type": "grpc",
+    "service_name": "qi8ws15c7jv5q2fa"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "2. 🇫🇷[openproxylist.com] vless-FR",
+   "server": "20.19.83.143",
+   "server_port": 2083,
+   "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+     "short_id": "0123456789abcdef"
     }
    }
   },
   {
-   "type": "shadowsocks",
-   "tag": "3. 🇸🇬[openproxylist.com] ss-SG",
-   "server": "18.143.176.12",
-   "server_port": 8443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "7e68e32f-8015-4f37-9082-70e8b0b58043"
+   "type": "vless",
+   "tag": "3. 🇮🇹[openproxylist.com] vless-IT",
+   "server": "172.213.24.16",
+   "server_port": 2083,
+   "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+     "short_id": "0123456789abcdef"
+    }
+   }
   },
   {
    "type": "vless",
    "tag": "4. 🇳🇱[openproxylist.com] vless-NL",
-   "server": "novonl.subv.ru",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+   "server": "9.163.235.73",
+   "server_port": 2083,
+   "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "golos.mail.ru",
+    "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "firefox"
+     "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
-    }
-   }
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "5. 🇰🇷[openproxylist.com] ss-KR",
-   "server": "3.39.252.190",
-   "server_port": 8443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "7e68e32f-8015-4f37-9082-70e8b0b58043"
-  },
-  {
-   "type": "vless",
-   "tag": "6. 🇳🇱[openproxylist.com] vless-NL",
-   "server": "novonl.subv.ru",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "golos.mail.ru",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
+     "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+     "short_id": "0123456789abcdef"
     }
    }
   },
   {
    "type": "vless",
-   "tag": "7. 🏳[openproxylist.com] vless-",
-   "server": "146.75.59.186",
+   "tag": "5. 🏳[openproxylist.com] vless-",
+   "server": "74.161.152.237",
+   "server_port": 2083,
+   "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+     "short_id": "0123456789abcdef"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "6. 🇵🇱[openproxylist.com] vless-PL",
+   "server": "20.215.66.17",
+   "server_port": 2083,
+   "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+     "short_id": "0123456789abcdef"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "7. 🇰🇿[openproxylist.com] vless-KZ",
+   "server": "185.246.155.91",
+   "server_port": 10403,
+   "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko",
+     "short_id": "6859f5b59e55aa30"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "8. 🇺🇸[openproxylist.com] vless-US",
+   "server": "199.232.78.120",
    "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+   "uuid": "8d2cbffd-43d0-458d-906b-7c54b7b51f38",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
@@ -108,13 +171,271 @@
     "type": "ws",
     "path": "/",
     "headers": {
-     "Host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net."
+     "Host": "usaslioijji.global.ssl.fastly.net."
     }
    }
   },
   {
    "type": "vless",
-   "tag": "8. 🇺🇸[openproxylist.com] vless-US",
+   "tag": "9. 🇺🇸[openproxylist.com] vless-US",
+   "server": "04535dt.us8.h1clayd.click",
+   "server_port": 443,
+   "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "04535dt.us8.h1clayd.click",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY",
+     "short_id": "ba2a3dce62b99092"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "10. 🇯🇵[openproxylist.com] vless-JP",
+   "server": "168.110.45.41",
+   "server_port": 23444,
+   "uuid": "ee2112e4-1e58-4f77-b162-5ef869358df9",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.microsoft.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c",
+     "short_id": "119c9e68498f5900"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "11. 🇺🇦[openproxylist.com] vless-UA",
+   "server": "83.147.18.75",
+   "server_port": 443,
+   "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.bing.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
+     "short_id": "7f1e29593aa94ad1"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "12. 🇫🇮[openproxylist.com] vless-FI",
+   "server": "191.217.252.31",
+   "server_port": 443,
+   "uuid": "7d718630-7a1a-4af8-9332-aa0610634e8a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "media.saari.lalibobi.online",
+    "alpn": [
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/live/showroom"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "13. 🇫🇮[openproxylist.com] vless-FI",
+   "server": "94.183.234.245",
+   "server_port": 443,
+   "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.bing.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "qq"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
+     "short_id": "7f1e29593aa94ad1"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "14. 🏳[openproxylist.com] vless-",
+   "server": "195.206.235.215",
+   "server_port": 443,
+   "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "8a2e72t.nl11.h1clayd.click",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA",
+     "short_id": "8d0d0679f42ffd98"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "15. 🇳🇬[openproxylist.com] trojan-NG",
+   "server": "sclass-c2.catcat321.com",
+   "server_port": 20051,
+   "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.catxstar.com",
+    "insecure": true
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "16. 🏳[openproxylist.com] ss-",
+   "server": "64.177.66.60",
+   "server_port": 8388,
+   "method": "aes-256-gcm",
+   "password": "jfWoSVCVYXRmNBfC"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "17. 🇳🇱[openproxylist.com] ss-NL",
+   "server": "194.87.233.93",
+   "server_port": 46190,
+   "method": "chacha20-ietf-poly1305",
+   "password": "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
+  },
+  {
+   "type": "vless",
+   "tag": "18. 🇩🇪[openproxylist.com] vless-DE",
+   "server": "zibanabz.jonsonvip.ir",
+   "server_port": 3939,
+   "uuid": "3c152dce-5887-486c-9f0f-693ca271f2e6",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "ai.android",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA",
+     "short_id": "d9a2600fdecd7be2"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "19. 🇳🇬[openproxylist.com] trojan-NG",
+   "server": "sclass-01.catcat321.com",
+   "server_port": 20103,
+   "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.catxstar.com"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "20. 🇩🇪[openproxylist.com] vless-DE",
+   "server": "online.shop.ir.eeso.cc",
+   "server_port": 39653,
+   "uuid": "baded307-189c-4ffc-a271-9acdab51a324",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "online.shop.ir.eeso.cc",
+    "alpn": [
+     "h2",
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "21. 🇮🇳[openproxylist.com] vless-IN",
+   "server": "13.140.253.35",
+   "server_port": 443,
+   "uuid": "f1a7e2c8-b140-50d1-8acf-e62090f96599",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "xray-bprkdwje-clever-comet-4.cloady.io",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/27dbf143acdd7bca",
+    "headers": {
+     "Host": "xray-bprkdwje-clever-comet-4.cloady.io"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "22. 🇩🇪[openproxylist.com] vless-DE",
+   "server": "150.251.143.253",
+   "server_port": 443,
+   "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "4935e4t.de25.h1clayd.click",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw",
+     "short_id": "6976d670818644cc"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "23. 🇺🇸[openproxylist.com] vless-US",
    "server": "wwww.qarvian.ir",
    "server_port": 443,
    "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
@@ -137,225 +458,7 @@
   },
   {
    "type": "vless",
-   "tag": "9. 🇺🇸[openproxylist.com] vless-US",
-   "server": "xray-piox09gf-calm-maple-6.cloady.io",
-   "server_port": 443,
-   "uuid": "5633d1c3-fa8e-cd74-5b6b-6c464f36472a",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xray-piox09gf-calm-maple-6.cloady.io",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/0f6186ec3c6d8474",
-    "headers": {
-     "Host": "xray-piox09gf-calm-maple-6.cloady.io"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "10. 🇮🇩[openproxylist.com] vmess-ID",
-   "server": "13.249.231.85",
-   "server_port": 443,
-   "uuid": "a84c132a-3151-40fe-947b-4dd9a7d2122c",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/vmess",
-    "headers": {
-     "Host": "d7pu5mzr9c4b0.cloudfront.net"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "11. 🇺🇸[openproxylist.com] vless-US",
-   "server": "146.75.59.186",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "12. 🏳[openproxylist.com] ss-",
-   "server": "54.255.60.49",
-   "server_port": 8443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "7e68e32f-8015-4f37-9082-70e8b0b58043"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "13. 🇫🇷[openproxylist.com] ss-FR",
-   "server": "dns24.m3hrzd.ir",
-   "server_port": 1352,
-   "method": "chacha20-ietf-poly1305",
-   "password": "byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB"
-  },
-  {
-   "type": "vless",
-   "tag": "14. 🇺🇸[openproxylist.com] vless-US",
-   "server": "146.75.59.186",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "15. 🇰🇷[openproxylist.com] ss-KR",
-   "server": "43.200.6.1",
-   "server_port": 8443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "7e68e32f-8015-4f37-9082-70e8b0b58043"
-  },
-  {
-   "type": "vless",
-   "tag": "16. 🇧🇬[openproxylist.com] vless-BG",
-   "server": "88.80.150.15",
-   "server_port": 443,
-   "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "17. 🇩🇪[openproxylist.com] vless-DE",
-   "server": "150.251.143.253",
-   "server_port": 443,
-   "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "4935e4t.de25.h1clayd.click",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw",
-     "short_id": "6976d670818644cc"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "18. 🏳[openproxylist.com] vless-",
-   "server": "94.183.234.245",
-   "server_port": 443,
-   "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.bing.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "qq"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
-     "short_id": "7f1e29593aa94ad1"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "19. 🇳🇬[openproxylist.com] trojan-NG",
-   "server": "sclass-01.catcat321.com",
-   "server_port": 20103,
-   "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-   "tls": {
-    "enabled": true,
-    "server_name": "hk.catxstar.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "20. 🇨🇦[openproxylist.com] vless-CA",
-   "server": "fs.qicai99.com",
-   "server_port": 443,
-   "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "fs.qicai99.com",
-    "insecure": false
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "fs.qicai99.com"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "21. 🇸🇬[openproxylist.com] vless-SG",
-   "server": "143.42.66.91",
-   "server_port": 443,
-   "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "fs.qicai99.com",
-    "insecure": false
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "fs.qicai99.com"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "22. 🇹🇷[openproxylist.com] vless-TR",
+   "tag": "24. 🇹🇷[openproxylist.com] vless-TR",
    "server": "45.92.219.47",
    "server_port": 443,
    "uuid": "ecc0e60a-f2cc-4266-8353-b228df89730a",
@@ -377,7 +480,7 @@
   },
   {
    "type": "vless",
-   "tag": "23. 🇺🇸[openproxylist.com] vless-US",
+   "tag": "25. 🇺🇸[openproxylist.com] vless-US",
    "server": "143.246.62.191",
    "server_port": 8443,
    "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
@@ -398,95 +501,7 @@
   },
   {
    "type": "vless",
-   "tag": "24. 🇮🇳[openproxylist.com] vless-IN",
-   "server": "103.172.116.191",
-   "server_port": 10303,
-   "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-     "short_id": "f96b3b17a0f5b1fe"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "25. 🇦🇹[openproxylist.com] vless-AT",
-   "server": "66.90.106.28",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "banket-restoran.su",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
-    }
-   }
-  },
-  {
-   "type": "vless",
    "tag": "26. 🇩🇪[openproxylist.com] vless-DE",
-   "server": "vv9bo423qfvc.cloudymedia.click",
-   "server_port": 443,
-   "uuid": "fb390da4-00c5-54f1-a1b4-c8e2bb6378c2",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "deepl.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "qq"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "8RfEuI1RxxW1dqq2nbt6ssKwx7UdmgKW1nKL9OuilGs",
-     "short_id": "0492eabdb9"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "27. 🇺🇸[openproxylist.com] vless-US",
-   "server": "212.103.62.233",
-   "server_port": 443,
-   "uuid": "a715374a-a745-4800-889b-0c864fad5ca0",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "d9PiZnm10DBNrlT1ixDCgEk0iU1Hv8Jk1xEI4-Oe6jU",
-     "short_id": "35d45334668b3ac5"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "28. 🇩🇪[openproxylist.com] vless-DE",
    "server": "music.3apes.online",
    "server_port": 443,
    "uuid": "12776e55-6230-48b9-b069-1bb8a04b4237",
@@ -508,8 +523,8 @@
   },
   {
    "type": "vless",
-   "tag": "29. 🇷🇺[openproxylist.com] vless-RU",
-   "server": "vps3.nemnogogo.com",
+   "tag": "27. 🇷🇺[openproxylist.com] vless-RU",
+   "server": "201.51.12.98",
    "server_port": 443,
    "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
    "packet_encoding": "xudp",
@@ -530,8 +545,30 @@
    }
   },
   {
+   "type": "vmess",
+   "tag": "28. 🇸🇬[openproxylist.com] vmess-SG",
+   "server": "141.193.213.21",
+   "server_port": 8443,
+   "uuid": "bd67fcd2-ec34-40a6-aac6-67731f2d7011",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "matrix.phonicsindia.mobi"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "matrix.phonicsindia.mobi"
+    }
+   }
+  },
+  {
    "type": "vless",
-   "tag": "30. 🇵🇱[openproxylist.com] vless-PL",
+   "tag": "29. 🇵🇱[openproxylist.com] vless-PL",
    "server": "3.169.9.125",
    "server_port": 443,
    "uuid": "67cd3349-f789-4cbb-8b91-4b6b1654ce7c",
@@ -557,8 +594,24 @@
    }
   },
   {
+   "type": "vmess",
+   "tag": "30. 🇧🇷[openproxylist.com] vmess-BR",
+   "server": "103.88.232.55",
+   "server_port": 1270,
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "xmfhlpy.com",
+    "insecure": false
+   }
+  },
+  {
    "type": "shadowsocks",
-   "tag": "31. 🏳[openproxylist.com] ss-",
+   "tag": "31. 🇫🇮[openproxylist.com] ss-FI",
    "server": "213.176.92.148",
    "server_port": 40647,
    "method": "aes-256-gcm",
@@ -566,10 +619,10 @@
   },
   {
    "type": "vless",
-   "tag": "32. 🏳[openproxylist.com] vless-",
-   "server": "103.172.116.191",
-   "server_port": 10103,
-   "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+   "tag": "32. 🇦🇺[openproxylist.com] vless-AU",
+   "server": "doghkzf.zalolink.com",
+   "server_port": 48158,
+   "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
@@ -581,17 +634,17 @@
     },
     "reality": {
      "enabled": true,
-     "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-     "short_id": "f96b3b17a0f5b1fe"
+     "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
+     "short_id": "54cca3c1c1c7"
     }
    }
   },
   {
    "type": "vless",
-   "tag": "33. 🏳[openproxylist.com] vless-",
-   "server": "103.172.116.201",
-   "server_port": 443,
-   "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+   "tag": "33. 🇪🇸[openproxylist.com] vless-ES",
+   "server": "68.221.177.135",
+   "server_port": 2083,
+   "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
@@ -603,159 +656,33 @@
     },
     "reality": {
      "enabled": true,
-     "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-     "short_id": "f96b3b17a0f5b1fe"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "34. 🇯🇵[openproxylist.com] vless-JP",
-   "server": "103.172.116.201",
-   "server_port": 10403,
-   "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-     "short_id": "f96b3b17a0f5b1fe"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "35. 🇺🇸[openproxylist.com] vless-US",
-   "server": "199.232.78.160",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "36. 🇩🇪[openproxylist.com] vless-DE",
-   "server": "ws3.falmero.store",
-   "server_port": 443,
-   "uuid": "820fa845-a1eb-4a83-b613-e6714cea8a1a",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "falmero.store",
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "edge"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/api/de1/stream",
-    "headers": {
-     "Host": "falmero.store"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "37. 🇬🇧[openproxylist.com] vless-GB",
-   "server": "146.75.59.186",
-   "server_port": 443,
-   "uuid": "8d2cbffd-43d0-458d-906b-7c54b7b51f38",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "ukoijji.global.ssl.fastly.net"
+     "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+     "short_id": "0123456789abcdef"
     }
    }
   },
   {
    "type": "shadowsocks",
-   "tag": "38. 🏳[openproxylist.com] ss-",
-   "server": "51.83.61.102",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "29irqk0paakcx19v"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "39. 🇬🇧[openproxylist.com] ss-GB",
+   "tag": "34. 🇬🇧[openproxylist.com] ss-GB",
    "server": "54.37.240.40",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
    "password": "8nrpt2il04ptci2j"
   },
   {
-   "type": "vless",
-   "tag": "40. 🇩🇪[openproxylist.com] vless-DE",
-   "server": "188.225.37.43",
-   "server_port": 443,
-   "uuid": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "torvani.cyou",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/api/boards/live",
-    "headers": {
-     "Host": "torvani.cyou"
-    }
-   }
-  },
-  {
    "type": "trojan",
-   "tag": "41. 🇹🇷[openproxylist.com] trojan-TR",
+   "tag": "35. 🇹🇷[openproxylist.com] trojan-TR",
    "server": "sclass-b1.catcat321.com",
    "server_port": 20027,
    "password": "d7563108-615c-4338-a7bd-77f359869a4a",
    "tls": {
     "enabled": true,
-    "server_name": "hk.catxstar.com",
-    "insecure": true
+    "server_name": "hk.catxstar.com"
    }
   },
   {
    "type": "vless",
-   "tag": "42. 🏳[openproxylist.com] vless-",
+   "tag": "36. 🇸🇪[openproxylist.com] vless-SE",
    "server": "141.227.160.61",
    "server_port": 8443,
    "uuid": "f59fdac3-5842-449b-8c8d-d5ebcdbf1768",
@@ -777,7 +704,7 @@
   },
   {
    "type": "vless",
-   "tag": "43. 🇺🇸[openproxylist.com] vless-US",
+   "tag": "37. 🇺🇸[openproxylist.com] vless-US",
    "server": "216.152.155.189",
    "server_port": 443,
    "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -799,8 +726,8 @@
   },
   {
    "type": "vless",
-   "tag": "44. 🏳[openproxylist.com] vless-",
-   "server": "79.182.70.212",
+   "tag": "38. 🇪🇸[openproxylist.com] vless-ES",
+   "server": "196.196.149.80",
    "server_port": 443,
    "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
    "flow": "xtls-rprx-vision",
@@ -821,29 +748,7 @@
   },
   {
    "type": "vless",
-   "tag": "45. 🏳[openproxylist.com] vless-",
-   "server": "50.6.54.163",
-   "server_port": 443,
-   "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "2vd1kmOeZpjjDpgN75FMhwFRzPjNfzvLoUM5LlLrm2U",
-     "short_id": "26b26357bfcd59a1"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "46. 🇬🇧[openproxylist.com] vless-GB",
+   "tag": "39. 🏳[openproxylist.com] vless-",
    "server": "136.176.68.34",
    "server_port": 443,
    "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -865,7 +770,7 @@
   },
   {
    "type": "vless",
-   "tag": "47. 🏳[openproxylist.com] vless-",
+   "tag": "40. 🇺🇸[openproxylist.com] vless-US",
    "server": "199.7.140.201",
    "server_port": 443,
    "uuid": "a52ac672-0f5f-4070-b8fd-6b5685fc8004",
@@ -886,7 +791,7 @@
   },
   {
    "type": "vless",
-   "tag": "48. 🇪🇸[openproxylist.com] vless-ES",
+   "tag": "41. 🇪🇸[openproxylist.com] vless-ES",
    "server": "66.163.118.113",
    "server_port": 443,
    "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -908,29 +813,7 @@
   },
   {
    "type": "vless",
-   "tag": "49. 🇩🇪[openproxylist.com] vless-DE",
-   "server": "144.31.157.41",
-   "server_port": 443,
-   "uuid": "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "tradingview.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
-     "short_id": "8f3c6e2a1b5d4f09"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "50. 🇹🇷[openproxylist.com] vless-TR",
+   "tag": "42. 🇹🇷[openproxylist.com] vless-TR",
    "server": "185.246.155.91",
    "server_port": 10103,
    "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
@@ -952,23 +835,18 @@
   },
   {
    "type": "trojan",
-   "tag": "51. 🇹🇷[openproxylist.com] trojan-TR",
+   "tag": "43. 🇹🇷[openproxylist.com] trojan-TR",
    "server": "sclass-b1.catcat321.com",
    "server_port": 20028,
    "password": "d7563108-615c-4338-a7bd-77f359869a4a",
    "tls": {
     "enabled": true,
-    "server_name": "hk.catxstar.com",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "server_name": "hk.catxstar.com"
    }
   },
   {
    "type": "vless",
-   "tag": "52. 🇩🇪[openproxylist.com] vless-DE",
+   "tag": "44. 🇩🇪[openproxylist.com] vless-DE",
    "server": "2.26.6.1",
    "server_port": 2087,
    "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
@@ -985,17 +863,40 @@
   },
   {
    "type": "vless",
-   "tag": "53. 🏳[openproxylist.com] vless-",
-   "server": "f0d7aft.nl13.h1clayd.click",
+   "tag": "45. 🇦🇺[openproxylist.com] vless-AU",
+   "server": "46.250.242.104",
+   "server_port": 443,
+   "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fs.qicai99.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "fs.qicai99.com"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "46. 🇳🇱[openproxylist.com] vless-NL",
+   "server": "196.245.153.156",
    "server_port": 443,
    "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "f0d7aft.nl13.h1clayd.click",
+    "server_name": "f0d7aft.nl17.h1clayd.click",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "firefox"
     },
     "reality": {
      "enabled": true,
@@ -1006,7 +907,7 @@
   },
   {
    "type": "vless",
-   "tag": "54. 🇩🇪[openproxylist.com] vless-DE",
+   "tag": "47. 🇩🇪[openproxylist.com] vless-DE",
    "server": "159.195.207.238",
    "server_port": 49313,
    "uuid": "855c7aaa-e7d6-463e-971e-d36032744428",
@@ -1014,7 +915,7 @@
   },
   {
    "type": "trojan",
-   "tag": "55. 🇰🇷[openproxylist.com] trojan-KR",
+   "tag": "48. 🏳[openproxylist.com] trojan-",
    "server": "158.247.253.243",
    "server_port": 443,
    "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1026,7 +927,7 @@
   },
   {
    "type": "vless",
-   "tag": "56. 🇫🇷[openproxylist.com] vless-FR",
+   "tag": "49. 🏳[openproxylist.com] vless-",
    "server": "199.232.78.120",
    "server_port": 443,
    "uuid": "8d2cbffd-43d0-458d-906b-7c54b7b51f38",
@@ -1034,7 +935,10 @@
    "tls": {
     "enabled": true,
     "server_name": "cdn.akamai.steamstatic.com",
-    "insecure": false
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
    },
    "transport": {
     "type": "ws",
@@ -1046,7 +950,7 @@
   },
   {
    "type": "vless",
-   "tag": "57. 🇳🇱[openproxylist.com] vless-NL",
+   "tag": "50. 🇳🇱[openproxylist.com] vless-NL",
    "server": "104.222.183.180",
    "server_port": 443,
    "uuid": "a1cf2f59-ffe0-4cb3-8c68-e6abf44726fc",
@@ -1068,7 +972,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "58. 🇹🇼[openproxylist.com] ss-TW",
+   "tag": "51. 🇹🇼[openproxylist.com] ss-TW",
    "server": "amasoid.ddns.net",
    "server_port": 14514,
    "method": "2022-blake3-aes-128-gcm",
@@ -1076,7 +980,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "59. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "52. 🏳[openproxylist.com] ss-",
    "server": "23.230.52.119",
    "server_port": 42878,
    "method": "chacha20-ietf-poly1305",
@@ -1084,7 +988,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "60. 🇷🇺[openproxylist.com] ss-RU",
+   "tag": "53. 🇷🇺[openproxylist.com] ss-RU",
    "server": "185.22.153.117",
    "server_port": 18443,
    "method": "aes-256-gcm",
@@ -1092,7 +996,7 @@
   },
   {
    "type": "vless",
-   "tag": "61. 🇵🇱[openproxylist.com] vless-PL",
+   "tag": "54. 🇵🇱[openproxylist.com] vless-PL",
    "server": "201.58.189.105",
    "server_port": 2083,
    "uuid": "d7ddade6-b7a0-4cab-a910-d5d5c378d98a",
@@ -1116,23 +1020,8 @@
    }
   },
   {
-   "type": "vmess",
-   "tag": "62. 🇩🇪[openproxylist.com] vmess-DE",
-   "server": "193.108.117.61",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
    "type": "vless",
-   "tag": "63. 🇫🇷[openproxylist.com] vless-FR",
+   "tag": "55. 🇫🇷[openproxylist.com] vless-FR",
    "server": "212.69.86.159",
    "server_port": 8447,
    "uuid": "52030136-eee3-4675-baae-a50f17b2bb8b",
@@ -1157,7 +1046,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "64. 🇸🇪[openproxylist.com] ss-SE",
+   "tag": "56. 🇸🇪[openproxylist.com] ss-SE",
    "server": "62.182.193.228",
    "server_port": 8388,
    "method": "chacha20-ietf-poly1305",
@@ -1165,30 +1054,7 @@
   },
   {
    "type": "vless",
-   "tag": "65. 🇺🇸[openproxylist.com] vless-US",
-   "server": "wwww.qarvian.ir",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "66. 🇳🇱[openproxylist.com] vless-NL",
+   "tag": "57. 🇳🇱[openproxylist.com] vless-NL",
    "server": "base.hosamobenl.co.uk",
    "server_port": 443,
    "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
@@ -1196,6 +1062,9 @@
    "tls": {
     "enabled": true,
     "server_name": "base.hosamobenl.co.uk",
+    "alpn": [
+     "http/1.1"
+    ],
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
@@ -1204,30 +1073,7 @@
   },
   {
    "type": "vless",
-   "tag": "67. 🇺🇸[openproxylist.com] vless-US",
-   "server": "146.75.59.186",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "68. 🇺🇸[openproxylist.com] vless-US",
+   "tag": "58. 🇺🇸[openproxylist.com] vless-US",
    "server": "199.232.78.160",
    "server_port": 443,
    "uuid": "64ce5faf-427b-4dd1-926c-6b7ced6b8c38",
@@ -1250,53 +1096,7 @@
   },
   {
    "type": "vless",
-   "tag": "69. 🇺🇸[openproxylist.com] vless-US",
-   "server": "199.232.78.160",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "70. 🏳[openproxylist.com] vless-",
-   "server": "wwww.qarvian.ir",
-   "server_port": 443,
-   "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.akamai.steamstatic.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net."
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "71. 🏳[openproxylist.com] vless-",
+   "tag": "59. 🇺🇸[openproxylist.com] vless-US",
    "server": "136.176.65.251",
    "server_port": 443,
    "uuid": "39826f32-f5ca-42a5-ab33-188f7d199478",
@@ -1318,7 +1118,7 @@
   },
   {
    "type": "vless",
-   "tag": "72. 🇸🇬[openproxylist.com] vless-SG",
+   "tag": "60. 🇸🇬[openproxylist.com] vless-SG",
    "server": "207.148.124.12",
    "server_port": 8443,
    "uuid": "bcdb425f-80bc-4ec8-92a5-8edf53639c01",
@@ -1333,30 +1133,8 @@
    }
   },
   {
-   "type": "vless",
-   "tag": "73. 🇪🇪[openproxylist.com] vless-EE",
-   "server": "ee.subv.ru",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "dvizhok.su",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
-    }
-   }
-  },
-  {
    "type": "shadowsocks",
-   "tag": "74. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "61. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.72",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1364,7 +1142,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "75. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "62. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.36",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1372,7 +1150,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "76. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "63. 🇮🇹[openproxylist.com] ss-IT",
+   "server": "202.50.253.81",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "64. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.63",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1380,7 +1166,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "77. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "65. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.99",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1388,7 +1174,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "78. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "66. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.90",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1396,7 +1182,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "79. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "67. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.45",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1404,7 +1190,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "80. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "68. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.18",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1412,7 +1198,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "81. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "69. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.27",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1420,7 +1206,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "82. 🇮🇹[openproxylist.com] ss-IT",
+   "tag": "70. 🇮🇹[openproxylist.com] ss-IT",
    "server": "202.50.253.54",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1428,7 +1214,7 @@
   },
   {
    "type": "vless",
-   "tag": "83. 🇮🇷[openproxylist.com] vless-IR",
+   "tag": "71. 🇮🇷[openproxylist.com] vless-IR",
    "server": "198.16.113.218",
    "server_port": 8443,
    "uuid": "98a24806-141a-43d3-b094-bd66c4eb93b8",
@@ -1450,7 +1236,7 @@
   },
   {
    "type": "vless",
-   "tag": "84. 🇺🇸[openproxylist.com] vless-US",
+   "tag": "72. 🏳[openproxylist.com] vless-",
    "server": "148.135.86.162",
    "server_port": 10000,
    "uuid": "327b1113-049e-4256-8d72-8815643dbb65",
@@ -1472,7 +1258,7 @@
   },
   {
    "type": "vless",
-   "tag": "85. 🇺🇸[openproxylist.com] vless-US",
+   "tag": "73. 🇺🇸[openproxylist.com] vless-US",
    "server": "156.229.167.109",
    "server_port": 8443,
    "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
@@ -1493,51 +1279,32 @@
   },
   {
    "type": "vless",
-   "tag": "86. 🇨🇭[openproxylist.com] vless-CH",
-   "server": "prvtch.titun.su",
+   "tag": "74. 🇦🇱[openproxylist.com] vless-AL",
+   "server": "196.245.153.104",
    "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-   "flow": "xtls-rprx-vision",
+   "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "perevodchiki.su",
+    "server_name": "15b171g.nl7.h1clayd.click",
     "utls": {
      "enabled": true,
      "fingerprint": "firefox"
     },
     "reality": {
      "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
+     "public_key": "zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE",
+     "short_id": "50a749f0eccb628c"
     }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "87. 🏳[openproxylist.com] vless-",
-   "server": "fduknew.titun.su",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "bizorg.su",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
-    }
+   },
+   "transport": {
+    "type": "grpc",
+    "service_name": "5b79e8a94241"
    }
   },
   {
    "type": "vmess",
-   "tag": "88. 🇮🇩[openproxylist.com] vmess-ID",
+   "tag": "75. 🇮🇩[openproxylist.com] vmess-ID",
    "server": "zfd-boardv2.kunlun01dns.com",
    "server_port": 16298,
    "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
@@ -1547,137 +1314,50 @@
    "packet_encoding": "xudp"
   },
   {
-   "type": "vmess",
-   "tag": "89. 🇯🇵[openproxylist.com] vmess-JP",
-   "server": "162.159.128.17",
-   "server_port": 443,
-   "uuid": "c8b455ad-fff1-43e9-9af9-d97585c4534a",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "v2ray.ryin.vip"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ryinsocksv2board",
-    "headers": {
-     "Host": "v2ray.ryin.vip"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "90. 🇫🇮[openproxylist.com] vless-FI",
-   "server": "146.103.118.189",
-   "server_port": 443,
-   "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "nl2.574ck.xyz",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/574ck-finland",
-    "headers": {
-     "Host": "nl2.574ck.xyz"
-    }
-   }
-  },
-  {
    "type": "shadowsocks",
-   "tag": "91. 🇳🇱[openproxylist.com] ss-NL",
+   "tag": "76. 🇳🇱[openproxylist.com] ss-NL",
    "server": "156.67.120.205",
    "server_port": 51628,
    "method": "chacha20-ietf-poly1305",
    "password": "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
   },
   {
-   "type": "vmess",
-   "tag": "92. 🇸🇪[openproxylist.com] vmess-SE",
-   "server": "62.93.166.184",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
+   "type": "vless",
+   "tag": "77. 🇺🇦[openproxylist.com] vless-UA",
+   "server": "83.147.18.75",
+   "server_port": 443,
+   "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+   "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "xmfhlpy.com",
-    "insecure": false
+    "server_name": "www.bing.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
+     "short_id": "7f1e29593aa94ad1"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "78. 🇦🇪[openproxylist.com] trojan-AE",
+   "server": "sclass-00.catcat321.com",
+   "server_port": 20123,
+   "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.catxstar.com",
+    "insecure": true
    }
   },
   {
    "type": "vmess",
-   "tag": "93. 🇩🇪[openproxylist.com] vmess-DE",
-   "server": "193.108.119.87",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "94. 🇺🇸[openproxylist.com] vmess-US",
-   "server": "162.251.62.42",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "95. 🇺🇸[openproxylist.com] vmess-US",
-   "server": "162.251.62.35",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "96. 🇺🇸[openproxylist.com] vmess-US",
-   "server": "162.251.60.97",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "97. 🏳[openproxylist.com] vmess-",
+   "tag": "79. 🇨🇦[openproxylist.com] vmess-CA",
    "server": "158.51.121.246",
    "server_port": 1270,
    "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -1692,82 +1372,7 @@
   },
   {
    "type": "vmess",
-   "tag": "98. 🇳🇱[openproxylist.com] vmess-NL",
-   "server": "151.241.19.44",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "99. 🏳[openproxylist.com] vmess-",
-   "server": "149.50.215.240",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "100. 🇮🇹[openproxylist.com] vmess-IT",
-   "server": "149.50.215.238",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "101. 🏳[openproxylist.com] vmess-",
-   "server": "149.22.91.20",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "102. 🏳[openproxylist.com] vmess-",
-   "server": "142.202.48.87",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "103. 🏳[openproxylist.com] vmess-",
+   "tag": "80. 🏳[openproxylist.com] vmess-",
    "server": "134.195.196.154",
    "server_port": 1270,
    "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -1781,54 +1386,40 @@
    }
   },
   {
-   "type": "vmess",
-   "tag": "104. 🇩🇪[openproxylist.com] vmess-DE",
-   "server": "185.177.229.95",
-   "server_port": 1270,
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
+   "type": "trojan",
+   "tag": "81. 🇸🇬[openproxylist.com] trojan-SG",
+   "server": "15.235.184.127",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
-    "server_name": "xmfhlpy.com"
+    "server_name": "exploredigitaljobplatformandfindonlinework.com",
+    "insecure": false
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "82. 🇦🇪[openproxylist.com] trojan-AE",
+   "server": "sclass-c1.catcat321.com",
+   "server_port": 20086,
+   "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.catxstar.com",
+    "insecure": true
    }
   },
   {
    "type": "shadowsocks",
-   "tag": "105. 🏳[openproxylist.com] ss-",
+   "tag": "83. 🇺🇸[openproxylist.com] ss-US",
    "server": "149.40.57.134",
    "server_port": 19999,
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "type": "vless",
-   "tag": "106. 🇨🇦[openproxylist.com] vless-CA",
-   "server": "172.64.152.33",
-   "server_port": 443,
-   "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "fs.qicai99.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "fs.qicai99.com"
-    }
-   }
-  },
-  {
    "type": "shadowsocks",
-   "tag": "107. 🇳🇱[openproxylist.com] ss-NL",
+   "tag": "84. 🇳🇱[openproxylist.com] ss-NL",
    "server": "77.221.132.206",
    "server_port": 24759,
    "method": "chacha20-ietf-poly1305",
@@ -1836,7 +1427,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "108. 🇩🇪[openproxylist.com] ss-DE",
+   "tag": "85. 🏳[openproxylist.com] ss-",
    "server": "57.129.76.233",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1844,15 +1435,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "109. 🇮🇹[openproxylist.com] ss-IT",
-   "server": "149.50.215.234",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "110. 🇪🇸[openproxylist.com] ss-ES",
+   "tag": "86. 🇪🇸[openproxylist.com] ss-ES",
    "server": "62.93.179.97",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1860,7 +1443,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "111. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "87. 🇺🇸[openproxylist.com] ss-US",
    "server": "167.88.63.39",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1868,7 +1451,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "112. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "88. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.91.107.188",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1876,7 +1459,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "113. 🇪🇸[openproxylist.com] ss-ES",
+   "tag": "89. 🇪🇸[openproxylist.com] ss-ES",
    "server": "62.93.179.117",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1884,7 +1467,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "114. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "90. 🇺🇸[openproxylist.com] ss-US",
    "server": "167.88.62.56",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1892,7 +1475,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "115. 🇨🇭[openproxylist.com] ss-CH",
+   "tag": "91. 🇨🇭[openproxylist.com] ss-CH",
    "server": "23.166.88.127",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1900,7 +1483,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "116. 🇫🇷[openproxylist.com] ss-FR",
+   "tag": "92. 🇫🇷[openproxylist.com] ss-FR",
    "server": "23.162.152.22",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1908,7 +1491,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "117. 🇩🇪[openproxylist.com] ss-DE",
+   "tag": "93. 🇩🇪[openproxylist.com] ss-DE",
    "server": "193.108.116.98",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1916,7 +1499,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "118. 🏳[openproxylist.com] ss-",
+   "tag": "94. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.64.138.135",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1924,7 +1507,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "119. 🇩🇪[openproxylist.com] ss-DE",
+   "tag": "95. 🇩🇪[openproxylist.com] ss-DE",
    "server": "57.129.83.85",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1932,7 +1515,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "120. 🏳[openproxylist.com] ss-",
+   "tag": "96. 🇸🇬[openproxylist.com] ss-SG",
    "server": "51.79.228.131",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1940,7 +1523,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "121. 🇬🇧[openproxylist.com] ss-GB",
+   "tag": "97. 🇬🇧[openproxylist.com] ss-GB",
    "server": "198.244.201.129",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1948,7 +1531,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "122. 🇬🇧[openproxylist.com] ss-GB",
+   "tag": "98. 🇬🇧[openproxylist.com] ss-GB",
    "server": "198.244.202.215",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1956,7 +1539,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "123. 🏳[openproxylist.com] ss-",
+   "tag": "99. 🇺🇸[openproxylist.com] ss-US",
    "server": "149.40.57.135",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1964,7 +1547,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "124. 🇩🇪[openproxylist.com] ss-DE",
+   "tag": "100. 🇩🇪[openproxylist.com] ss-DE",
    "server": "193.108.118.247",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1972,7 +1555,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "125. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "101. 🇺🇸[openproxylist.com] ss-US",
    "server": "23.150.152.38",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1980,7 +1563,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "126. 🏳[openproxylist.com] ss-",
+   "tag": "102. 🇸🇬[openproxylist.com] ss-SG",
    "server": "15.235.182.183",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1988,7 +1571,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "127. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "103. 🏳[openproxylist.com] ss-",
    "server": "167.17.67.171",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -1996,7 +1579,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "128. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "104. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.22.17.139",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2004,7 +1587,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "129. 🏳[openproxylist.com] ss-",
+   "tag": "105. 🇺🇸[openproxylist.com] ss-US",
    "server": "67.220.73.178",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2012,7 +1595,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "130. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "106. 🏳[openproxylist.com] ss-",
+   "server": "158.51.121.221",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "107. 🇺🇸[openproxylist.com] ss-US",
    "server": "167.88.62.203",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2020,7 +1611,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "131. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "108. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.91.107.57",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2028,7 +1619,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "132. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "109. 🇺🇸[openproxylist.com] ss-US",
    "server": "167.88.63.99",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2036,7 +1627,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "133. 🏳[openproxylist.com] ss-",
+   "tag": "110. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.91.107.19",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2044,7 +1635,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "134. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "111. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.121.43.231",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2052,7 +1643,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "135. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "112. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.143.66.146",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2060,7 +1651,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "136. 🏳[openproxylist.com] ss-",
+   "tag": "113. 🇸🇪[openproxylist.com] ss-SE",
    "server": "138.199.55.243",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2068,7 +1659,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "137. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "114. 🇺🇸[openproxylist.com] ss-US",
    "server": "169.197.140.247",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2076,7 +1667,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "138. 🇸🇬[openproxylist.com] ss-SG",
+   "tag": "115. 🇸🇬[openproxylist.com] ss-SG",
    "server": "15.235.164.133",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2084,7 +1675,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "139. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "116. 🇺🇸[openproxylist.com] ss-US",
    "server": "149.40.57.138",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2092,7 +1683,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "140. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "117. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.121.43.225",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2100,7 +1691,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "141. 🏳[openproxylist.com] ss-",
+   "tag": "118. 🇺🇸[openproxylist.com] ss-US",
    "server": "38.22.17.219",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2108,7 +1699,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "142. 🏳[openproxylist.com] ss-",
+   "tag": "119. 🇺🇸[openproxylist.com] ss-US",
    "server": "149.40.57.133",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2116,7 +1707,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "143. 🏳[openproxylist.com] ss-",
+   "tag": "120. 🇺🇸[openproxylist.com] ss-US",
    "server": "216.106.178.169",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2124,7 +1715,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "144. 🏳[openproxylist.com] ss-",
+   "tag": "121. 🇩🇪[openproxylist.com] ss-DE",
    "server": "193.108.119.3",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2132,7 +1723,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "145. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "122. 🇺🇸[openproxylist.com] ss-US",
    "server": "169.197.142.68",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2140,7 +1731,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "146. 🇸🇬[openproxylist.com] ss-SG",
+   "tag": "123. 🇸🇬[openproxylist.com] ss-SG",
    "server": "149.88.106.74",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2148,7 +1739,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "147. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "124. 🏳[openproxylist.com] ss-",
    "server": "162.251.62.31",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2156,7 +1747,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "148. 🇺🇸[openproxylist.com] ss-US",
+   "tag": "125. 🏳[openproxylist.com] ss-",
    "server": "38.121.43.18",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -2164,8 +1755,200 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "149. 🇺🇸[openproxylist.com] ss-US",
-   "server": "137.184.89.151",
+   "tag": "126. 🇫🇷[openproxylist.com] ss-FR",
+   "server": "38.109.228.110",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "127. 🇨🇭[openproxylist.com] ss-CH",
+   "server": "186.190.215.251",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "128. 🇺🇸[openproxylist.com] ss-US",
+   "server": "38.91.100.39",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "129. 🇸🇬[openproxylist.com] ss-SG",
+   "server": "149.88.107.74",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "130. 🇬🇧[openproxylist.com] ss-GB",
+   "server": "142.202.51.22",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "131. 🇺🇸[openproxylist.com] ss-US",
+   "server": "38.128.66.32",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "132. 🇫🇷[openproxylist.com] ss-FR",
+   "server": "167.17.64.27",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "133. 🇪🇸[openproxylist.com] ss-ES",
+   "server": "66.163.118.103",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "134. 🇺🇸[openproxylist.com] ss-US",
+   "server": "84.20.27.183",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "135. 🇫🇷[openproxylist.com] ss-FR",
+   "server": "172.99.189.142",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "136. 🇪🇸[openproxylist.com] ss-ES",
+   "server": "167.17.71.167",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "137. 🇨🇭[openproxylist.com] ss-CH",
+   "server": "79.127.184.104",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "138. 🇫🇷[openproxylist.com] ss-FR",
+   "server": "167.17.64.175",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "139. 🇩🇪[openproxylist.com] ss-DE",
+   "server": "193.108.117.84",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "140. 🇺🇸[openproxylist.com] ss-US",
+   "server": "172.111.36.123",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "141. 🏳[openproxylist.com] ss-",
+   "server": "193.108.117.111",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "142. 🇩🇪[openproxylist.com] ss-DE",
+   "server": "23.157.88.43",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "143. 🇫🇷[openproxylist.com] ss-FR",
+   "server": "79.137.99.183",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "144. 🇨🇭[openproxylist.com] ss-CH",
+   "server": "23.166.88.189",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "145. 🏳[openproxylist.com] ss-",
+   "server": "193.108.119.2",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "146. 🏳[openproxylist.com] ss-",
+   "server": "66.163.125.120",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "147. 🇺🇸[openproxylist.com] ss-US",
+   "server": "38.22.17.214",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "148. 🇪🇸[openproxylist.com] ss-ES",
+   "server": "79.127.139.242",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "149. 🇬🇧[openproxylist.com] ss-GB",
+   "server": "38.114.120.221",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "150. 🇸🇬[openproxylist.com] ss-SG",
+   "server": "149.88.107.47",
    "server_port": 19999,
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
