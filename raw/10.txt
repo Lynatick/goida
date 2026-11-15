@@ -2,7 +2,7 @@
  "outbounds": [
   {
    "type": "shadowsocks",
-   "tag": "1. Lithuania",
+   "tag": "00001 proxy",
    "server": "45.87.175.35",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -10,7 +10,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "2. 🇱🇹LT-45.87.175.154-1569",
+   "tag": "00002 proxy",
    "server": "45.87.175.154",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -18,7 +18,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "3. Sweden",
+   "tag": "00003 proxy",
    "server": "151.236.206.42",
    "server_port": 39649,
    "method": "chacha20-ietf-poly1305",
@@ -26,7 +26,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "4. Lithuania",
+   "tag": "00004 proxy",
    "server": "45.87.175.181",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -34,7 +34,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "5. 🇵🇱PL-45.144.48.63-0458",
+   "tag": "00005 proxy",
    "server": "45.144.48.63",
    "server_port": 57456,
    "method": "chacha20-ietf-poly1305",
@@ -42,7 +42,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "6. 🇨🇭CH-156.146.62.162-0418",
+   "tag": "00006 proxy",
    "server": "156.146.62.162",
    "server_port": 443,
    "method": "aes-128-gcm",
@@ -50,7 +50,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "7. 🇱🇹LT-45.87.175.171-5998",
+   "tag": "00007 proxy",
    "server": "45.87.175.171",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -58,7 +58,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "8. United States",
+   "tag": "00008 proxy",
    "server": "45.158.171.60",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -66,7 +66,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "9. 🇱🇹LT-45.87.175.166-0402",
+   "tag": "00009 proxy",
    "server": "45.87.175.166",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -74,7 +74,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "10. Switzerland",
+   "tag": "00010 proxy",
    "server": "156.146.62.162",
    "server_port": 443,
    "method": "aes-128-gcm",
@@ -82,7 +82,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "11. Sweden",
+   "tag": "00011 proxy",
    "server": "sto2.a.edgeservers.org",
    "server_port": 39649,
    "method": "chacha20-ietf-poly1305",
@@ -90,7 +90,7 @@
   },
   {
    "type": "trojan",
-   "tag": "12. France",
+   "tag": "00012 proxy",
    "server": "141.227.138.29",
    "server_port": 1935,
    "password": "hZ7JkYVAfB",
@@ -101,7 +101,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "13. Lithuania",
+   "tag": "00013 proxy",
    "server": "45.87.175.192",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -109,7 +109,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "14. 🇱🇹LT-45.87.175.164-5993",
+   "tag": "00014 proxy",
    "server": "45.87.175.164",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -117,7 +117,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "15. The Netherlands",
+   "tag": "00015 proxy",
    "server": "193.29.139.251",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -125,7 +125,7 @@
   },
   {
    "type": "trojan",
-   "tag": "16. France",
+   "tag": "00016 proxy",
    "server": "51.15.86.181",
    "server_port": 1935,
    "password": "eG92F3gh09",
@@ -136,7 +136,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "17. Lithuania",
+   "tag": "00017 proxy",
    "server": "45.87.175.164",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -144,7 +144,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "18. 🇺🇸US-92.118.112.111-0416",
+   "tag": "00018 proxy",
    "server": "92.118.112.111",
    "server_port": 18622,
    "method": "chacha20-ietf-poly1305",
@@ -152,7 +152,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "19. The Netherlands",
+   "tag": "00019 proxy",
    "server": "176.124.218.95",
    "server_port": 1080,
    "method": "chacha20-ietf-poly1305",
@@ -160,7 +160,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "20. 🇱🇹LT-45.87.175.181-0244",
+   "tag": "00020 proxy",
    "server": "45.87.175.181",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -168,7 +168,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "21. Lithuania",
+   "tag": "00021 proxy",
    "server": "45.87.175.92",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -176,7 +176,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "22. 🇫🇷FR-45.158.171.132-0388",
+   "tag": "00022 proxy",
    "server": "45.158.171.132",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -184,7 +184,7 @@
   },
   {
    "type": "vmess",
-   "tag": "23. United States",
+   "tag": "00023 proxy",
    "server": "172.67.156.210",
    "server_port": 443,
    "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
@@ -206,7 +206,7 @@
   },
   {
    "type": "vmess",
-   "tag": "24. 🏁RELAY-172.67.175.56-8413",
+   "tag": "00024 proxy",
    "server": "172.67.175.56",
    "server_port": 443,
    "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -228,7 +228,7 @@
   },
   {
    "type": "vmess",
-   "tag": "25. 🏁RELAY-172.67.175.56-0842",
+   "tag": "00025 proxy",
    "server": "172.67.175.56",
    "server_port": 443,
    "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
@@ -250,7 +250,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "26. Russia",
+   "tag": "00026 proxy",
    "server": "147.45.60.33",
    "server_port": 16356,
    "method": "chacha20-ietf-poly1305",
@@ -258,7 +258,7 @@
   },
   {
    "type": "vmess",
-   "tag": "27. Germany",
+   "tag": "00027 proxy",
    "server": "62.146.233.79",
    "server_port": 44127,
    "uuid": "ae0fa822-58bb-483f-9af5-d417d8c23b21",
@@ -269,7 +269,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "28. 🇱🇹LT-45.87.175.154-0245",
+   "tag": "00028 proxy",
    "server": "45.87.175.154",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -277,7 +277,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "29. The Netherlands",
+   "tag": "00029 proxy",
    "server": "89.23.103.125",
    "server_port": 42090,
    "method": "chacha20-ietf-poly1305",
@@ -285,7 +285,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "30. 🇵🇱PL-45.144.48.63-0447",
+   "tag": "00030 proxy",
    "server": "war.ssvpnapp.win",
    "server_port": 57456,
    "method": "chacha20-ietf-poly1305",
@@ -293,7 +293,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "31. Lithuania",
+   "tag": "00031 proxy",
    "server": "45.87.175.171",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -301,7 +301,7 @@
   },
   {
    "type": "vmess",
-   "tag": "32. 🏁RELAY-188.114.97.8-0837",
+   "tag": "00032 proxy",
    "server": "188.114.97.8",
    "server_port": 443,
    "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
@@ -323,7 +323,7 @@
   },
   {
    "type": "vmess",
-   "tag": "33. United States",
+   "tag": "00033 proxy",
    "server": "104.21.112.1",
    "server_port": 80,
    "uuid": "7f8a1bb9-bee0-40a8-f908-21a65da0f3cc",
@@ -341,7 +341,7 @@
   },
   {
    "type": "vmess",
-   "tag": "34. United States",
+   "tag": "00034 proxy",
    "server": "51.81.203.57",
    "server_port": 28860,
    "uuid": "1784497d-03a1-40bb-bb8b-de4ffac7c59c",
@@ -352,7 +352,7 @@
   },
   {
    "type": "vmess",
-   "tag": "35. 🇫🇷FR-163.5.121.254-5664",
+   "tag": "00035 proxy",
    "server": "obdii.cfd",
    "server_port": 443,
    "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -374,7 +374,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "36. 🇳🇱NL-89.23.103.125-0453",
+   "tag": "00036 proxy",
    "server": "89.23.103.125",
    "server_port": 42090,
    "method": "chacha20-ietf-poly1305",
@@ -382,7 +382,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "37. 🇫🇷FR-45.158.171.141-5779",
+   "tag": "00037 proxy",
    "server": "45.158.171.141",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -390,7 +390,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "38. Lithuania",
+   "tag": "00038 proxy",
    "server": "45.87.175.10",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -398,7 +398,7 @@
   },
   {
    "type": "vmess",
-   "tag": "39. 🏁RELAY-172.67.71.160-8806",
+   "tag": "00039 proxy",
    "server": "172.67.71.160",
    "server_port": 443,
    "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -420,7 +420,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "40. Lithuania",
+   "tag": "00040 proxy",
    "server": "45.87.175.58",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -428,7 +428,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "41. United States",
+   "tag": "00041 proxy",
    "server": "45.158.171.141",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -436,7 +436,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "42. Lithuania",
+   "tag": "00042 proxy",
    "server": "45.87.175.69",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -444,7 +444,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "43. United States",
+   "tag": "00043 proxy",
    "server": "45.158.171.146",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -452,7 +452,7 @@
   },
   {
    "type": "vmess",
-   "tag": "44. Iran",
+   "tag": "00044 proxy",
    "server": "193.39.9.238",
    "server_port": 10015,
    "uuid": "bf1f47bd-b02f-4fd1-8ccd-756ca0cdfe2a",
@@ -467,7 +467,7 @@
   },
   {
    "type": "vmess",
-   "tag": "45. Gibraltar",
+   "tag": "00045 proxy",
    "server": "pq-brazil1.09vpn.com",
    "server_port": 80,
    "uuid": "c04c3b34-70fd-4fec-963e-c12d09f36bef",
@@ -485,7 +485,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "46. 🇫🇷FR-45.158.171.146-6003",
+   "tag": "00046 proxy",
    "server": "45.158.171.146",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -493,7 +493,7 @@
   },
   {
    "type": "vmess",
-   "tag": "47. United States",
+   "tag": "00047 proxy",
    "server": "104.21.3.219",
    "server_port": 8443,
    "uuid": "c313606f-98c2-4d7b-ba74-48b94f61b11d",
@@ -515,7 +515,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "48. Lithuania",
+   "tag": "00048 proxy",
    "server": "45.87.175.178",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -523,7 +523,7 @@
   },
   {
    "type": "vmess",
-   "tag": "49. United States",
+   "tag": "00049 proxy",
    "server": "107.148.207.249",
    "server_port": 48712,
    "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
@@ -534,7 +534,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "50. United States",
+   "tag": "00050 proxy",
    "server": "216.39.248.133",
    "server_port": 7001,
    "method": "aes-256-gcm",
@@ -542,7 +542,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "51. Lithuania",
+   "tag": "00051 proxy",
    "server": "45.87.175.199",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -550,7 +550,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "52. United Kingdom",
+   "tag": "00052 proxy",
    "server": "107.181.151.147",
    "server_port": 43669,
    "method": "chacha20-ietf-poly1305",
@@ -558,7 +558,7 @@
   },
   {
    "type": "vmess",
-   "tag": "53. 🏁RELAY-104.21.31.62-8805",
+   "tag": "00053 proxy",
    "server": "104.21.31.62",
    "server_port": 443,
    "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -580,7 +580,7 @@
   },
   {
    "type": "trojan",
-   "tag": "54. United States",
+   "tag": "00054 proxy",
    "server": "t18.qifei.app",
    "server_port": 64047,
    "password": "ef23ddd0-14c5-39c2-9880-af55ce892363",
@@ -590,7 +590,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "55. 🇪🇪EE-147.45.60.33-6024",
+   "tag": "00055 proxy",
    "server": "147.45.60.33",
    "server_port": 16356,
    "method": "chacha20-ietf-poly1305",
@@ -598,7 +598,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "56. United States",
+   "tag": "00056 proxy",
    "server": "exchange.gameaurela.click",
    "server_port": 52952,
    "method": "chacha20-ietf-poly1305",
@@ -606,7 +606,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "57. Lithuania",
+   "tag": "00057 proxy",
    "server": "45.87.175.166",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -614,7 +614,7 @@
   },
   {
    "type": "vmess",
-   "tag": "58. Gibraltar",
+   "tag": "00058 proxy",
    "server": "95.164.4.88",
    "server_port": 80,
    "uuid": "c04c3b34-70fd-4fec-963e-c12d09f36bef",
@@ -632,7 +632,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "59. Lithuania",
+   "tag": "00059 proxy",
    "server": "45.87.175.65",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -640,7 +640,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "60. 🇱🇹LT-45.87.175.178-1363",
+   "tag": "00060 proxy",
    "server": "45.87.175.178",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -648,7 +648,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "61. Japan",
+   "tag": "00061 proxy",
    "server": "54.248.54.190",
    "server_port": 1234,
    "method": "chacha20-ietf-poly1305",
@@ -656,7 +656,7 @@
   },
   {
    "type": "vmess",
-   "tag": "62. Türkiye",
+   "tag": "00062 proxy",
    "server": "193.31.116.198",
    "server_port": 30789,
    "uuid": "d824fefb-259f-4449-dbba-6e6c17c234e9",
@@ -667,7 +667,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "63. United States",
+   "tag": "00063 proxy",
    "server": "45.158.171.132",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -675,7 +675,7 @@
   },
   {
    "type": "vmess",
-   "tag": "64. Sweden",
+   "tag": "00064 proxy",
    "server": "185.146.173.158",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -697,7 +697,7 @@
   },
   {
    "type": "vmess",
-   "tag": "65. United States",
+   "tag": "00065 proxy",
    "server": "icook.hk",
    "server_port": 443,
    "uuid": "2faaf996-d2b0-440d-8258-81f2b05dd0e4",
@@ -721,7 +721,7 @@
   },
   {
    "type": "vmess",
-   "tag": "66. Sweden",
+   "tag": "00066 proxy",
    "server": "185.146.173.95",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -743,7 +743,7 @@
   },
   {
    "type": "trojan",
-   "tag": "67. France",
+   "tag": "00067 proxy",
    "server": "51.68.13.106",
    "server_port": 1935,
    "password": "FiSo7J6vfS",
@@ -754,7 +754,7 @@
   },
   {
    "type": "vmess",
-   "tag": "68. United States",
+   "tag": "00068 proxy",
    "server": "104.21.18.227",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -776,7 +776,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "69. United States",
+   "tag": "00069 proxy",
    "server": "166.88.131.195",
    "server_port": 52952,
    "method": "chacha20-ietf-poly1305",
@@ -784,7 +784,7 @@
   },
   {
    "type": "vmess",
-   "tag": "70. South Korea",
+   "tag": "00070 proxy",
    "server": "175.215.154.208",
    "server_port": 11184,
    "uuid": "0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17",
@@ -806,7 +806,7 @@
   },
   {
    "type": "vmess",
-   "tag": "71. Poland",
+   "tag": "00071 proxy",
    "server": "45.144.48.128",
    "server_port": 80,
    "uuid": "10e2ff65-0e20-462d-a282-164e48b955a9",
@@ -824,7 +824,7 @@
   },
   {
    "type": "vmess",
-   "tag": "72. France",
+   "tag": "00072 proxy",
    "server": "45.145.165.114",
    "server_port": 443,
    "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
@@ -846,7 +846,7 @@
   },
   {
    "type": "trojan",
-   "tag": "73. Japan",
+   "tag": "00073 proxy",
    "server": "t5.qifei.app",
    "server_port": 54860,
    "password": "ef23ddd0-14c5-39c2-9880-af55ce892363",
@@ -856,7 +856,7 @@
   },
   {
    "type": "vmess",
-   "tag": "74. 🏁RELAY-185.146.173.158-8383",
+   "tag": "00074 proxy",
    "server": "185.146.173.158",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -878,7 +878,7 @@
   },
   {
    "type": "vmess",
-   "tag": "75. United States",
+   "tag": "00075 proxy",
    "server": "visa.org",
    "server_port": 443,
    "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
@@ -900,7 +900,7 @@
   },
   {
    "type": "vmess",
-   "tag": "76. United States",
+   "tag": "00076 proxy",
    "server": "38.107.234.57",
    "server_port": 80,
    "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
@@ -915,7 +915,7 @@
   },
   {
    "type": "vmess",
-   "tag": "77. 🏁RELAY-172.67.183.220-8379",
+   "tag": "00077 proxy",
    "server": "172.67.183.220",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -937,7 +937,7 @@
   },
   {
    "type": "vmess",
-   "tag": "78. 🏁RELAY-104.21.18.227-0794",
+   "tag": "00078 proxy",
    "server": "104.21.18.227",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -959,7 +959,7 @@
   },
   {
    "type": "trojan",
-   "tag": "79. United States",
+   "tag": "00079 proxy",
    "server": "104.21.48.61",
    "server_port": 443,
    "password": "auto",
@@ -974,7 +974,7 @@
   },
   {
    "type": "vmess",
-   "tag": "80. United States",
+   "tag": "00080 proxy",
    "server": "3h-kazakhstan1.09vpn.com",
    "server_port": 80,
    "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
@@ -992,7 +992,7 @@
   },
   {
    "type": "vmess",
-   "tag": "81. United States",
+   "tag": "00081 proxy",
    "server": "172.67.204.84",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1014,7 +1014,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "82. United States",
+   "tag": "00082 proxy",
    "server": "166.1.157.228",
    "server_port": 55330,
    "method": "chacha20-ietf-poly1305",
@@ -1022,7 +1022,7 @@
   },
   {
    "type": "trojan",
-   "tag": "83. Ireland",
+   "tag": "00083 proxy",
    "server": "54.155.203.115",
    "server_port": 22222,
    "password": "telegram-id-privatevpns",
@@ -1033,7 +1033,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "84. Poland",
+   "tag": "00084 proxy",
    "server": "45.144.48.63",
    "server_port": 57456,
    "method": "chacha20-ietf-poly1305",
@@ -1041,7 +1041,7 @@
   },
   {
    "type": "vmess",
-   "tag": "85. The Netherlands",
+   "tag": "00085 proxy",
    "server": "188.114.96.6",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1063,7 +1063,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "86. Lithuania",
+   "tag": "00086 proxy",
    "server": "45.87.175.22",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1071,7 +1071,7 @@
   },
   {
    "type": "vmess",
-   "tag": "87. The Netherlands",
+   "tag": "00087 proxy",
    "server": "160.153.1.100",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1093,7 +1093,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "88. 🇱🇹LT-45.87.175.199-0357",
+   "tag": "00088 proxy",
    "server": "45.87.175.199",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1101,7 +1101,7 @@
   },
   {
    "type": "vmess",
-   "tag": "89. France",
+   "tag": "00089 proxy",
    "server": "beyonddsz.cfd",
    "server_port": 443,
    "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
@@ -1123,7 +1123,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "90. Japan",
+   "tag": "00090 proxy",
    "server": "156.231.104.22",
    "server_port": 18012,
    "method": "aes-256-gcm",
@@ -1131,7 +1131,7 @@
   },
   {
    "type": "vmess",
-   "tag": "91. 🏁RELAY-188.114.96.3-0865",
+   "tag": "00091 proxy",
    "server": "188.114.96.3",
    "server_port": 443,
    "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -1153,7 +1153,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "92. Germany",
+   "tag": "00092 proxy",
    "server": "beta.mattenadene.org",
    "server_port": 54075,
    "method": "chacha20-ietf-poly1305",
@@ -1161,7 +1161,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "93. Japan",
+   "tag": "00093 proxy",
    "server": "156.231.104.15",
    "server_port": 18005,
    "method": "aes-256-gcm",
@@ -1169,7 +1169,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "94. Lithuania",
+   "tag": "00094 proxy",
    "server": "45.87.175.154",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1177,7 +1177,7 @@
   },
   {
    "type": "vmess",
-   "tag": "95. United States",
+   "tag": "00095 proxy",
    "server": "172.67.183.220",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1199,7 +1199,7 @@
   },
   {
    "type": "vmess",
-   "tag": "96. 🇫🇷FR-45.145.165.114-6154",
+   "tag": "00096 proxy",
    "server": "beyonddsz.cfd",
    "server_port": 443,
    "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
@@ -1221,7 +1221,7 @@
   },
   {
    "type": "vmess",
-   "tag": "97. Poland",
+   "tag": "00097 proxy",
    "server": "3h-poland1.09vpn.com",
    "server_port": 80,
    "uuid": "10e2ff65-0e20-462d-a282-164e48b955a9",
@@ -1236,7 +1236,7 @@
   },
   {
    "type": "vmess",
-   "tag": "98. United States",
+   "tag": "00098 proxy",
    "server": "104.21.69.44",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1258,7 +1258,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "99. Poland",
+   "tag": "00099 proxy",
    "server": "war.ssvpnapp.win",
    "server_port": 57456,
    "method": "chacha20-ietf-poly1305",
@@ -1266,7 +1266,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "100. United States",
+   "tag": "00100 proxy",
    "server": "92.118.112.111",
    "server_port": 18622,
    "method": "chacha20-ietf-poly1305",
@@ -1274,7 +1274,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "101. 🇱🇹LT-45.87.175.178-1571",
+   "tag": "00101 proxy",
    "server": "45.87.175.178",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -1282,7 +1282,7 @@
   },
   {
    "type": "vmess",
-   "tag": "102. United States",
+   "tag": "00102 proxy",
    "server": "172.67.170.11",
    "server_port": 443,
    "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
@@ -1304,7 +1304,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "103. Hong Kong",
+   "tag": "00103 proxy",
    "server": "45.207.157.70",
    "server_port": 30001,
    "method": "chacha20-ietf-poly1305",
@@ -1312,7 +1312,7 @@
   },
   {
    "type": "vmess",
-   "tag": "104. 🏁RELAY-172.67.132.209-0844",
+   "tag": "00104 proxy",
    "server": "172.67.132.209",
    "server_port": 443,
    "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
@@ -1334,7 +1334,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "105. 🇷🇺RU-45.151.62.54-6028",
+   "tag": "00105 proxy",
    "server": "45.151.62.54",
    "server_port": 28825,
    "method": "chacha20-ietf-poly1305",
@@ -1342,7 +1342,7 @@
   },
   {
    "type": "vmess",
-   "tag": "106. 🇫🇷FR-163.5.159.231-8360",
+   "tag": "00106 proxy",
    "server": "irvideo.cfd",
    "server_port": 443,
    "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
@@ -1364,7 +1364,7 @@
   },
   {
    "type": "vmess",
-   "tag": "107. United States",
+   "tag": "00107 proxy",
    "server": "172.67.138.140",
    "server_port": 443,
    "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1386,7 +1386,7 @@
   },
   {
    "type": "vmess",
-   "tag": "108. United States",
+   "tag": "00108 proxy",
    "server": "172.67.161.77",
    "server_port": 443,
    "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
@@ -1408,7 +1408,7 @@
   },
   {
    "type": "vmess",
-   "tag": "109. United States",
+   "tag": "00109 proxy",
    "server": "67.220.94.137",
    "server_port": 57123,
    "uuid": "b4d3a81b-ec0e-4a27-a359-6dea0c4f1f75",
@@ -1419,7 +1419,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "110. United States",
+   "tag": "00110 proxy",
    "server": "38.114.114.245",
    "server_port": 8008,
    "method": "aes-256-gcm",

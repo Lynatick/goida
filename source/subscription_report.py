@@ -110,13 +110,13 @@ def render_group_rows(protocol_counts):
         for number in range(1, group_total + 1):
             count = min(GROUP_SIZE, total - (number - 1) * GROUP_SIZE)
             count_label = f"{count:,}".replace(",", "\u202f")
-            path = f"hiddify/groups/{kind}{number}.json"
+            path = f"hiddify/groups/{kind}{number:02d}.json"
             url = f"{GROUP_BASE_URL}/{path}"
             link_id = f"group-{kind}-{number}"
             cells.append(f'          <tr><th scope="row">{kind}</th><td class="numeric">{number}</td>')
             cells.append(
                 f'            <td><div class="subscription-link">'
-                f'<a id="{link_id}" class="filename" href="{url}" title="{url}">{kind}{number}.json</a>'
+                f'<a id="{link_id}" class="filename" href="{url}" title="{url}">{kind}{number:02d}.json</a>'
                 f'<button type="button" data-copy="{link_id}" '
                 f'aria-label="Копировать ссылку {kind}, группа {number}">Копировать</button>'
                 f'</div></td><td class="numeric">{count_label}</td>'

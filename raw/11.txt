@@ -2,7 +2,7 @@
  "outbounds": [
   {
    "type": "vless",
-   "tag": "1. RU🇷🇺",
+   "tag": "00001 proxy",
    "server": "45.12.114.73",
    "server_port": 8443,
    "uuid": "f1e74548-4c0b-463b-b68d-0d1ec48c965d",
@@ -22,7 +22,7 @@
   },
   {
    "type": "vless",
-   "tag": "2. US🇺🇸",
+   "tag": "00002 proxy",
    "server": "141.101.114.214",
    "server_port": 2086,
    "uuid": "a2626d27-e0f8-490d-b23c-c9ca0dea4ea9",
@@ -35,7 +35,7 @@
   },
   {
    "type": "vless",
-   "tag": "3. SC🇸🇨",
+   "tag": "00003 proxy",
    "server": "45.130.125.69",
    "server_port": 8443,
    "uuid": "cff6f361-828a-43c8-a8b5-8d10b32e57fb",
@@ -58,7 +58,7 @@
   },
   {
    "type": "vless",
-   "tag": "4. DE🇩🇪",
+   "tag": "00004 proxy",
    "server": "45.149.115.148",
    "server_port": 443,
    "uuid": "8b648e4c-ac38-4809-951b-e1c8862b13d1",
@@ -80,7 +80,7 @@
   },
   {
    "type": "vless",
-   "tag": "5. US🇺🇸",
+   "tag": "00005 proxy",
    "server": "poe.com",
    "server_port": 443,
    "uuid": "081efe27-f6b8-4f60-aedb-3c9effe9c67d",
@@ -103,7 +103,7 @@
   },
   {
    "type": "vless",
-   "tag": "6. CR🇨🇷",
+   "tag": "00006 proxy",
    "server": "190.93.244.138",
    "server_port": 2096,
    "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -123,7 +123,7 @@
   },
   {
    "type": "vless",
-   "tag": "7. US🇺🇸",
+   "tag": "00007 proxy",
    "server": "clyde.ns.cloudflare.com",
    "server_port": 2096,
    "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
@@ -143,7 +143,7 @@
   },
   {
    "type": "vless",
-   "tag": "8. US🇺🇸",
+   "tag": "00008 proxy",
    "server": "104.16.89.18",
    "server_port": 443,
    "uuid": "e6eec2e9-f98d-4fd4-afac-c504123231cf",
@@ -163,7 +163,7 @@
   },
   {
    "type": "vless",
-   "tag": "9. US🇺🇸",
+   "tag": "00009 proxy",
    "server": "104.26.15.21",
    "server_port": 443,
    "uuid": "d9a83363-40a6-4a21-9dbe-cb2b7d287048",
@@ -183,7 +183,7 @@
   },
   {
    "type": "vless",
-   "tag": "10. DE🇩🇪",
+   "tag": "00010 proxy",
    "server": "57.129.49.1",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -205,7 +205,7 @@
   },
   {
    "type": "vless",
-   "tag": "11. US🇺🇸",
+   "tag": "00011 proxy",
    "server": "nodejs.org",
    "server_port": 443,
    "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
@@ -225,7 +225,7 @@
   },
   {
    "type": "vless",
-   "tag": "12. US🇺🇸",
+   "tag": "00012 proxy",
    "server": "104.26.15.21",
    "server_port": 443,
    "uuid": "d9a83363-40a6-4a21-9dbe-cb2b7d287048",
@@ -245,7 +245,7 @@
   },
   {
    "type": "vless",
-   "tag": "13. GB🇬🇧",
+   "tag": "00013 proxy",
    "server": "167.71.136.139",
    "server_port": 443,
    "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -265,7 +265,7 @@
   },
   {
    "type": "vless",
-   "tag": "14. DE🇩🇪",
+   "tag": "00014 proxy",
    "server": "94.130.132.180",
    "server_port": 8443,
    "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -291,7 +291,7 @@
   },
   {
    "type": "vless",
-   "tag": "15. US🇺🇸",
+   "tag": "00015 proxy",
    "server": "104.26.14.21",
    "server_port": 443,
    "uuid": "6fab6cc6-e340-4073-93e1-c6c6802002c7",
@@ -311,7 +311,7 @@
   },
   {
    "type": "vless",
-   "tag": "16. US🇺🇸",
+   "tag": "00016 proxy",
    "server": "162.159.36.20",
    "server_port": 2053,
    "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
@@ -331,7 +331,7 @@
   },
   {
    "type": "vless",
-   "tag": "17. US🇺🇸",
+   "tag": "00017 proxy",
    "server": "nodejs.org",
    "server_port": 443,
    "uuid": "a6430e91-38ad-4254-b7db-d1fba6efd9e3",
@@ -351,7 +351,7 @@
   },
   {
    "type": "vless",
-   "tag": "18. US🇺🇸",
+   "tag": "00018 proxy",
    "server": "www.speedtest.net",
    "server_port": 443,
    "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
@@ -371,7 +371,7 @@
   },
   {
    "type": "vless",
-   "tag": "19. US🇺🇸",
+   "tag": "00019 proxy",
    "server": "104.26.14.21",
    "server_port": 443,
    "uuid": "6fab6cc6-e340-4073-93e1-c6c6802002c7",
@@ -391,7 +391,7 @@
   },
   {
    "type": "vless",
-   "tag": "20. US🇺🇸",
+   "tag": "00020 proxy",
    "server": "104.16.89.18",
    "server_port": 443,
    "uuid": "e6eec2e9-f98d-4fd4-afac-c504123231cf",
@@ -411,7 +411,7 @@
   },
   {
    "type": "vless",
-   "tag": "21. US🇺🇸",
+   "tag": "00021 proxy",
    "server": "104.17.98.251",
    "server_port": 443,
    "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
@@ -431,7 +431,7 @@
   },
   {
    "type": "vmess",
-   "tag": "22. US🇺🇸",
+   "tag": "00022 proxy",
    "server": "tgju.org",
    "server_port": 8080,
    "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
@@ -449,7 +449,7 @@
   },
   {
    "type": "vless",
-   "tag": "23. US🇺🇸",
+   "tag": "00023 proxy",
    "server": "104.16.2.90",
    "server_port": 443,
    "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
@@ -473,7 +473,7 @@
   },
   {
    "type": "vless",
-   "tag": "24. US🇺🇸",
+   "tag": "00024 proxy",
    "server": "162.159.12.151",
    "server_port": 443,
    "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -493,7 +493,7 @@
   },
   {
    "type": "vless",
-   "tag": "25. JP🇯🇵",
+   "tag": "00025 proxy",
    "server": "202.84.53.85",
    "server_port": 30816,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -513,7 +513,7 @@
   },
   {
    "type": "vless",
-   "tag": "26. JP🇯🇵",
+   "tag": "00026 proxy",
    "server": "151.242.165.136",
    "server_port": 59124,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -539,7 +539,7 @@
   },
   {
    "type": "vless",
-   "tag": "27. JP🇯🇵",
+   "tag": "00027 proxy",
    "server": "103.75.118.144",
    "server_port": 2053,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -562,7 +562,7 @@
   },
   {
    "type": "vless",
-   "tag": "28. FR🇫🇷",
+   "tag": "00028 proxy",
    "server": "51.38.32.227",
    "server_port": 2096,
    "uuid": "42f4be04-31d7-477d-9549-c1f79c6b9ee0",
@@ -583,7 +583,7 @@
   },
   {
    "type": "vless",
-   "tag": "29. FR🇫🇷",
+   "tag": "00029 proxy",
    "server": "152.228.162.19",
    "server_port": 80,
    "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
@@ -595,7 +595,7 @@
   },
   {
    "type": "vmess",
-   "tag": "30. FR🇫🇷",
+   "tag": "00030 proxy",
    "server": "94.232.247.164",
    "server_port": 44030,
    "uuid": "22c396a3-95da-4be8-beef-834d17d75784",
@@ -606,7 +606,7 @@
   },
   {
    "type": "vless",
-   "tag": "31. FR🇫🇷",
+   "tag": "00031 proxy",
    "server": "31.59.121.150",
    "server_port": 2053,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -629,7 +629,7 @@
   },
   {
    "type": "vless",
-   "tag": "32. FR🇫🇷",
+   "tag": "00032 proxy",
    "server": "51.38.226.4",
    "server_port": 2053,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -652,7 +652,7 @@
   },
   {
    "type": "vless",
-   "tag": "33. FR🇫🇷",
+   "tag": "00033 proxy",
    "server": "54.36.99.234",
    "server_port": 2053,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -675,7 +675,7 @@
   },
   {
    "type": "vless",
-   "tag": "34. FR🇫🇷",
+   "tag": "00034 proxy",
    "server": "fsdns.ectunnelvpn.me",
    "server_port": 80,
    "uuid": "15cbab96-197e-46a5-9042-073b3980c798",
@@ -690,7 +690,7 @@
   },
   {
    "type": "vless",
-   "tag": "35. CZ🇨🇿",
+   "tag": "00035 proxy",
    "server": "80.211.205.173",
    "server_port": 8443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -713,7 +713,7 @@
   },
   {
    "type": "vless",
-   "tag": "36. US🇺🇸",
+   "tag": "00036 proxy",
    "server": "194.58.46.132",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -739,7 +739,7 @@
   },
   {
    "type": "vmess",
-   "tag": "37. INT🌍",
+   "tag": "00037 proxy",
    "server": "node-id-1.v2sv.top",
    "server_port": 8443,
    "uuid": "c80e5a39-5b85-4326-95f1-fbf1053cdebd",
@@ -761,7 +761,7 @@
   },
   {
    "type": "trojan",
-   "tag": "38. US🇺🇸",
+   "tag": "00038 proxy",
    "server": "104.18.32.47",
    "server_port": 443,
    "password": "humanity",
@@ -780,7 +780,7 @@
   },
   {
    "type": "vless",
-   "tag": "39. INT🌍",
+   "tag": "00039 proxy",
    "server": "220.88.3.5",
    "server_port": 12283,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -800,7 +800,7 @@
   },
   {
    "type": "vless",
-   "tag": "40. KR🇰🇷",
+   "tag": "00040 proxy",
    "server": "158.179.174.225",
    "server_port": 36364,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -820,7 +820,7 @@
   },
   {
    "type": "vless",
-   "tag": "41. KR🇰🇷",
+   "tag": "00041 proxy",
    "server": "118.42.204.220",
    "server_port": 12281,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -840,7 +840,7 @@
   },
   {
    "type": "vless",
-   "tag": "42. KR🇰🇷",
+   "tag": "00042 proxy",
    "server": "119.195.168.105",
    "server_port": 10973,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -860,7 +860,7 @@
   },
   {
    "type": "vless",
-   "tag": "43. INT🌍",
+   "tag": "00043 proxy",
    "server": "146.56.43.189",
    "server_port": 34454,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -880,7 +880,7 @@
   },
   {
    "type": "vless",
-   "tag": "44. INT🌍",
+   "tag": "00044 proxy",
    "server": "45.77.25.6",
    "server_port": 48828,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -900,7 +900,7 @@
   },
   {
    "type": "vless",
-   "tag": "45. INT🌍",
+   "tag": "00045 proxy",
    "server": "www.ptnk.sry-vpn.com",
    "server_port": 80,
    "uuid": "4dc817f7-2595-4330-a1b0-e35e7c6b803a",
@@ -915,7 +915,7 @@
   },
   {
    "type": "vmess",
-   "tag": "46. INT🌍",
+   "tag": "00046 proxy",
    "server": "38.107.234.57",
    "server_port": 80,
    "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
@@ -933,7 +933,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "47. INT🌍",
+   "tag": "00047 proxy",
    "server": "213.156.137.142",
    "server_port": 43659,
    "method": "chacha20-ietf-poly1305",
@@ -941,7 +941,7 @@
   },
   {
    "type": "vless",
-   "tag": "48. INT🌍",
+   "tag": "00048 proxy",
    "server": "83.138.55.120",
    "server_port": 2053,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -964,7 +964,7 @@
   },
   {
    "type": "vless",
-   "tag": "49. INT🌍",
+   "tag": "00049 proxy",
    "server": "217.13.105.19",
    "server_port": 1443,
    "uuid": "a58b71d9-7bb6-4c83-b17d-732655d20959",
@@ -986,7 +986,7 @@
   },
   {
    "type": "vless",
-   "tag": "50. INT🌍",
+   "tag": "00050 proxy",
    "server": "217.13.105.1",
    "server_port": 1443,
    "uuid": "cf35aef1-cf24-488f-a952-3bfd14c15b48",
@@ -1008,7 +1008,7 @@
   },
   {
    "type": "vless",
-   "tag": "51. INT🌍",
+   "tag": "00051 proxy",
    "server": "185.4.72.98",
    "server_port": 8443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1031,7 +1031,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "52. INT🌍",
+   "tag": "00052 proxy",
    "server": "download.riferoser.icu",
    "server_port": 56594,
    "method": "chacha20-ietf-poly1305",
@@ -1039,7 +1039,7 @@
   },
   {
    "type": "vless",
-   "tag": "53. INT🌍",
+   "tag": "00053 proxy",
    "server": "114.33.57.170",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1065,7 +1065,7 @@
   },
   {
    "type": "vless",
-   "tag": "54. INT🌍",
+   "tag": "00054 proxy",
    "server": "152.67.190.105",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1088,7 +1088,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "55. INT🌍",
+   "tag": "00055 proxy",
    "server": "185.39.204.189",
    "server_port": 34085,
    "method": "chacha20-ietf-poly1305",
@@ -1096,7 +1096,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "56. INT🌍",
+   "tag": "00056 proxy",
    "server": "185.39.204.27",
    "server_port": 1080,
    "method": "chacha20-ietf-poly1305",
@@ -1104,7 +1104,7 @@
   },
   {
    "type": "trojan",
-   "tag": "57. INT🌍",
+   "tag": "00057 proxy",
    "server": "hk27.oportal.cc",
    "server_port": 443,
    "password": "adb13850-7e70-492e-85b2-01184801d587",
@@ -1115,7 +1115,7 @@
   },
   {
    "type": "vmess",
-   "tag": "58. INT🌍",
+   "tag": "00058 proxy",
    "server": "8.218.52.5",
    "server_port": 443,
    "uuid": "1f2daf43-ff90-4df9-9276-dfb8486d72bc",
@@ -1134,7 +1134,7 @@
   },
   {
    "type": "vless",
-   "tag": "59. INT🌍",
+   "tag": "00059 proxy",
    "server": "31.57.155.231",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1160,7 +1160,7 @@
   },
   {
    "type": "vless",
-   "tag": "60. INT🌍",
+   "tag": "00060 proxy",
    "server": "83.229.123.227",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1186,7 +1186,7 @@
   },
   {
    "type": "vmess",
-   "tag": "61. INT🌍",
+   "tag": "00061 proxy",
    "server": "n1761296877.lie5d.cyou",
    "server_port": 443,
    "uuid": "1ebfdffa-1a37-4336-8494-f85b36cdf087",
@@ -1204,7 +1204,7 @@
   },
   {
    "type": "vless",
-   "tag": "62. INT🌍",
+   "tag": "00062 proxy",
    "server": "91.218.143.194",
    "server_port": 43798,
    "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
@@ -1225,7 +1225,7 @@
   },
   {
    "type": "vless",
-   "tag": "63. INT🌍",
+   "tag": "00063 proxy",
    "server": "195.20.208.72",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1251,7 +1251,7 @@
   },
   {
    "type": "vless",
-   "tag": "64. INT🌍",
+   "tag": "00064 proxy",
    "server": "31.128.32.98",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1274,7 +1274,7 @@
   },
   {
    "type": "vless",
-   "tag": "65. INT🌍",
+   "tag": "00065 proxy",
    "server": "94.23.153.167",
    "server_port": 2053,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1297,7 +1297,7 @@
   },
   {
    "type": "vless",
-   "tag": "66. INT🌍",
+   "tag": "00066 proxy",
    "server": "api5.maps-yandex.net",
    "server_port": 10970,
    "uuid": "9b73c904-e704-4537-ab1a-6aadfc5c535e",
@@ -1320,7 +1320,7 @@
   },
   {
    "type": "trojan",
-   "tag": "67. INT🌍",
+   "tag": "00067 proxy",
    "server": "ubu.okaoclax.me",
    "server_port": 443,
    "password": "13c169be-8592-4eaa-94cb-69c859e7d987",
@@ -1339,7 +1339,7 @@
   },
   {
    "type": "vless",
-   "tag": "68. INT🌍",
+   "tag": "00068 proxy",
    "server": "vps.jentago.web.id",
    "server_port": 80,
    "uuid": "65e542e0-0690-4787-b7e3-a4706013097d",
@@ -1354,7 +1354,7 @@
   },
   {
    "type": "vless",
-   "tag": "69. INT🌍",
+   "tag": "00069 proxy",
    "server": "vps.zakir.web.id",
    "server_port": 80,
    "uuid": "ca73d911-29f4-42d8-ada5-81dee679e96a",
@@ -1369,7 +1369,7 @@
   },
   {
    "type": "vless",
-   "tag": "70. INT🌍",
+   "tag": "00070 proxy",
    "server": "43.160.248.66",
    "server_port": 8443,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -1389,7 +1389,7 @@
   },
   {
    "type": "trojan",
-   "tag": "71. INT🌍",
+   "tag": "00071 proxy",
    "server": "br09.oportal.cc",
    "server_port": 443,
    "password": "adb13850-7e70-492e-85b2-01184801d587",
@@ -1400,7 +1400,7 @@
   },
   {
    "type": "vmess",
-   "tag": "72. INT🌍",
+   "tag": "00072 proxy",
    "server": "45.141.151.236",
    "server_port": 14466,
    "uuid": "f429d63c-ae81-49a8-ef17-7351dc4abd8b",
@@ -1418,7 +1418,7 @@
   },
   {
    "type": "vless",
-   "tag": "73. INT🌍",
+   "tag": "00073 proxy",
    "server": "tr01-vlr01.tcp-reset-club.net",
    "server_port": 443,
    "uuid": "42a7df85-0739-4760-a248-32a491abfa2a",
@@ -1440,7 +1440,7 @@
   },
   {
    "type": "vless",
-   "tag": "74. INT🌍",
+   "tag": "00074 proxy",
    "server": "103.231.75.115",
    "server_port": 443,
    "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
@@ -1466,7 +1466,7 @@
   },
   {
    "type": "vless",
-   "tag": "75. INT🌍",
+   "tag": "00075 proxy",
    "server": "109.120.189.133",
    "server_port": 443,
    "uuid": "ab9a202a-d0b2-01f4-95e5-d6f373a1ab35",
@@ -1488,7 +1488,7 @@
   },
   {
    "type": "vless",
-   "tag": "76. INT🌍",
+   "tag": "00076 proxy",
    "server": "109.120.189.133",
    "server_port": 443,
    "uuid": "ab9a202a-d0b2-03e8-95e5-d6f373a1ab35",
@@ -1510,7 +1510,7 @@
   },
   {
    "type": "vless",
-   "tag": "77. INT🌍",
+   "tag": "00077 proxy",
    "server": "84.201.172.164",
    "server_port": 443,
    "uuid": "cb2e5fc3-c1bb-4cfc-b18c-69e450fbd017",
@@ -1532,7 +1532,7 @@
   },
   {
    "type": "vmess",
-   "tag": "78. INT🌍",
+   "tag": "00078 proxy",
    "server": "3.35.173.75",
    "server_port": 8686,
    "uuid": "1a17b19d-4896-4531-af79-6e91d8ef8228",
@@ -1550,7 +1550,7 @@
   },
   {
    "type": "trojan",
-   "tag": "79. INT🌍",
+   "tag": "00079 proxy",
    "server": "54.249.53.157",
    "server_port": 921,
    "password": "f389ed926e512e15f382dc3804029474",
@@ -1561,7 +1561,7 @@
   },
   {
    "type": "trojan",
-   "tag": "80. INT🌍",
+   "tag": "00080 proxy",
    "server": "160.16.132.38",
    "server_port": 4937,
    "password": "f389ed926e512e15f382dc3804029474",
@@ -1572,7 +1572,7 @@
   },
   {
    "type": "trojan",
-   "tag": "81. INT🌍",
+   "tag": "00081 proxy",
    "server": "160.16.132.38",
    "server_port": 3419,
    "password": "f389ed926e512e15f382dc3804029474",
@@ -1583,7 +1583,7 @@
   },
   {
    "type": "vless",
-   "tag": "82. INT🌍",
+   "tag": "00082 proxy",
    "server": "202.84.53.85",
    "server_port": 12145,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -1602,7 +1602,7 @@
   },
   {
    "type": "vless",
-   "tag": "83. INT🌍",
+   "tag": "00083 proxy",
    "server": "43.165.191.25",
    "server_port": 20524,
    "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
@@ -1621,7 +1621,7 @@
   },
   {
    "type": "vless",
-   "tag": "84. INT🌍",
+   "tag": "00084 proxy",
    "server": "85.155.230.242",
    "server_port": 443,
    "uuid": "b61f440d-2fdf-4232-8779-0f618b146efc",

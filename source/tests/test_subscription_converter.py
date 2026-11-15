@@ -72,7 +72,7 @@ class SubscriptionConversionTest(unittest.TestCase):
         config, issues = convert_subscription(vmess())
         self.assertEqual(config, {
             "outbounds": [{
-                "type": "vmess", "tag": "1. 🇭🇰_HK_中国香港->🇫🇷_FR_法国",
+                "type": "vmess", "tag": "00001 proxy",
                 "server": "v35.hdacd.com", "server_port": 30835,
                 "uuid": USER_ID, "security": "auto", "alter_id": 2,
                 "authenticated_length": True, "packet_encoding": "xudp"
@@ -88,8 +88,8 @@ class SubscriptionConversionTest(unittest.TestCase):
         config, issues = convert_subscription(wrapped)
         self.assertEqual(len(config["outbounds"]), 2)
         self.assertEqual([item["tag"] for item in config["outbounds"]], [
-            "1. 🇭🇰_HK_中国香港->🇫🇷_FR_法国",
-            "2. 🇭🇰_HK_中国香港->🇫🇷_FR_法国",
+            "00001 proxy",
+            "00002 proxy",
         ])
         self.assertFalse(issues)
 
@@ -193,7 +193,7 @@ class SubscriptionConversionTest(unittest.TestCase):
             with redirect_stdout(io.StringIO()):
                 config = save_raw_subscription(vmess(), path)
             text = path.read_text()
-            self.assertIn("🇭🇰", text)
+            self.assertIn("00001 proxy", text)
             self.assertEqual(json.loads(text), config)
             converted, _ = convert_subscription(text)
             self.assertEqual(converted, config)

@@ -28,6 +28,7 @@ class ProtocolSubscriptionTest(unittest.TestCase):
             for kind in counts:
                 raw = json.loads(Path(directory, f"raw/by-type/{kind}.json").read_text())
                 self.assertEqual({node["type"] for node in raw["outbounds"]}, {kind})
+                self.assertEqual(raw["outbounds"][0]["tag"], "00001 proxy")
                 profile = json.loads(Path(directory, f"hiddify/by-type/{kind}.json").read_text())
                 self.assertEqual(profile["outbounds"][2:], raw["outbounds"])
                 self.assertEqual(profile["outbounds"][1]["outbounds"], [raw["outbounds"][0]["tag"]])
@@ -65,17 +66,18 @@ class ProtocolSubscriptionTest(unittest.TestCase):
             root = Path(directory)
             paths, counts = build_protocol_subscriptions({"outbounds": nodes + [trojan]}, root)
             self.assertEqual(counts, {"vless": 2001, "trojan": 1})
-            first = json.loads(root.joinpath("hiddify/groups/vless1.json").read_text())
-            second = json.loads(root.joinpath("hiddify/groups/vless2.json").read_text())
+            first = json.loads(root.joinpath("hiddify/groups/vless01.json").read_text())
+            second = json.loads(root.joinpath("hiddify/groups/vless02.json").read_text())
             self.assertEqual(len(first["outbounds"]) - 2, GROUP_SIZE)
             self.assertEqual(len(second["outbounds"]) - 2, 1)
-            self.assertEqual(first["outbounds"][1]["outbounds"], [node["tag"] for node in nodes[:GROUP_SIZE]])
+            self.assertEqual(first["outbounds"][1]["outbounds"], [f"{index:05d} proxy" for index in range(1, GROUP_SIZE + 1)])
+            self.assertEqual(second["outbounds"][2]["tag"], "00001 proxy")
             links = root.joinpath("hiddify/groups/vless-list.txt").read_text().splitlines()
-            self.assertEqual(links, [f"{GROUP_BASE_URL}/hiddify/groups/vless{number}.json" for number in (1, 2)])
+            self.assertEqual(links, [f"{GROUP_BASE_URL}/hiddify/groups/vless{number:02d}.json" for number in (1, 2)])
             self.assertEqual(root.joinpath("hiddify/groups/all.txt").read_text().splitlines(), [
-                f"{GROUP_BASE_URL}/hiddify/groups/trojan1.json", *links
+                f"{GROUP_BASE_URL}/hiddify/groups/trojan01.json", *links
             ])
-            self.assertIn("hiddify/groups/vless2.json", paths)
+            self.assertIn("hiddify/groups/vless02.json", paths)
             stats = json.loads(root.joinpath("protocol-stats.json").read_text())
             self.assertEqual(stats["groups"], {"trojan": 1, "vless": 2})
             self.assertEqual(stats["group_size"], GROUP_SIZE)
@@ -83,11 +85,14 @@ class ProtocolSubscriptionTest(unittest.TestCase):
             old_directory.mkdir()
             old_directory.joinpath("1.json").write_text("old")
             old_directory.joinpath("list.txt").write_text("old")
+            old_flat = root / "hiddify/groups/vless1.json"
+            old_flat.write_text("old")
             build_protocol_subscriptions({"outbounds": nodes[:1]}, root)
-            self.assertFalse(root.joinpath("hiddify/groups/vless2.json").exists())
-            self.assertFalse(root.joinpath("hiddify/groups/trojan1.json").exists())
+            self.assertFalse(root.joinpath("hiddify/groups/vless02.json").exists())
+            self.assertFalse(root.joinpath("hiddify/groups/trojan01.json").exists())
             self.assertFalse(root.joinpath("hiddify/groups/trojan-list.txt").exists())
             self.assertFalse(old_directory.exists())
+            self.assertFalse(old_flat.exists())
 
     def test_group_table_links_and_counts(self):
         html = render_group_rows({"vless": 2001})
@@ -95,7 +100,7 @@ class ProtocolSubscriptionTest(unittest.TestCase):
         self.assertIn('data-copy="group-vless-2"', html)
         self.assertIn('rowspan="2"', html)
         self.assertIn('data-copy="group-list-vless"', html)
-        self.assertIn('>vless2.json</a>', html)
+        self.assertIn('>vless02.json</a>', html)
         self.assertIn('>2\u202f000</td>', html)
 
 

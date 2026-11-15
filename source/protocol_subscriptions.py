@@ -58,8 +58,11 @@ def group_subscription_outputs(kind, nodes):
     outputs = {}
     links = []
     for number, start in enumerate(range(0, len(nodes), GROUP_SIZE), start=1):
-        group = {"outbounds": nodes[start:start + GROUP_SIZE], "endpoints": []}
-        path = f"hiddify/groups/{kind}{number}.json"
+        group_nodes = deepcopy(nodes[start:start + GROUP_SIZE])
+        for index, node in enumerate(group_nodes, start=1):
+            node["tag"] = f"{index:05d} proxy"
+        group = {"outbounds": group_nodes, "endpoints": []}
+        path = f"hiddify/groups/{kind}{number:02d}.json"
         outputs[path] = build_hiddify_config(group)
         links.append(f"{GROUP_BASE_URL}/{path}")
     outputs[f"hiddify/groups/{kind}-list.txt"] = "\n".join(links) + "\n"
@@ -111,6 +114,8 @@ def build_protocol_subscriptions(config, root="."):
     group_counts = {}
     all_group_links = []
     for kind, nodes in sorted(groups.items()):
+        for index, node in enumerate(nodes, start=1):
+            node["tag"] = f"{index:05d} proxy"
         dataset = {"outbounds": nodes, "endpoints": []}
         profile = build_hiddify_config(dataset)
         outputs[f"raw/by-type/{kind}.json"] = dataset
