@@ -28,7 +28,33 @@
     "21. MarkazeAhan | SERVER 21",
     "22. MarkazeAhan | SERVER 22",
     "23. MarkazeAhan | SERVER 23",
-    "24. MarkazeAhan | SERVER 24"
+    "24. MarkazeAhan | SERVER 24",
+    "25. MarkazeAhan | SERVER 25",
+    "26. MarkazeAhan | SERVER 26",
+    "27. MarkazeAhan | SERVER 27",
+    "28. MarkazeAhan | SERVER 28",
+    "29. MarkazeAhan | SERVER 29",
+    "30. MarkazeAhan | SERVER 30",
+    "31. MarkazeAhan | SERVER 31",
+    "32. MarkazeAhan | SERVER 32",
+    "33. MarkazeAhan | SERVER 33",
+    "34. MarkazeAhan | SERVER 34",
+    "35. MarkazeAhan | SERVER 35",
+    "36. MarkazeAhan | SERVER 36",
+    "37. MarkazeAhan | SERVER 37",
+    "38. MarkazeAhan | SERVER 38",
+    "39. MarkazeAhan | SERVER 39",
+    "40. MarkazeAhan | SERVER 40",
+    "41. MarkazeAhan | SERVER 41",
+    "42. MarkazeAhan | SERVER 42",
+    "43. MarkazeAhan | SERVER 43",
+    "44. MarkazeAhan | SERVER 44",
+    "45. MarkazeAhan | SERVER 45",
+    "46. MarkazeAhan | SERVER 46",
+    "47. MarkazeAhan | SERVER 47",
+    "48. MarkazeAhan | SERVER 48",
+    "49. MarkazeAhan | SERVER 49",
+    "50. MarkazeAhan | SERVER 50"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -60,7 +86,33 @@
     "21. MarkazeAhan | SERVER 21",
     "22. MarkazeAhan | SERVER 22",
     "23. MarkazeAhan | SERVER 23",
-    "24. MarkazeAhan | SERVER 24"
+    "24. MarkazeAhan | SERVER 24",
+    "25. MarkazeAhan | SERVER 25",
+    "26. MarkazeAhan | SERVER 26",
+    "27. MarkazeAhan | SERVER 27",
+    "28. MarkazeAhan | SERVER 28",
+    "29. MarkazeAhan | SERVER 29",
+    "30. MarkazeAhan | SERVER 30",
+    "31. MarkazeAhan | SERVER 31",
+    "32. MarkazeAhan | SERVER 32",
+    "33. MarkazeAhan | SERVER 33",
+    "34. MarkazeAhan | SERVER 34",
+    "35. MarkazeAhan | SERVER 35",
+    "36. MarkazeAhan | SERVER 36",
+    "37. MarkazeAhan | SERVER 37",
+    "38. MarkazeAhan | SERVER 38",
+    "39. MarkazeAhan | SERVER 39",
+    "40. MarkazeAhan | SERVER 40",
+    "41. MarkazeAhan | SERVER 41",
+    "42. MarkazeAhan | SERVER 42",
+    "43. MarkazeAhan | SERVER 43",
+    "44. MarkazeAhan | SERVER 44",
+    "45. MarkazeAhan | SERVER 45",
+    "46. MarkazeAhan | SERVER 46",
+    "47. MarkazeAhan | SERVER 47",
+    "48. MarkazeAhan | SERVER 48",
+    "49. MarkazeAhan | SERVER 49",
+    "50. MarkazeAhan | SERVER 50"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -68,150 +120,654 @@
    "interrupt_exist_connections": true
   },
   {
-   "type": "vless",
+   "type": "shadowsocks",
    "tag": "1. MarkazeAhan | SERVER 1",
-   "server": "169.128.83.4",
-   "server_port": 57259,
-   "uuid": "a1962f23-f8f8-412d-f2ce-3361e7b72889",
-   "packet_encoding": "xudp"
+   "server": "185.176.204.18",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "type": "trojan",
+   "type": "vless",
    "tag": "2. MarkazeAhan | SERVER 2",
-   "server": "167.88.61.52",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.browseseniorrolesandenhanceyourcareertoday.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
+   "server": "57.129.41.216",
+   "server_port": 80,
+   "uuid": "18535741-e8b3-4b43-9348-785b55936751",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/vless/",
+    "headers": {
+     "Host": "OV-Germany1.09vpn.com"
     }
    }
   },
   {
    "type": "vless",
    "tag": "3. MarkazeAhan | SERVER 3",
-   "server": "latvia.zovip2.ir",
-   "server_port": 443,
-   "uuid": "3694cbd9-986b-4bf3-95df-3649b37ccb47",
+   "server": "66.70.179.198",
+   "server_port": 2053,
+   "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "sync.zovip2.ir",
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/api/v3/pulse",
-    "headers": {
-     "Host": "sync.zovip2.ir"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "4. MarkazeAhan | SERVER 4",
-   "server": "167.88.61.193",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "5. MarkazeAhan | SERVER 5",
-   "server": "154.21.89.67",
-   "server_port": 18889,
-   "uuid": "da03af6b-a490-4064-8100-d91194e086b6",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "dmit.shiinayane.com",
+    "server_name": "www.cloudflare.com",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "HH7pKVkvqwZBs9yeZ6ffYZ1ColfFNT94Yek4GC4NLFs",
+     "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+     "short_id": "83f8317a948bb769"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "4. MarkazeAhan | SERVER 4",
+   "server": "82.38.31.195",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "5. MarkazeAhan | SERVER 5",
+   "server": "82.38.31.218",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "6. MarkazeAhan | SERVER 6",
+   "server": "51.158.206.19",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "7. MarkazeAhan | SERVER 7",
+   "server": "51.158.206.93",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "8. MarkazeAhan | SERVER 8",
+   "server": "82.38.31.192",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "9. MarkazeAhan | SERVER 9",
+   "server": "82.38.31.206",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "10. MarkazeAhan | SERVER 10",
+   "server": "15.204.97.219",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
      "short_id": ""
     }
    }
   },
   {
-   "type": "trojan",
-   "tag": "6. MarkazeAhan | SERVER 6",
-   "server": "167.88.61.193",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "browseseniorrolesandenhanceyourcareertoday.com"
-   }
+   "type": "shadowsocks",
+   "tag": "11. MarkazeAhan | SERVER 11",
+   "server": "82.38.31.208",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
   },
   {
-   "type": "vmess",
-   "tag": "7. MarkazeAhan | SERVER 7",
-   "server": "185.36.192.228",
-   "server_port": 35488,
-   "uuid": "fb5a4283-dbfb-458b-8619-c4a53739f781",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "trojan",
-   "tag": "8. MarkazeAhan | SERVER 8",
-   "server": "167.88.61.52",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.browseseniorrolesandenhanceyourcareertoday.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
+   "type": "shadowsocks",
+   "tag": "12. MarkazeAhan | SERVER 12",
+   "server": "82.38.31.61",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
   },
   {
    "type": "vless",
-   "tag": "9. MarkazeAhan | SERVER 9",
-   "server": "novonl.subv.ru",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+   "tag": "13. MarkazeAhan | SERVER 13",
+   "server": "15.204.97.216",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "golos.mail.ru",
+    "server_name": "fuck.rkn",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "14. MarkazeAhan | SERVER 14",
+   "server": "82.38.31.156",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "15. MarkazeAhan | SERVER 15",
+   "server": "82.38.31.184",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "16. MarkazeAhan | SERVER 16",
+   "server": "82.38.31.179",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "17. MarkazeAhan | SERVER 17",
+   "server": "15.204.97.206",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "18. MarkazeAhan | SERVER 18",
+   "server": "15.204.97.219",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "19. MarkazeAhan | SERVER 19",
+   "server": "104.16.0.1",
+   "server_port": 2052,
+   "uuid": "5744e593-1cc8-48fa-b8ca-57cd494fe35b",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/rain1226",
+    "headers": {
+     "Host": "eu02.123450908.xyz"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "20. MarkazeAhan | SERVER 20",
+   "server": "185.95.231.156",
+   "server_port": 443,
+   "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+     "short_id": "a3a578ab"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "21. MarkazeAhan | SERVER 21",
+   "server": "82.38.31.46",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "vless",
+   "tag": "22. MarkazeAhan | SERVER 22",
+   "server": "47.253.226.114",
+   "server_port": 443,
+   "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.cloudflare.com",
+    "alpn": [
+     "networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "23. MarkazeAhan | SERVER 23",
+   "server": "15.204.247.124",
+   "server_port": 2375,
+   "method": "aes-256-gcm",
+   "password": "faBAoD54k87UJG7"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "24. MarkazeAhan | SERVER 24",
+   "server": "82.38.31.189",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "25. MarkazeAhan | SERVER 25",
+   "server": "195.211.98.43",
+   "server_port": 443,
+   "uuid": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.cloudflare.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+     "short_id": "9c56fddf237e8eaf"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "26. MarkazeAhan | SERVER 26",
+   "server": "169.40.42.74",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "27. MarkazeAhan | SERVER 27",
+   "server": "82.38.31.193",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "28. MarkazeAhan | SERVER 28",
+   "server": "193.29.139.235",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "vless",
+   "tag": "29. MarkazeAhan | SERVER 29",
+   "server": "51.158.206.80",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "30. MarkazeAhan | SERVER 30",
+   "server": "51.158.206.12",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "31. MarkazeAhan | SERVER 31",
+   "server": "15.204.97.197",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "32. MarkazeAhan | SERVER 32",
+   "server": "169.40.42.231",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "33. MarkazeAhan | SERVER 33",
+   "server": "62.210.91.2",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "34. MarkazeAhan | SERVER 34",
+   "server": "82.38.31.187",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "35. MarkazeAhan | SERVER 35",
+   "server": "uae.unixzone.us",
+   "server_port": 22573,
+   "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "uae.unixzone.us"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "36. MarkazeAhan | SERVER 36",
+   "server": "169.40.42.74",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "37. MarkazeAhan | SERVER 37",
+   "server": "169.40.42.168",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "random"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "38. MarkazeAhan | SERVER 38",
+   "server": "15.204.97.197",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "39. MarkazeAhan | SERVER 39",
+   "server": "195.211.98.43",
+   "server_port": 443,
+   "uuid": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.cloudflare.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+     "short_id": "9c56fddf237e8eaf"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "40. MarkazeAhan | SERVER 40",
+   "server": "82.38.31.217",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "41. MarkazeAhan | SERVER 41",
+   "server": "51.158.206.25",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
     }
    }
   },
   {
    "type": "trojan",
-   "tag": "10. MarkazeAhan | SERVER 10",
-   "server": "sclass-c1.catcat321.com",
+   "tag": "42. MarkazeAhan | SERVER 42",
+   "server": "157.254.38.210",
    "server_port": 20086,
    "password": "d9064589-74af-432a-9390-5d8a9da281bf",
    "tls": {
@@ -224,229 +780,140 @@
    }
   },
   {
-   "type": "vmess",
-   "tag": "11. MarkazeAhan | SERVER 11",
-   "server": "65.108.240.210",
-   "server_port": 39018,
-   "uuid": "fa15684a-81e6-4ba7-bc4b-f601c0d998e9",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "12. MarkazeAhan | SERVER 12",
-   "server": "176.65.151.175",
-   "server_port": 11674,
-   "uuid": "a98a98cb-ae86-43ae-b695-cf0dbcad3fc2",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "trojan",
-   "tag": "13. MarkazeAhan | SERVER 13",
-   "server": "66.163.118.40",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.discovergreatjobsandadvanceyourcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "14. MarkazeAhan | SERVER 14",
-   "server": "208.69.78.208",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.yourultimateprofessionalcareerhub.com"
-   }
+   "type": "shadowsocks",
+   "tag": "43. MarkazeAhan | SERVER 43",
+   "server": "82.38.31.207",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
   },
   {
    "type": "vless",
-   "tag": "15. MarkazeAhan | SERVER 15",
-   "server": "185.86.147.175",
+   "tag": "44. MarkazeAhan | SERVER 44",
+   "server": "47.251.25.74",
    "server_port": 443,
-   "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "bhjolq0d0l.flowersgood.top",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/service/telemetry/045d381f1166/",
-    "headers": {
-     "Host": "bhjolq0d0l.flowersgood.top"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "16. MarkazeAhan | SERVER 16",
-   "server": "ee.subv.ru",
-   "server_port": 443,
-   "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+   "uuid": "18805ff3-b420-45de-af18-93be14024ae8",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "dvizhok.su",
+    "server_name": "www.amazon.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "45. MarkazeAhan | SERVER 45",
+   "server": "15.204.97.197",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-     "short_id": "428ef87fd47a3a32"
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
     }
    }
   },
   {
    "type": "vless",
-   "tag": "17. MarkazeAhan | SERVER 17",
-   "server": "45.143.94.91",
-   "server_port": 8443,
-   "uuid": "3837e7a5-d40e-4b85-8700-5f9725a5a2cb",
+   "tag": "46. MarkazeAhan | SERVER 46",
+   "server": "167.17.69.171",
+   "server_port": 443,
+   "uuid": "00144519-7e0d-476b-8d28-435576af9262",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "us1.cloudvienta.com",
+    "server_name": "www.cloudflare.com",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "3Kgy_0tHtOzEn9_mEylNsBVlAHNngT6S4AuYy5wEOSU",
-     "short_id": "0c37b64d1935ebc1"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "18. MarkazeAhan | SERVER 18",
-   "server": "208.69.78.208",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.yourultimateprofessionalcareerhub.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "19. MarkazeAhan | SERVER 19",
-   "server": "167.88.61.52",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "20. MarkazeAhan | SERVER 20",
-   "server": "162.159.130.234",
-   "server_port": 2083,
-   "uuid": "ac251237-576f-40c8-a543-554960c958b1",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.sfacg.uk"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/or3",
-    "headers": {
-     "Host": "or3.sfacg.uk"
+     "public_key": "ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk",
+     "short_id": "0990d22f"
     }
    }
   },
   {
    "type": "vless",
-   "tag": "21. MarkazeAhan | SERVER 21",
-   "server": "bhjolq0d0l.flowersgood.top",
-   "server_port": 443,
-   "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "bhjolq0d0l.flowersgood.top",
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/service/telemetry/045d381f1166/",
-    "headers": {
-     "Host": "bhjolq0d0l.flowersgood.top"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "22. MarkazeAhan | SERVER 22",
-   "server": "sclass-00.catcat321.com",
-   "server_port": 20123,
-   "password": "d9064589-74af-432a-9390-5d8a9da281bf",
-   "tls": {
-    "enabled": true,
-    "server_name": "hk.catxstar.com"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "23. MarkazeAhan | SERVER 23",
-   "server": "92.243.66.79",
-   "server_port": 443,
-   "uuid": "c5f59ef3-9540-49fa-bd1e-c6c2f79df49a",
+   "tag": "47. MarkazeAhan | SERVER 47",
+   "server": "15.204.97.219",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "ru-mow.probe.geomyip.com",
+    "server_name": "fuck.rkn",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o",
-     "short_id": "8d03c10b6a874a9c"
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": ""
     }
    }
   },
   {
-   "type": "vmess",
-   "tag": "24. MarkazeAhan | SERVER 24",
-   "server": "23.147.56.181",
-   "server_port": 52843,
-   "uuid": "88be793c-c368-4eb1-8809-057e5df96606",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
+   "type": "shadowsocks",
+   "tag": "48. MarkazeAhan | SERVER 48",
+   "server": "82.38.31.194",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "vless",
+   "tag": "49. MarkazeAhan | SERVER 49",
+   "server": "169.40.42.89",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "50. MarkazeAhan | SERVER 50",
+   "server": "mx001.zestapp778.com",
+   "server_port": 15083,
+   "password": "5t6i121em5lkmsmk",
+   "tls": {
+    "enabled": true
+   }
   }
  ],
  "endpoints": [],
