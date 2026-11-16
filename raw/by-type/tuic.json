@@ -75,11 +75,9 @@
    "server_port": 443,
    "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "congestion_control": "cubic",
-   "udp_relay_mode": "native",
    "tls": {
     "enabled": true,
-    "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com⊂_tag=M003-260806",
+    "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
     "alpn": [
      "h3"
     ]
@@ -92,21 +90,6 @@
    "server_port": 443,
    "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "tls": {
-    "enabled": true,
-    "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
-    "alpn": [
-     "h3"
-    ]
-   }
-  },
-  {
-   "type": "tuic",
-   "tag": "00007 proxy",
-   "server": "58.152.81.104",
-   "server_port": 443,
-   "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "congestion_control": "cubic",
    "udp_relay_mode": "native",
    "tls": {
@@ -119,7 +102,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00008 proxy",
+   "tag": "00007 proxy",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -135,7 +118,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00009 proxy",
+   "tag": "00008 proxy",
    "server": "tw5.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -150,7 +133,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00010 proxy",
+   "tag": "00009 proxy",
    "server": "104.105.139.38",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -167,7 +150,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00011 proxy",
+   "tag": "00010 proxy",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -184,7 +167,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00012 proxy",
+   "tag": "00011 proxy",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -194,6 +177,23 @@
    "tls": {
     "enabled": true,
     "server_name": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com_tag=M002-260618",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "00012 proxy",
+   "server": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
+   "server_port": 443,
+   "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
+   "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
     "alpn": [
      "h3"
     ]
@@ -219,11 +219,11 @@
   {
    "type": "tuic",
    "tag": "00014 proxy",
-   "server": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
+   "server": "58.152.81.104",
    "server_port": 443,
    "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "congestion_control": "bbr",
+   "congestion_control": "cubic",
    "udp_relay_mode": "native",
    "tls": {
     "enabled": true,
@@ -240,8 +240,6 @@
    "server_port": 443,
    "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "congestion_control": "cubic",
-   "udp_relay_mode": "native",
    "tls": {
     "enabled": true,
     "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
@@ -257,21 +255,6 @@
    "server_port": 443,
    "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "tls": {
-    "enabled": true,
-    "server_name": "54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com",
-    "alpn": [
-     "h3"
-    ]
-   }
-  },
-  {
-   "type": "tuic",
-   "tag": "00017 proxy",
-   "server": "58.152.81.104",
-   "server_port": 443,
-   "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
-   "password": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
    "congestion_control": "cubic",
    "udp_relay_mode": "native",
    "tls": {
@@ -284,7 +267,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00018 proxy",
+   "tag": "00017 proxy",
    "server": "tw3.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -300,7 +283,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00019 proxy",
+   "tag": "00018 proxy",
    "server": "tw5.dexlos.com",
    "server_port": 8080,
    "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
@@ -315,7 +298,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00020 proxy",
+   "tag": "00019 proxy",
    "server": "104.105.139.38",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -332,7 +315,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00021 proxy",
+   "tag": "00020 proxy",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -349,7 +332,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00022 proxy",
+   "tag": "00021 proxy",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
