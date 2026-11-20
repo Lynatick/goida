@@ -21,8 +21,7 @@
     "00014 proxy",
     "00015 proxy",
     "00016 proxy",
-    "00017 proxy",
-    "00018 proxy"
+    "00017 proxy"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -47,8 +46,7 @@
     "00014 proxy",
     "00015 proxy",
     "00016 proxy",
-    "00017 proxy",
-    "00018 proxy"
+    "00017 proxy"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -141,13 +139,16 @@
   {
    "type": "tuic",
    "tag": "00006 proxy",
-   "server": "tw5.dexlos.com",
-   "server_port": 8080,
-   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
-   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "server": "8f72d47c-tovmo0-tou0p4-1ji20.sj.gotochinatown.net",
+   "server_port": 443,
+   "uuid": "b7f20af6-7523-11f1-a6a1-f23c913c8d2b",
+   "password": "b7f20af6-7523-11f1-a6a1-f23c913c8d2b",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
    "tls": {
     "enabled": true,
-    "server_name": "tw5.dexlos.com",
+    "server_name": "8f72d47c-tovmo0-tou0p4-1ji20.sj.gotochinatown.net",
+    "insecure": true,
     "alpn": [
      "h3"
     ]
@@ -290,21 +291,6 @@
   {
    "type": "tuic",
    "tag": "00015 proxy",
-   "server": "tw5.dexlos.com",
-   "server_port": 8080,
-   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
-   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
-   "tls": {
-    "enabled": true,
-    "server_name": "tw5.dexlos.com",
-    "alpn": [
-     "h3"
-    ]
-   }
-  },
-  {
-   "type": "tuic",
-   "tag": "00016 proxy",
    "server": "104.105.139.38",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -321,7 +307,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00017 proxy",
+   "tag": "00016 proxy",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
@@ -338,7 +324,7 @@
   },
   {
    "type": "tuic",
-   "tag": "00018 proxy",
+   "tag": "00017 proxy",
    "server": "de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com",
    "server_port": 443,
    "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
