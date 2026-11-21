@@ -93,6 +93,22 @@ https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/22.json
 https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/23.json
 ```
 
+```text
+https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/24.json
+```
+
+```text
+https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/25.json
+```
+
+```text
+https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/26.json
+```
+
+```text
+https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/27.json
+```
+
 Общие подписки всех источников:
 
 - [Hiddify — все серверы](https://raw.githubusercontent.com/Lynatick/goida/main/hiddify/all.json)

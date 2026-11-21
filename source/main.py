@@ -63,6 +63,10 @@ URLS = [
     "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",   #21
     "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",   #22
     "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",  #23
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/tcp-pass/batch_013.txt",  #24
+    "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt",  #25
+    "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt",  #26
+    "https://raw.githubusercontent.com/chaishpish/free_server_v2ray/main/@TFMTProto",  #27
 ]
 
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]

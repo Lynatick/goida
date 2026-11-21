@@ -93,6 +93,8 @@ class ProtocolSubscriptionTest(unittest.TestCase):
             self.assertFalse(root.joinpath("hiddify/groups/trojan-list.txt").exists())
             self.assertFalse(old_directory.exists())
             self.assertFalse(old_flat.exists())
+            self.assertFalse(root.joinpath("raw/by-type/trojan.json").exists())
+            self.assertFalse(root.joinpath("hiddify/by-type/trojan.json").exists())
 
     def test_group_table_links_and_counts(self):
         html = render_group_rows({"vless": 2001})

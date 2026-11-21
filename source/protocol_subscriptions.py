@@ -91,6 +91,16 @@ def remove_stale_group_files(root, outputs):
             directory.rmdir()
 
 
+def remove_stale_type_files(root, outputs):
+    for directory, suffix in (("raw/by-type", "json"), ("hiddify/by-type", "json"),
+                              ("githubmirror/by-type", "txt")):
+        for kind in SUPPORTED_TYPES:
+            relative = f"{directory}/{kind}.{suffix}"
+            path = Path(root) / relative
+            if relative not in outputs and path.is_file():
+                path.unlink()
+
+
 def build_protocol_subscriptions(config, root="."):
     validate_json_config(config)
     # A single-protocol dataset cannot retain arbitrary full-profile routing.
@@ -161,6 +171,7 @@ def build_protocol_subscriptions(config, root="."):
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     remove_stale_group_files(Path(root), outputs)
+    remove_stale_type_files(Path(root), outputs)
     print(f"Подписки по типам: {counts}; исключено некорректных записей {sum(issues.values())}", flush=True)
     for reason, count in issues.items():
         print(f"  {reason}: {count}", flush=True)
