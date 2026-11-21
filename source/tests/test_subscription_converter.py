@@ -287,8 +287,28 @@ class SubscriptionConversionTest(unittest.TestCase):
         upload.reset_mock()
         namespace["build_combined_subscriptions"].return_value = []
         convert.side_effect = ConversionError("Unsupported source")
-        namespace["main"]()
-        upload.assert_called_once_with(original, original)
+        with self.assertRaisesRegex(RuntimeError, "Не удалось получить данные"):
+            namespace["main"]()
+        upload.assert_not_called()
+        self.assertEqual(save.call_count, 1)
+
+    def test_html_response_is_rejected_before_any_file_is_saved(self):
+        module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())
+        functions = [
+            node for node in module.body
+            if isinstance(node, ast.FunctionDef) and node.name == "fetch_source"
+        ]
+        namespace = {
+            "fetch_data": Mock(return_value="\ufeff  <!DOCTYPE html>\n<html>not a subscription</html>"),
+            "requests": Mock(RequestException=RuntimeError),
+            "print": Mock(),
+        }
+        exec(compile(ast.Module(body=functions, type_ignores=[]), "main.py", "exec"), namespace)
+        failed = []
+        result = namespace["fetch_source"]("https://example.com", "githubmirror/1.txt", "[1/1]", failed)
+        self.assertIsNone(result)
+        self.assertEqual(len(failed), 1)
+        self.assertIn("HTML вместо подписки", failed[0][2])
 
     def test_local_only_skips_token_upload_and_unavailable_sources(self):
         module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())

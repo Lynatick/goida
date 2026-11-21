@@ -157,6 +157,8 @@ def fetch_source(url, local_path, progress, failed_sources):
         data = fetch_data(url)
         if not data.strip():
             raise ValueError("Источник вернул пустые данные")
+        if data.lstrip("\ufeff \t\r\n").lower().startswith(("<!doctype html", "<html")):
+            raise ValueError("Источник вернул HTML вместо подписки")
         return data
     except (requests.RequestException, ValueError) as error:
         failed_sources.append((url, local_path, str(error)))
@@ -225,9 +227,13 @@ def main(local_only=False):
             if data is None:
                 print_progress(index, total)
                 continue
+            converted_paths = convert_source(data, local_path, progress)
+            if not converted_paths:
+                failed_sources.append((url, local_path, "Нет корректных конфигураций"))
+                print_progress(index, total)
+                continue
             print(f"{progress} Сохранение {local_path}", flush=True)
             save_to_local_file(local_path, data)
-            converted_paths = convert_source(data, local_path, progress)
             if not local_only:
                 paths = [(local_path, remote_path)]
                 paths.extend((path, path) for path in converted_paths)

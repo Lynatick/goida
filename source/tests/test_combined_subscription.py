@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from combined_subscription import build_combined_subscriptions
 from subscription_converter import ConversionError
@@ -74,8 +75,68 @@ class CombinedSubscriptionTest(unittest.TestCase):
             with redirect_stdout(output):
                 build_combined_subscriptions(root)
             self.assertEqual(mirror.joinpath("all.txt").read_text(), first + "\n" + second + "\n")
-            self.assertIn("пропущено некорректных строк без URI: 1", output.getvalue())
+            self.assertIn("пропущено некорректных строк: 1", output.getvalue())
             self.assertEqual(len(json.loads(root.joinpath("raw/all.txt").read_text())["outbounds"]), 2)
+
+    def test_same_connection_with_different_names_is_published_once(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            first = "trojan://secret@one.example:443#First"
+            renamed = "trojan://secret@one.example:443#Renamed"
+            second = "trojan://secret@two.example:443#Second"
+            mirror.joinpath("1.txt").write_text(first + "\n" + renamed + "\n" + second)
+            with redirect_stdout(io.StringIO()):
+                build_combined_subscriptions(root)
+            self.assertEqual(mirror.joinpath("all.txt").read_text(), first + "\n" + second + "\n")
+            raw = json.loads(root.joinpath("raw/all.txt").read_text())
+            self.assertEqual(len(raw["outbounds"]), 2)
+            self.assertEqual([node["tag"] for node in raw["outbounds"]], ["00001 proxy", "00002 proxy"])
+            stats = json.loads(root.joinpath("subscription-stats.json").read_text())
+            self.assertEqual(stats["all"], {"configs": 2, "excluded": 0})
+
+    def test_invalid_uri_is_excluded_from_aggregate(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            valid = "trojan://secret@one.example:443"
+            mirror.joinpath("1.txt").write_text(valid + "\nhttps://example.com/page\n")
+            with redirect_stdout(io.StringIO()):
+                build_combined_subscriptions(root)
+            self.assertEqual(mirror.joinpath("all.txt").read_text(), valid + "\n")
+            stats = json.loads(root.joinpath("subscription-stats.json").read_text())
+            self.assertEqual(stats["all"], {"configs": 1, "excluded": 1})
+
+    def test_downstream_failure_preserves_all_published_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            mirror.joinpath("1.txt").write_text("trojan://secret@one.example:443")
+            old_files = {
+                "githubmirror/all.txt": "old mirror",
+                "raw/all.txt": "old raw",
+                "hiddify/all.json": "old Hiddify",
+                "protocol-stats.json": "old protocol stats",
+                "subscription-stats.json": "old subscription stats",
+                "index.html": "old homepage",
+            }
+            for name, content in old_files.items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(content)
+            for function in ("build_protocol_subscriptions", "save_subscription_report"):
+                with self.subTest(function=function), patch(
+                    f"combined_subscription.{function}", side_effect=RuntimeError("failed")
+                ), redirect_stdout(io.StringIO()):
+                    with self.assertRaisesRegex(RuntimeError, "failed"):
+                        build_combined_subscriptions(root)
+                    self.assertEqual(
+                        {name: (root / name).read_text() for name in old_files}, old_files
+                    )
+                    self.assertEqual(list(root.glob(".goida-stage-*")), [])
 
     def test_only_corrupt_lines_keep_existing_aggregate(self):
         with tempfile.TemporaryDirectory() as directory:
