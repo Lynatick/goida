@@ -8,9 +8,7 @@
     "00001 proxy",
     "00002 proxy",
     "00003 proxy",
-    "00004 proxy",
-    "00005 proxy",
-    "00006 proxy"
+    "00004 proxy"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -22,9 +20,7 @@
     "00001 proxy",
     "00002 proxy",
     "00003 proxy",
-    "00004 proxy",
-    "00005 proxy",
-    "00006 proxy"
+    "00004 proxy"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -66,18 +62,6 @@
   {
    "type": "anytls",
    "tag": "00003 proxy",
-   "server": "rtifgjdr.df6h451rh.xin",
-   "server_port": 443,
-   "password": "2902c46c8493",
-   "tls": {
-    "enabled": true,
-    "server_name": "docs.microsoft.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "00004 proxy",
    "server": "ibsdsf.df6h451rh.xin",
    "server_port": 443,
    "password": "2902c46c8493",
@@ -89,19 +73,7 @@
   },
   {
    "type": "anytls",
-   "tag": "00005 proxy",
-   "server": "im.frnhk.xyz",
-   "server_port": 443,
-   "password": "e2413369-16de-4c90-97c5-b39b8d6b71cd",
-   "tls": {
-    "enabled": true,
-    "server_name": "im.frnhk.xyz",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "00006 proxy",
+   "tag": "00004 proxy",
    "server": "ibsdsf.df6h451rh.xin",
    "server_port": 443,
    "password": "2902c46c8493",
