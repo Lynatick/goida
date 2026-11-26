@@ -43,18 +43,7 @@
     "00036 proxy",
     "00037 proxy",
     "00038 proxy",
-    "00039 proxy",
-    "00040 proxy",
-    "00041 proxy",
-    "00042 proxy",
-    "00043 proxy",
-    "00044 proxy",
-    "00045 proxy",
-    "00046 proxy",
-    "00047 proxy",
-    "00048 proxy",
-    "00049 proxy",
-    "00050 proxy"
+    "00039 proxy"
    ],
    "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
@@ -101,18 +90,7 @@
     "00036 proxy",
     "00037 proxy",
     "00038 proxy",
-    "00039 proxy",
-    "00040 proxy",
-    "00041 proxy",
-    "00042 proxy",
-    "00043 proxy",
-    "00044 proxy",
-    "00045 proxy",
-    "00046 proxy",
-    "00047 proxy",
-    "00048 proxy",
-    "00049 proxy",
-    "00050 proxy"
+    "00039 proxy"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -122,68 +100,7 @@
   {
    "type": "vmess",
    "tag": "00001 proxy",
-   "server": "104.21.7.133",
-   "server_port": 80,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00002 proxy",
-   "server": "172.66.203.67",
-   "server_port": 443,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "vmess.lbw666.dpdns.org"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00003 proxy",
-   "server": "172.64.229.21",
-   "server_port": 443,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00004 proxy",
-   "server": "172.67.153.127",
+   "server": "188.114.96.1",
    "server_port": 443,
    "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
    "security": "auto",
@@ -199,122 +116,110 @@
     "path": "/truth",
     "headers": {
      "Host": "www.windowsmsidownloads.com"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00002 proxy",
+   "server": "208.69.78.158",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.yourultimateprofessionalcareerhub.com"
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "00003 proxy",
+   "server": "149.88.107.47",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "vless",
+   "tag": "00004 proxy",
+   "server": "5.253.42.164",
+   "server_port": 40443,
+   "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "deepl.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
+     "short_id": "68a8"
     }
    }
   },
   {
    "type": "vmess",
    "tag": "00005 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00006 proxy",
-   "server": "67.220.95.3",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00007 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00008 proxy",
-   "server": "38.91.107.49",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00009 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00010 proxy",
-   "server": "67.220.95.3",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00011 proxy",
-   "server": "38.91.107.49",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00012 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00013 proxy",
-   "server": "cf.877771.xyz",
-   "server_port": 443,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+   "server": "47.244.120.197",
+   "server_port": 44867,
+   "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
    "security": "auto",
    "alter_id": 0,
    "authenticated_length": true,
    "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "vmess.lbw666.dpdns.org"
-   },
    "transport": {
     "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
+    "path": "/arki"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00006 proxy",
+   "server": "15.235.184.127",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "exploredigitaljobplatformandfindonlinework.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00007 proxy",
+   "server": "sclass-c1.catcat321.com",
+   "server_port": 20086,
+   "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.catxstar.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
     }
    }
   },
   {
+   "type": "shadowsocks",
+   "tag": "00008 proxy",
+   "server": "167.17.64.27",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "00009 proxy",
+   "server": "172.99.189.142",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
    "type": "vmess",
-   "tag": "00014 proxy",
+   "tag": "00010 proxy",
    "server": "38.91.107.49",
    "server_port": 18000,
    "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -324,222 +229,57 @@
    "packet_encoding": "xudp"
   },
   {
-   "type": "vmess",
-   "tag": "00015 proxy",
-   "server": "172.64.229.21",
+   "type": "trojan",
+   "tag": "00011 proxy",
+   "server": "208.69.78.208",
    "server_port": 443,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.yourultimateprofessionalcareerhub.com"
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "00012 proxy",
+   "server": "51.222.155.113",
+   "server_port": 5601,
+   "method": "aes-256-gcm",
+   "password": "Y6R9pAtvxxzmGC"
+  },
+  {
+   "type": "vmess",
+   "tag": "00013 proxy",
+   "server": "206.237.11.17",
+   "server_port": 50376,
+   "uuid": "9091fd64-7e8e-4b7a-8ae7-84474f234926",
    "security": "auto",
    "alter_id": 0,
    "authenticated_length": true,
-   "packet_encoding": "xudp",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "00014 proxy",
+   "server": "178.94.25.73",
+   "server_port": 10443,
+   "uuid": "2dacc738-5720-4824-b8bc-e3db57596ba7",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "trojan",
+   "tag": "00015 proxy",
+   "server": "66.163.118.40",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
-    "server_name": "vmess.lbw666.dpdns.org"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
+    "server_name": "cdn.discovergreatjobsandadvanceyourcareer.com"
    }
   },
   {
    "type": "vmess",
    "tag": "00016 proxy",
-   "server": "38.110.1.246",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00017 proxy",
-   "server": "38.110.1.246",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "none",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00018 proxy",
-   "server": "www.windowsmsidownloads.com",
-   "server_port": 443,
-   "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.windowsmsidownloads.com"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/truth"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00019 proxy",
-   "server": "38.110.1.246",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00020 proxy",
-   "server": "23.162.200.198",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00021 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00022 proxy",
-   "server": "cf.090227.xyz",
-   "server_port": 443,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "vmess.lbw666.dpdns.org"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00023 proxy",
-   "server": "67.220.95.3",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "none",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "00024 proxy",
-   "server": "156.146.38.169",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "vmess",
-   "tag": "00025 proxy",
-   "server": "38.110.1.246",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00026 proxy",
-   "server": "38.110.1.246",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00027 proxy",
-   "server": "84.17.41.2",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "none",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00028 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00029 proxy",
-   "server": "67.220.95.3",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00030 proxy",
-   "server": "38.91.107.49",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00031 proxy",
-   "server": "149.88.23.202",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00032 proxy",
    "server": "172.67.153.127",
    "server_port": 443,
    "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
@@ -559,9 +299,257 @@
    }
   },
   {
+   "type": "trojan",
+   "tag": "00017 proxy",
+   "server": "169.197.140.171",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
    "type": "vless",
+   "tag": "00018 proxy",
+   "server": "webdisk.jaggyslawa.org",
+   "server_port": 443,
+   "uuid": "b62e3646-b84d-443c-9c94-718b646502e0",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.foxsports.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s",
+     "short_id": "dda5f542d835"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "00019 proxy",
+   "server": "156.245.232.239",
+   "server_port": 35043,
+   "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "www.pubgmobile.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "00020 proxy",
+   "server": "167.88.62.134",
+   "server_port": 1270,
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00021 proxy",
+   "server": "www.findlocaljobnetworkandbuildcommunityconnections.com",
+   "server_port": 443,
+   "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.findlocaljobnetworkandbuildcommunityconnections.com"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "00022 proxy",
+   "server": "178.172.227.228",
+   "server_port": 14430,
+   "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/vless",
+    "headers": {
+     "Host": "178.172.227.228"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00023 proxy",
+   "server": "66.163.112.242",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00024 proxy",
+   "server": "216.152.155.176",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "00025 proxy",
+   "server": "167.17.64.175",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "trojan",
+   "tag": "00026 proxy",
+   "server": "66.163.114.166",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "00027 proxy",
+   "server": "47.244.120.197",
+   "server_port": 44867,
+   "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/arki"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "00028 proxy",
+   "server": "57.129.41.216",
+   "server_port": 80,
+   "uuid": "18535741-e8b3-4b43-9348-785b55936751",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/vless/",
+    "headers": {
+     "Host": "ov-germany1.09vpn.com"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "00029 proxy",
+   "server": "216.152.147.74",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.connectingpeoplewithgreatjobs.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "00030 proxy",
+   "server": "47.244.120.197",
+   "server_port": 44867,
+   "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/arki"
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "00031 proxy",
+   "server": "137.184.89.151",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "vless",
+   "tag": "00032 proxy",
+   "server": "47.253.226.114",
+   "server_port": 443,
+   "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.cloudflare.com",
+    "alpn": [
+     "networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "trojan",
    "tag": "00033 proxy",
-   "server": "169.40.42.89",
+   "server": "170.101.101.237",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "00034 proxy",
+   "server": "140.238.2.250",
+   "server_port": 443,
+   "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "00035 proxy",
+   "server": "82.39.171.12",
    "server_port": 443,
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
    "flow": "xtls-rprx-vision",
@@ -581,247 +569,41 @@
    }
   },
   {
-   "type": "vmess",
-   "tag": "00034 proxy",
-   "server": "84.17.41.2",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00035 proxy",
-   "server": "104.17.136.198",
-   "server_port": 443,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "vmess.lbw666.dpdns.org"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vless",
+   "type": "trojan",
    "tag": "00036 proxy",
-   "server": "195.211.98.43",
+   "server": "216.152.147.152",
    "server_port": 443,
-   "uuid": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
-     "short_id": "9c56fddf237e8eaf"
-    }
+    "server_name": "learn.connectingpeoplewithgreatjobs.com"
    }
   },
   {
-   "type": "vmess",
+   "type": "shadowsocks",
    "tag": "00037 proxy",
-   "server": "84.17.41.2",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00038 proxy",
-   "server": "149.88.23.202",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00039 proxy",
-   "server": "149.88.23.202",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00040 proxy",
-   "server": "169.197.142.22",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "00041 proxy",
-   "server": "15.204.247.124",
-   "server_port": 2375,
+   "server": "23.166.88.127",
+   "server_port": 19999,
    "method": "aes-256-gcm",
-   "password": "faBAoD54k87UJG7"
-  },
-  {
-   "type": "vmess",
-   "tag": "00042 proxy",
-   "server": "104.17.147.222",
-   "server_port": 80,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00043 proxy",
-   "server": "169.197.142.22",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00044 proxy",
-   "server": "chatgpt.com",
-   "server_port": 8443,
-   "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "v2ray1.dozapp.xyz"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/lMnsZUN4/",
-    "headers": {
-     "Host": "v2ray1.dozapp.xyz"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "00045 proxy",
-   "server": "epam.com",
-   "server_port": 443,
-   "uuid": "af51de90-852d-4eb6-a0c3-9ecca170385e",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "wallweb-av6.pages.dev",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/fp=chrome",
-    "headers": {
-     "Host": "wallweb-av6.pages.dev"
-    }
-   }
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
    "type": "shadowsocks",
-   "tag": "00046 proxy",
-   "server": "82.38.31.202",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+   "tag": "00038 proxy",
+   "server": "38.121.43.18",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "type": "vmess",
-   "tag": "00047 proxy",
-   "server": "104.21.7.133",
-   "server_port": 80,
-   "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "vmess.lbw666.dpdns.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "00048 proxy",
-   "server": "129.146.143.80",
-   "server_port": 48111,
-   "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00049 proxy",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "00050 proxy",
-   "server": "152.67.8.205",
-   "server_port": 80,
-   "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/"
+   "type": "trojan",
+   "tag": "00039 proxy",
+   "server": "216.152.147.85",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.connectingpeoplewithgreatjobs.com"
    }
   }
  ],
