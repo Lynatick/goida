@@ -3,54 +3,6 @@
   {
    "type": "anytls",
    "tag": "00001 proxy",
-   "server": "rtifgjdr.df6h451rh.xin",
-   "server_port": 443,
-   "password": "2902c46c8493",
-   "tls": {
-    "enabled": true,
-    "server_name": "docs.microsoft.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "00002 proxy",
-   "server": "ibsdsf.df6h451rh.xin",
-   "server_port": 443,
-   "password": "2902c46c8493",
-   "tls": {
-    "enabled": true,
-    "server_name": "docs.microsoft.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "00003 proxy",
-   "server": "sdf65h46wr.df6h451rh.xin",
-   "server_port": 443,
-   "password": "0324fbc29561",
-   "tls": {
-    "enabled": true,
-    "server_name": "images.ctfassets.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "00004 proxy",
-   "server": "er8u54dh.df6h451rh.xin",
-   "server_port": 443,
-   "password": "2902c46c8493",
-   "tls": {
-    "enabled": true,
-    "server_name": "px.ads.linkedin.com",
-    "insecure": true
-   }
-  },
-  {
-   "type": "anytls",
-   "tag": "00005 proxy",
    "server": "a54ge.df6h451rh.xin",
    "server_port": 443,
    "password": "0324fbc29561",
@@ -62,6 +14,58 @@
      "enabled": true,
      "fingerprint": "chrome"
     }
+   }
+  },
+  {
+   "type": "anytls",
+   "tag": "00002 proxy",
+   "server": "5641sdds.df6h451rh.xin",
+   "server_port": 443,
+   "password": "0324fbc29561",
+   "tls": {
+    "enabled": true,
+    "server_name": "images.ctfassets.net",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "anytls",
+   "tag": "00003 proxy",
+   "server": "rtifgjdr.df6h451rh.xin",
+   "server_port": 443,
+   "password": "2902c46c8493",
+   "tls": {
+    "enabled": true,
+    "server_name": "docs.microsoft.com",
+    "insecure": true
+   }
+  },
+  {
+   "type": "anytls",
+   "tag": "00004 proxy",
+   "server": "ibsdsf.df6h451rh.xin",
+   "server_port": 443,
+   "password": "2902c46c8493",
+   "tls": {
+    "enabled": true,
+    "server_name": "docs.microsoft.com",
+    "insecure": true
+   }
+  },
+  {
+   "type": "anytls",
+   "tag": "00005 proxy",
+   "server": "sdf65h46wr.df6h451rh.xin",
+   "server_port": 443,
+   "password": "0324fbc29561",
+   "tls": {
+    "enabled": true,
+    "server_name": "images.ctfassets.net",
+    "insecure": true
    }
   },
   {
@@ -94,6 +98,18 @@
      "enabled": true,
      "fingerprint": "chrome"
     }
+   }
+  },
+  {
+   "type": "anytls",
+   "tag": "00008 proxy",
+   "server": "er8u54dh.df6h451rh.xin",
+   "server_port": 443,
+   "password": "2902c46c8493",
+   "tls": {
+    "enabled": true,
+    "server_name": "px.ads.linkedin.com",
+    "insecure": true
    }
   }
  ],
